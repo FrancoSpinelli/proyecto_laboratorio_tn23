@@ -323,7 +323,16 @@ SubProceso val <- TraducirCarta ( carta Por Valor )
 	FinSegun
 	val <- cartita;
 Fin SubProceso
-
+SubProceso SS <- TraducirPALO ( carta Por Valor)
+	DEFINIR VAL, SS Como Caracter;
+	SEGUN PaloCarta(carta) HACER
+		1: VAL <- "ESPADA";
+		2: VAL <- "BASTO";
+		3: VAL <- "ORO";
+		4: VAL <- "COPA";
+	FinSegun
+	SS <- VAL;
+FinSubProceso
 
 // ordena las cartas segun su valor de mayor a menor
 SubProceso ValorarCartas ( vect Por Referencia )
@@ -424,10 +433,12 @@ Fin SubProceso
 // MUESTA LAS CARTAS EN TEXTO SIN EL DIBUJO
 SubProceso MostrarCartas ( cartas)	
 	Definir  palo, nro Como Entero;
-	
+	Definir  PALL Como Caracter;
 	para i<-1 hasta 3 Con Paso 1 Hacer
 		palo <- PALOCARTA(cartas[i]);
 		nro <- nroCarta(cartas[i]);
+		PALL <-  TraducirPALO(palo);
+		Escribir  PALO,CARTA;
 		DibujarCarta(nro,palo);
 	FinPara
 Fin SubProceso
@@ -860,7 +871,6 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 	//4: Truco, 5: QuieroRetruco , 6: QuieroVale4, 7: flor , 8: aceptar, 9: no Aceptar	
 	Definir  accion, opc Como Entero;
 	opc <- 0;
-	Escribir "accion jugador  func:", accionJugador;
 	segun accionJugador Hacer
 		1:
 			Escribir  "El jugador canto Envido que desea hacer :?";		
@@ -869,7 +879,7 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 			Escribir "opcion 1 :", opc;
 			
 			Mientras  (opc <> 1 Y opc<>  2 Y opc <> 3 Y opc <> 8 Y opc <> 9 )					
-				Escribir  "opcion incorrecta. Reingreso 1";	
+				Escribir  "opcion incorrecta. Reingreso";	
 				Escribir  " bis: 8 aceptar , 9 no aceptar, 1 Cantar otro Envido , 2 cantar Real Envido , 3 cantar Falta Envido";
 				Leer  opc;
 				Escribir "opcion 1 :", opc;
@@ -880,7 +890,7 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 			Escribir  " 8 aceptar , 9 no aceptar, 3 cantar Falta Envido";
 			Leer  opc;
 			Mientras  (opc <> 3 Y opc <> 8 Y opc <> 9 )						
-				Escribir  "opcion incorrecta. Reingreso 2";	
+				Escribir  "opcion incorrecta. Reingreso";	
 				Escribir  " 8 aceptar , 9 no aceptar, 3 cantar Falta Envido";
 				Leer  opc;
 			FinMientras
@@ -890,7 +900,7 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 			Escribir  " 8 aceptar , 9 no aceptar";
 			Leer  opc;
 			Mientras  ( opc <> 8 Y opc <> 9 )					
-				Escribir  "opcion incorrecta. Reingreso 3";	
+				Escribir  "opcion incorrecta. Reingreso";	
 				Escribir  " 8 aceptar , 9 no aceptar";
 				Leer  opc;
 			FinMientras
@@ -901,7 +911,7 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 			Leer  opc;
 			Escribir  "opcion re :", opc;
 			Mientras  ( opc <> 8 Y opc <> 9 y Opc <> 5 )						
-				Escribir  "opcion incorrecta. Reingreso 4";	
+				Escribir  "opcion incorrecta. Reingreso";	
 				Escribir  " 8 aceptar , 9 no aceptar";
 				Leer  opc;
 			FinMientras;			
@@ -910,7 +920,7 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 			Escribir  " 8 aceptar , 9 no aceptar, 6: vale 4";
 			Leer  opc;
 			Mientras  ( opc <> 8 Y opc <> 9 )				
-				Escribir  "opcion incorrecta. Reingreso 5";	
+				Escribir  "opcion incorrecta. Reingreso";	
 				Escribir  " 8 aceptar , 9 no aceptar";
 				Leer  opc;
 			FinMientras;			
@@ -919,7 +929,7 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 			Escribir  " 8 aceptar , 9 no aceptar";
 			Leer  opc;
 			Mientras  ( opc <> 8 Y opc <> 9 )							
-				Escribir  "opcion incorrecta. Reingreso 6";	
+				Escribir  "opcion incorrecta. Reingreso";	
 				Escribir  " 8 aceptar , 9 no aceptar";
 				Leer  opc;
 			FinMientras
@@ -928,7 +938,7 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 			Escribir  " 8 aceptar , 9 no aceptar";
 			Leer  opc;
 			Mientras  ( opc <> 8 Y opc <> 9 )							
-				Escribir  "opcion incorrecta. Reingreso 7";	
+				Escribir  "opcion incorrecta. Reingreso";	
 				Escribir  " 8 aceptar , 9 no aceptar";
 				Leer  opc;
 			FinMientras
@@ -942,17 +952,16 @@ SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCan
 				Leer  opc;
 				Escribir  opc;
 				Mientras  ( opc <> 10 Y opc <> 9 )							
-					Escribir  "opcion incorrecta. Reingreso 11";		
+					Escribir  "opcion incorrecta. Reingres";		
 					Escribir "Desea cantar truco ? si: 10 , no 9";
 					Leer  opc;
 				FinMientras				
 				// no se puede cantar envido
 			SiNo
-				Escribir  "11 Cantar Envido , 2 cantar Real Envido , 3 cantar Falta Envido, 10 truco";
+				Escribir  "1 Cantar Envido , 2 cantar Real Envido , 3 cantar Falta Envido, 10 truco";
 				Leer  opc;
 			FinSi
 	FinSegun	
-	Escribir  "envioo ", opc;
 	accion <- opc;
 FinSubProceso
 
@@ -1101,13 +1110,6 @@ SubProceso  ptos <- PuntosSegunJugada(accionJugador1,accionJugador2, oponenteAce
 	FinSegun
 FinSubProceso
 
-
-SubProceso  mm(datos)
-	Definir  t Como Entero;
-	para t <-1 Hasta  3
-		Escribir datos(t);
-	FinPara
-FinSubProceso
 Funcion JugarTruco()
 	Definir  vCartasConValor, vMaso Como entero;
 	Definir  puntajeJ1, puntajeJ2, accionJugadorAnt ,accionJugador como entero;
@@ -1138,7 +1140,6 @@ Funcion JugarTruco()
 	mezclarMaso(vMaso,40);
 	SeleccionarCartasJugadores(vMaso,vCartasJugador1,vCartasJugador2);
 	
-	//MostrarCartas(vCartasJugador1);
 	si ManoMaquina Entonces
 		Escribir  "La maquina es mano";			
 	FinSi
@@ -1216,7 +1217,6 @@ Funcion JugarTruco()
 		FinSi
 		
 		si seCantoEnvido Entonces
-			Escribir  "Truco:";
 			si 	BuscarPosicionCarta(vMasoReferencia,vCartasJugador1(1)) < 10 Entonces
 				accionMano <- 4;
 			sino 
@@ -1240,11 +1240,14 @@ Funcion JugarTruco()
 			FinSi
 			si (accionMano = 4 y accionJugador = 9) o accionJugador = 4 o accionJugador = 5 Entonces
 				seCantoEnvidoTruco <- Verdadero;
-				Escribir "entroo";
 				ultimaCarta <- nroronda;
 				si EJECUTAR_TRUCO(vCartasJugador1,vCartasJugador2,vMasoReferencia,Verdadero,seCantoEnvido,ultimaCarta) = 1 Entonces
+					Escribir "jugador 1 gano mano";
+
 					puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(accionMano,accionJugador,acepto,seCantoEnvidoEnvido,seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido);
 				SiNo
+					Escribir "jugador 2 gano mano";
+
 					puntajeJ2 <- puntajeJ2 + PuntosSegunJugada(accionMano,accionJugador,acepto,seCantoEnvidoEnvido,seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido);
 				FinSi
 			FinSi
