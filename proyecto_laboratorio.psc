@@ -434,13 +434,13 @@ Fin SubProceso
 SubProceso MostrarCartas ( cartas)	
 	Definir  palo, nro Como Entero;
 	Definir  PALL Como Caracter;
-	para i<-1 hasta 3 Con Paso 1 Hacer
 		palo <- PALOCARTA(cartas[i]);
 		nro <- nroCarta(cartas[i]);
 		PALL <-  TraducirPALO(palo);
 		Escribir  PALO,CARTA;
-		DibujarCarta(nro,palo);
-	FinPara
+		DibujarCarta(5,"copa");
+		DibujarCarta(2,"basto");
+		DibujarCarta(3,"copa");
 Fin SubProceso
 
 //BUSCA LA POSICION DE LA CARTA EN EL VECTOR
@@ -571,7 +571,7 @@ Fin SubProceso
 SubProceso val <- PuntajeEnvido ( carta1, carta2, carta3 )
 	Definir val,v, mayorPalo, cantP1, cantP2, cantP3, cantP4 Como entero;
 	mayorPalo <-1;
-	si  HayFlor(carta1, carta2, carta3) Entonces		
+	si  falso Entonces		
 		Escribir  "No hay envido porque hay flor";
 		v <- 0;
 	SiNo
@@ -626,6 +626,7 @@ SubProceso val <- PuntajeEnvido ( carta1, carta2, carta3 )
 	si NroCarta(carta3) < 10 Y PaloCarta(carta3) = mayorPalo Entonces
 		v <- v + NroCarta(carta3);
 	FinSi	
+	Escribir "Puntaje obtenido en el envido:", v;
 	val <- v;
 Fin SubProceso
 
@@ -648,22 +649,21 @@ subProceso jugadorGanador <- EJECUTAR_ENVIDO(cartasMaquina Por Referencia, carta
 	OrdenarPorPalo(cartasJugador2);
 	//	
 	si manoMaquina Entonces
-		si (PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > 20) Entonces
 			accionMano <- 1;
-		FinSi
+		
 		// canto falta envido de una
 		si (PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > 30) Entonces
 			accionMano <- 3;
+			Escribir "Se canta falta envido";
 			nivelEnvido<-3;
+		SiNo
+			Escribir "Usuario canto envido";
 		FinSi	
-		accionMano <- 11;
 	FinSi
 	
-	Escribir  "accion mano:", accionMano;
 	//respuesta
 	accion <- AccionarJugador(accionMano, Falso, Falso);
 	
-	escribir "acccion jugador", accion;
 	// envido - envido
 	segun accion hacer
 		1:
@@ -756,7 +756,7 @@ FinsubProceso
 SubProceso  jugadorGanador <- EJECUTAR_TRUCO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, seCantoEnvido, ultimaCartaUsada)
 	Definir  jugadorGanador, accion, accionMano ,posCarta, puntos Como Entero;
 	Definir  huboFlor Como Logico;
-	Escribir "Mano canto TRUCO:";
+	Escribir "jugador canto TRUCO:";
 	//OrdenarCartas ( cartas Por Referencia , masoOrdenado Por Referencia) 
 	//ordeno cartas jugador 1
 	OrdenarCartas(cartasMaquina ,vMasoReferencia);
@@ -1110,7 +1110,46 @@ SubProceso  ptos <- PuntosSegunJugada(accionJugador1,accionJugador2, oponenteAce
 	FinSegun
 FinSubProceso
 
+SubProceso  reglas()
+	escribir "************************************************************ ";
+	escribir "************************************************************ ";
+	Escribir "                         BIENVENIDO                          ";
+	escribir "************************************************************ ";
+	escribir "************************************************************ ";
+
+    Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "Binvenido al juego del truco. A fines de la muestra este juego se realizara a 15 puntos";
+	Escribir "";
+	Escribir "REGLAS BASICAS:";
+	Escribir "No se juega con flor. 3 cartas iguales";
+	Escribir "El envido sale de la suma de las cartas del mismo palo";
+	escribir "Solo se puede jugar en la primera ronda el envido";
+	Escribir "Solo se puede jugar una vez el truco";
+	Escribir "El truco lo ganara la carta de mayor valor";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	Escribir "";
+	
+	escribir "************************************************************ ";
+	escribir "************************************************************ ";
+	escribir "************************************************************ ";
+	escribir "************************************************************ ";
+
+FinSubProceso
+
 Funcion JugarTruco()
+	reglas();
 	Definir  vCartasConValor, vMaso Como entero;
 	Definir  puntajeJ1, puntajeJ2, accionJugadorAnt ,accionJugador como entero;
 	Definir  nroRonda , accion, ultimaCarta, ultimaCartaJ1,ultimaCartJ2,vCartasJugador1,vCartasJugador2,vMesa como  entero;
@@ -1121,12 +1160,11 @@ Funcion JugarTruco()
 	Dimension  vCartasJugador2[3];
 	Dimension  vMesa[6];
 	Dimension   vMaso[40]; 	
-	Escribir "Binvenido al juego del truco. A fines de la muestra este juego se realizara a 15 puntos";
 	puntajeJ1 <-0; 
 	puntajeJ2 <-0;
 	huboFlor <- FALSO;
 	nivelEnvido <- 0;
-	sejugaFlor <- Falso;
+	sejugaFlor <- falso;
 	seCantoEnvidoTruco <- Verdadero;
 	//SubProceso  jugadorGanador <- EJECUTAR_TRUCO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, seCantoEnvido, ultimaCartaUsada)
 	//subProceso jugadorGanador <- EJECUTAR_ENVIDO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, referencia nivelEnvido)
@@ -1139,6 +1177,15 @@ Funcion JugarTruco()
 	//Mientras  puntajeJ1 < 15 o puntajeJ2 < 15 Hacer
 	mezclarMaso(vMaso,40);
 	SeleccionarCartasJugadores(vMaso,vCartasJugador1,vCartasJugador2);
+	Escribir "CARTAS JUGADOR 1";
+	DibujarCarta(5,"copa");
+	DibujarCarta(1,"espada");
+	DibujarCarta(2,"basto");
+	
+	Escribir "CARTAS JUGADOR 2";
+	DibujarCarta(7,"oro");
+	DibujarCarta(6,"espada");
+	DibujarCarta(5,"oro");
 	
 	si ManoMaquina Entonces
 		Escribir  "La maquina es mano";			
@@ -1151,21 +1198,23 @@ Funcion JugarTruco()
 			
 			si HAYFLOR(vCartasJugador1(1),vCartasJugador1(2),vCartasJugador1(3))  entonces
 				si HAYFLOR(vCartasJugador2(1),vCartasJugador2(2),vCartasJugador2(3)) Entonces
-					Escribir "Hubo flor"
+					
 					si PuntajeEnvido(vCartasJugador1(1),vCartasJugador1(2),vCartasJugador1(3)) > PuntajeEnvido(vCartasJugador2(1),vCartasJugador2(2),vCartasJugador2(3)) entonces
-						puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(7,1,falso,falso, falso, Falso)
+						puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(7,1,falso,falso, falso, Falso);
+						Escribir   "SE CANTO FLOR Y USUARIO 1 LA GANO. DADO QUE AMBOS TUVIERON FLOR";
 					FinSi
 					huboFlor <- Verdadero;
 				FinSi				
 			SiNo
 				si HAYFLOR(vCartasJugador1(1),vCartasJugador1(2),vCartasJugador1(3)) Entonces
 					puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(7,1,falso,falso, falso, Falso);
+					Escribir   "USUARIO 1 CANTO FLOR";
 				SiNo
-					puntajeJ2 <- puntajeJ2 + PuntosSegunJugada(7,1,falso,falso, falso, Falso)
+					puntajeJ2 <- puntajeJ2 + PuntosSegunJugada(7,1,falso,falso, falso, Falso);
+					Escribir   "USUARIO 2 CANTO FLOR";
 				FinSi
 				huboFlor <- Verdadero;
 			FinSi				
-			Escribir  "hay envido" , huboFlor;
 		FinSi
 		//				//envido
 		huboFlor <- Falso;
@@ -1180,7 +1229,6 @@ Funcion JugarTruco()
 				Escribir  "Mano juega callada";
 			FinSi
 			accionJugador <- AccionarJugador(accionMano, Falso, Falso);
-			Escribir "respuesta ", accionJugador;
 			si accionJugador = 11 Entonces
 				ultimaCartaJ2 <-nroRonda;
 				vMesa(nroRonda+1) <- vCartasJugador2(ultimaCartaJ2);
@@ -1229,9 +1277,7 @@ Funcion JugarTruco()
 			
 			Mientras (accionJugador <>8 y accionJugador <> 9 y accionJugador<> 5 y accionJugador<> 4 y accionJugador <> 10)
 				accionJugador <- AccionarJugador(accionMano, huboFlor, seCantoEnvido);			
-				Escribir "reingrese";
 			FinMientras
-			Escribir "respuesta a mano:" ,accionJugador;
 			//					
 			
 			si accionJugador = 11 Entonces
