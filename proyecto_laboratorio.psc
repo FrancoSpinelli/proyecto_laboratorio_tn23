@@ -1,302 +1,50 @@
-SubProceso  DibujarCarta( nro, palo )
-	Escribir "******"			
-	segun palo hacer
-		Opcion "copa":
-			segun nro Hacer
-				Opcion  1:					
-					escribir "* 1          * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*          1 * "
-				Opcion  2:			
-					escribir "* 2          * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*          2 * "
-				Opcion  3:
-					escribir "* 3          * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*          3 * "
-				Opcion  4:
-					escribir "* 4          * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*          4 * "
-				Opcion  5:
-					escribir "* 5          * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*          5 * "
-				Opcion  6:
-					escribir "* 6          * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*          6 * "
-				Opcion  7:
-					escribir "* 7          * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*          7 * "
-				Opcion  10:
-					escribir "* 10         * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*         10 * "
-				Opcion  11:
-					escribir "* 11         * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*         11 * "
-				Opcion  12:
-					escribir "* 12         * "
-					escribir "*   ***    * "
-					escribir "*    * *     * "
-					escribir "*     *      * "
-					escribir "*    *     * "
-					escribir "*         12 * "
-			FinSegun
-		Opcion  "oro":
-			segun nro Hacer
-				Opcion  1:					
-					escribir "* 1          * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*          1 * "
-				Opcion  2:			
-					escribir "* 2          * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*          2 * "
-				Opcion  3:
-					escribir "* 3          * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*          3 * "
-				Opcion  4:
-					escribir "* 4          * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*          4 * "
-				Opcion  5:
-					escribir "* 5          * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*          5 * "
-				Opcion  6:
-					escribir "* 6          * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*          6 * "
-				Opcion  7:
-					escribir "* 7          * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*          7 * "
-				Opcion  10:
-					escribir "* 10         * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*         10 * "
-				Opcion  11:
-					escribir "* 11         * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*         11 * "
-				Opcion  12:
-					escribir "* 12         * "
-					escribir "*     *      * "
-					escribir "*   *   *    * "
-					escribir "*     *      * "
-					escribir "*            * "
-					escribir "*         12 * "
-			FinSegun
-		Opcion  "basto":
-			segun nro Hacer
-				Opcion  1:					
-					escribir "* 1          * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*          1 * "
-				Opcion  2:			
-					escribir "* 2          * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*          2 * "
-				Opcion  3:
-					escribir "* 3          * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*          3 * "
-				Opcion  4:
-					escribir "* 4          * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*          4 * "
-				Opcion  5:
-					escribir "* 5          * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*          5 * "
-				Opcion  6:
-					escribir "* 6          * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*          6 * "
-				Opcion  7:
-					escribir "* 7          * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*          7 * "
-				Opcion  10:
-					escribir "* 10         * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*         10 * "
-				Opcion  11:
-					escribir "* 11         * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*         11 * "
-				Opcion  12:
-					escribir "* 12         * "
-					escribir "*   **       * "
-					escribir "*    **      * "
-					escribir "*     *      * "
-					escribir "*      *     * "
-					escribir "*         12 * "
-			FinSegun
-		Opcion  "espada":
-			segun nro Hacer
-				Opcion  1:					
-					escribir "* 1          * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*          1 * "
-				Opcion  2:			
-					escribir "* 2          * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*          2 * "
-				Opcion  3:
-					escribir "* 3          * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*          3 * "
-				Opcion  4:
-					escribir "* 4          * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*          4 * "
-				Opcion  5:
-					escribir "* 5          * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*          5 * "
-				Opcion  6:
-					escribir "* 6          * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*          6 * "
-				Opcion  7:
-					escribir "* 7          * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*          7 * "
-				Opcion  10:
-					escribir "* 10         * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*         10 * "
-				Opcion  11:
-					escribir "* 11         * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*         11 * "
-				Opcion  12:
-					escribir "* 12         * "
-					escribir "*      *     * "
-					escribir "*      *     * "
-					escribir "*     ---    * "
-					escribir "*      *     * "
-					escribir "*         12 * "
-			FinSegun
-	Fin segun
-	Escribir "******"
-Fin SubProceso
-
+SubProceso DibujarCartas(cartas)
+	Definir  q Como Entero;
+	para q <- 1 Hasta 3 Hacer
+		Escribir "";
+		Escribir  TraducirCarta(cartas(q));
+		Escribir "";
+		DibujarCarta(cartas(q));
+		Escribir Sin Saltar "";
+	FinPara
+FinSubProceso
+SubProceso DibujarMesa(mesa, nroRonda)
+	Definir  q,w Como Entero;
+	para w <-1 Hasta nroRonda
+		Escribir "Cartas jugador 1: ";
+		Escribir "";
+		Escribir  TraducirCarta(mesa(1,w));
+		Escribir "";
+		DibujarCarta(mesa(1,w));
+	FinPara
+	para w <-1 Hasta nroRonda
+		Escribir "Cartas jugador 2: ";
+		Escribir "";
+		Escribir  TraducirCarta(mesa(2,w));
+		Escribir "";
+		DibujarCarta(mesa(2,w));
+	FinPara
+FinSubProceso
+SubProceso DibujarEnvido(cartas)
+	Definir  e Como Entero;
+	Dimension cartasvarias(3);
+	
+	cartasEnvido(cartas);
+	
+	para i <- 1 Hasta 2  Hacer
+		Escribir "";
+		Escribir  TraducirCarta(cartas(i));
+		Escribir "";
+		DibujarCarta(cartas(i));	
+	FinPara
+	
+FinSubProceso
+SubProceso DibujarTruco(carta1)
+	Escribir "";
+	Escribir  TraducirCarta(carta1);
+	Escribir "";
+	DibujarCarta(carta1);
+FinSubProceso
 // TEXTO DE LA CARTA
 SubProceso val <- TraducirCarta ( carta Por Valor )
 	Definir  val , cartita Como Caracter;
@@ -323,17 +71,2213 @@ SubProceso val <- TraducirCarta ( carta Por Valor )
 	FinSegun
 	val <- cartita;
 Fin SubProceso
-SubProceso SS <- TraducirPALO ( carta Por Valor)
-	DEFINIR VAL, SS Como Caracter;
-	SEGUN PaloCarta(carta) HACER
-		1: VAL <- "ESPADA";
-		2: VAL <- "BASTO";
-		3: VAL <- "ORO";
-		4: VAL <- "COPA";
+SubProceso  DibujarCarta( carta )
+	segun carta Hacer		
+		
+			//"1 espada";
+		11:
+			escribir "  .  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,. , ";
+			escribir "  .  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,. , ";			
+			escribir "  *************************************************  ";      
+			escribir "  *   *%                                          *  ";                              
+			escribir "  *   .%                                          *    ";                           
+			escribir "  *   .%.                                         *  ";
+			escribir "  *					            	                                   *   ";
+			escribir "  *   (/&#(                           %##         *   ";
+			escribir "  *    ##@%/#                     .####/.         *   ";
+			escribir "  *     #%((#%.                  .%%##&#          *   ";
+			escribir "  *      ((((/%(                %%%,              *   ";
+			escribir "  *       ,(#((/%             ,%%(                *   ";
+			escribir "  *         (#((*&,          ,%%.                 *   ";
+			escribir "  *          /((((/(        .%#,                  *   ";
+			escribir "  *           ,(((((%,      %%(                   *   ";
+			escribir "  *             (#((#//    *%%.                   *   ";
+			escribir "  *              /(((##/.  %%#                    *   ";
+			escribir "  *               ,((((##/ #%/                    *   ";
+			escribir "  *              %%%(((*%%/%%                     *   ";
+			escribir "  *              #%%   /(((*#%(.                  *   ";
+			escribir "  *          *..**#     .((#%#%%,                 *   ";
+			escribir "  *        ,*%**/*(**   .#%#((//*         .,      *   ";
+			escribir "  *        */*#%##*#,,.    /(####*/     .#&#*     *   ";
+			escribir "  *        ,,,(,#**,     ,/(((##/,,*,*.#%#,       *   ";
+			escribir "  *         /%#.             ,*(/,,/##(*          *   ";
+			escribir "  *         #%(             ,,#/####%(,.          *   ";
+			escribir "  *         #%*              (#**#%#(#%/          *   ";
+			escribir "  *       /(#%((*          #%%*   *#%%(##         *   ";
+			escribir "  *        (((#/          ,#&#     .%(%%#,        *   ";
+			escribir "  *       /%%%%#/                    .%(#,(%#     *   ";
+			escribir "  *                                  &# (*#%      *   ";
+			escribir "  *                                               *    ";
+			escribir "  *					                                         *%    *     ";                                                                 
+			escribir "  *     				                                    .%.   *     ";                                                             
+			escribir "  *     				                                    .%.   *     ";                        
+			escribir "  *************************************************   ";
+			Escribir Sin Saltar " " ;
+			//"1 basto";
+		21:
+			escribir"   ...................................................................  .... ";
+			escribir"  ..                                                                       .    ";
+			escribir"  ..  .(*                                                                  .    ";
+			escribir"  .    ,*          *#####/.                                                .    ";
+			escribir"  ..   //         /###%%###(/(,                                            .     ";
+			escribir"  ..              *##%%%#(#*####(.                                         .     ";
+			escribir"  ..              .##(/*,,,,######.                                        .     ";
+			escribir"  ..              ###*/*,,,*######(                                        .     ";
+			escribir"  ..              #(##%(,,,/%#####(                                        .    ";
+			escribir"  ..              .(#%##(*,/%%%(*/,               .#/                      .    ";
+			escribir"   .               *######((###(####(             /(#,               *     .     ";
+			escribir"   .               .##########(#####(.            (#(   ./       .*###     .     ";
+			escribir"   .                .#############(#*             .( .(#(.      (#(/.      .     ";
+			escribir"   .                  *###((%####%(#*        ,((#/.  (..       . ..        .     ";
+			escribir"   ,                 ,(%%#/####(#%###,     .*.,*/(,  ..*.     .*/,.,,,..   .     ";
+			escribir"   ,                 ###%#(#(#(########              *#    ./%#%#(         .     ";
+			escribir"   ,                  .,**(##(/#(#######(.          .##,  .#%%/,.          .     ";
+			escribir"   ,                         (############(.        /##*(#%%/.             .     ";
+			escribir"   ,              .((         *###########((.     ,##%#%%%/.               .     ";
+			escribir"   ,              /((,          ./#((((##(#(#(##%%##%(,                    .     ";
+			escribir"   ,             (#(/              ,##((#((#%#%%##%#.                      .     ";
+			escribir"   ,      .,,,,, /(  *%##(,..        (######%%%%##.                        .     ";
+			escribir"   ,         ...   ..  ,(#%%/        ,(########(.                          .     ";
+			escribir"   ,             .,,,/.              ,##########(                          .     ";
+			escribir"   ,       .#/.    *##*.             .(##########.                         .     ";
+			escribir"   ,         .(#(.   /##(#####/.      .#########(.                         .     ";
+			escribir"   ,            .*.  ..*//(((#####(/####((##%###(                          .     ";
+			escribir"   ,      /(##((*              ,/################.          ,              .     ";
+			escribir"   ,     (/.   .%%#.            /.   ,############    .*, ,(#.             .    ";
+			escribir"   ,            ,##(.        *#(       .,/(#%(####/    ,,*(*               .     ";
+			escribir"   ,                        /((.          (#######(    .,,,                .   ";
+			escribir"   ,                        ,(,            *#######.   .,,,                .   ";
+			escribir"   ,                                        *##(##,,*,,,,,.                .    ";
+			escribir"   ,                    .#/                 *#%#(,***,                     .   ";
+			escribir"   ,                    .##(.               (####/,,,                      .   ";
+			escribir"   ,               ..     /#*        .#*    *########                      .     ";
+			escribir"   ,                .,,,*..    ./#####(/#/. .#(#####(.                     .     ";
+			escribir"   ,                     *#.           ,/####%((####(#*     ,(.            .    ";
+			escribir"   ,                    #(#/    /#(.      ./#(#########(.   (##/           .     ";
+			escribir"   ,                   .(##*   ####,          ./#######(#/  (##,           .     ";
+			escribir"   ,                    ./     ,((.               /#######((###.           .   ";
+			escribir"   ,                                             ,**/#########(            .   ";
+			escribir"   ,                                              **,(#####(####,          .   ";
+			escribir"   ,                                                   */##########*.      .   ";
+			escribir"   ,                                                       ,(########,     .   ";
+			escribir"   ,                                                         ,##%&%##,     .   ";
+			escribir"   ,                                                         .#&###*.      .   ";
+			escribir"   ,                                                        .((#,          .   ";
+			escribir"   ,                                                      ,(#(,       &    .   ";
+			escribir"   ,                                                                  &    .   ";
+			escribir"   ,                                                                  %*   .   ";
+			escribir"   .,..........          ..........          ..........          ........... ";
+			Escribir  Sin Saltar "";
+			//	//"7 espada";
+		17:
+			
+			escribir " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  ";	
+			escribir " ,, / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / // /    . ";	
+			escribir " .*   .%      ,.                   ,/                      ..            /    . ";	
+			escribir " .,   *     .(((,                 ,*(*                    /((*           /    . ";	
+			escribir " .*         .(((,                 .##/.*,.                /((*           /    . ";	
+			escribir " .*         .(((,                 /%%(  ,,,               /((*           /    . ";	
+			escribir " .*         .(#(,                .%%%%, *%,               (((*           *    . ";	
+			escribir " .*         ,(#(,                 #%%#  .,.               (((*           *    . ";	
+			escribir " .*         ,(#(*             .. ,#(###/.,                (((*           *    . ";	
+			escribir " .*         ,(#(*             ,,,/%#%%(,,*                (((*           *    . ";	
+			escribir " .*         *(#(*                .(#(#.                   (#(/           *    . ";	
+			escribir ".*         *(((*                 ((((                   .(#(/           *     . ";	
+			escribir "  *         *(#(/                 ((((.                  .(((/           *    . ";	
+			escribir "  *         *(#(/                 ((((                   .(((/           *    . ";	
+			escribir "  *         /(#(/                 ((((                   ,(#(/           *    . ";	
+			escribir "  *         /(#(/                 ((((                   ,(((/           *    . ";	
+			escribir "  /      ,,*////(**,.             ((#(                ,,*(///(*,,,       *    . ";	
+			escribir "  /      .  .(#(,**.              ((((                   .(((,,,,.       *    . ";	
+			escribir "  /         /%#%/  .,.            /(((                   .#(#( .,,       *    . ";	
+			escribir "  /         (%#%(  //             /(((                   ,%%%(  //       *    . ";	
+			escribir "  /         .#%#.  ,,             /(((                    (%%,. ,,       ,    . ";	
+			escribir "  /          /(#...               /(((                    /##*..         ,    . ";	
+			escribir "  /         .,,/.                 ,((/                    .,/,           ,    . ";	
+			escribir "  /           .          ...        .                      .             ,    . ";	
+			escribir "  /                      ,,,                                             ,.   . ";	
+			escribir "  /       .,**#(#%#%%%%%#(,%((((((((//((//////((((((((((((((*.           ,.   . ";	
+			escribir "  /       .,,./,,/#(##(*/(*%(/////***/***///////////////////,            ,.   . ";	
+			escribir "  /            , . . ,..,*,,                                             ,.   . ";	
+			escribir "  /           .  ,.  ,.             .                      .             ,.   . ";	
+			escribir "  /          (((,                 ,,*/                    /((*           ,.   . ";	
+			escribir "  /         .(((,                 .##(**.                 /((*           ,.   . ";	
+			escribir "  /         .(((,                 /%%(  ..,               /((*           ,.   . ";	
+			escribir "  /         .(#(,                .%%%%* ,#,               /((*           ,.   . ";	
+			escribir "  /         ,(#(*                .#%%%. .,,               (((*           ,.   . ";	
+			escribir "  *         ,(#(*             .. .*#%/*,,.                (((/           ,.   . ";	
+			escribir "  *         ,(#(*             ,,,*/(((/,,*                (((/           ,,   . ";	
+			escribir " *         *(#(*                 ((((.                   (#(/           .,    . ";	
+			escribir " *         *(#(*                 ((((.                  .(#(/           ,,    . ";	
+			escribir " *         *(#(/                 ((((.                  .(#(/           .,    . ";	
+			escribir " *         *(((/                 ((((                   .(#(/           .,    . ";	
+			escribir " *         /(((/                 ((((                   ,(((/           .,    . ";	
+			escribir "  *         /(((/                 ((((                   *(((/           .,   . ";	
+			escribir " *      ,*,((((/**,.             ((((                *,,(((((*,,,       .,    . ";	
+			escribir "  *      .  ,(#(*,,,              /(((                .  *(##*,,,.       .,   . ";	
+			escribir " *         /%%%*  ,,.            ((((                   ,%%%(  *,.      .,    . ";	
+			escribir " *         (%#%# .#/             /(((                   *%%%(  #(       .,    . ";	
+			escribir "  *         .%%#.  ,,             /(((                    #%%*  *,       .,   . ";	
+			escribir "*          /(#**,               /(((                    /##/*,      .  .,     . ";	
+			escribir " *          ,.(,                 *(((                    ..(,        /  .,    . ";	
+			escribir " *           ,                     ,                      ..        #.,..,    . ";	
+			escribir " *//////////,         */////////.         *////////*.        .///////////,    . ";	
+			escribir " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . ";
+			Escribir Sin Saltar " " ;
+			//	//7 oro";
+		37:
+			escribir"   .  .  .  .     .  .     .  .     .  .     .  .     .  .     .  .     .  .   .";                                                                 
+			escribir"   .  ,                                                                /   .   .";
+			escribir"   .  ,  . ,.                                                          /   .   .";
+			escribir"   .  ,   .*         . .                               ...             /   .   .";
+			escribir"   .  ,        ,#(/,,***,,///,                   ,(((,,,**,,/(/*       /   .   .";
+			escribir"   .  ,     ,/*,,*/*,*,*,****,*/.             .*(,****,*,*,**,*,*(,    /   .   .";
+			escribir"   .  ,    //,**,***,,*,,******,(/           *(,*****,*,**,*****,**#.  /   .   .";
+			escribir"   .  ,   (/*,*,****(,,*#,**/**,*/*         ,(,*,****,%**,/**,*,,,**(  /   .   .";
+			escribir"   .  ,  ,%,*/*,*,*((%#%//*,*,/*,,/         #******,*//#%##**,,*/*,*#. /   .   .";
+			escribir"   .  ,   (,/*/*,***/##(/*,,,***,,%,        /**/*,,,***(##//,,,****,@/ /   .   .";
+			escribir"   .  ,.  ,(,**,,,,,,,,,*,,,*,**,#/         .(***,,,,,*,*,,,,,,****(*, /   .   .";
+			escribir"   .  ,.    %********,,,********(*            //,***/*,,*,****/,,,#*.  /  ..   .";
+			escribir"   .  ,.     ,/(,,***,*,,/*,,((.                /%,****,**,*/,*/#,.    (   .   .";
+			escribir"   .  ,.         ,*#(##((#(,                       .*((#((#&/..        /   .   .";
+			escribir"   .  ,.                                                               /   .   .";
+			escribir"   .  ,.        ,#////**//**,.                    ,*/((**//*((.        /   .   .";
+			escribir"   .  ..     *(*****,**,******(,               ,//,***,**,,**,*,/*     /   .   .";
+			escribir"   .  ..   ,#*,****,*,*,*,*****,(,           .(,****/,*,*,,,,****,%,   /   .   .";
+			escribir"   .  .,  ,(,**,*,,,*,,,*,,,*,**,(,         ,#,**,,,,,/,,,,,,,,,*****  /   .   .";
+			escribir"   .  ..  (,****,,,//##(/*,,,,**,,(.        *****,*,,**(##//,,,*,**,%. /   .   .";
+			escribir"   .  .,  /,*/***,,*/##%/*,,**//,,#*        ,*,,/**.,**###(/,,*,*/*,&/./   .   .";
+			escribir"   .  .,  ,(,,****,,/,**#,,,*,**,#*         .#,*,,/*,,%**,/*,,*,*,,/(  /   .   .";
+			escribir"   .  .,   /#,/,***,*,*,*,*****,(.           .(**,,,**,,/,*,***,*,//   /   .   .";
+			escribir"   .  .,    ,,#*,****,,/,*//,,((              ,.#,,/**/,**,/***,((.    /   .   .";
+			escribir"   .  .*       .,*%/,,,,,/#(,.     ....,*,        .(%/*,,,,/#%,,.      /   .   .";
+			escribir"   .  .*                       ./#*.**///*,**#**                       /   .   .";
+			escribir"   .  .*                     //,,*,***,,*,/**,**(.                     /   .   .";
+			escribir"   .  .*                    (********,*(,***/******.                   /   .   .";
+			escribir"   .   *                  .(**,***//*(*/*(,(*,*,,*(*                   *.  .   .";
+			escribir"   .   *                  ,(,***,**//#%%#(//,,*****(                   *.  .   .";
+			escribir"   .   *                  ./,**,*,/**/(#/*//,,****(%,                  *.  .   .";
+			escribir"   .   *                   .#*/,,,,,*,,/,,,,,,,***(.                   *.  .   .";
+			escribir"   .   *                    .#*,/**/,,****,****,(..                    *.  .   .";
+			escribir"   .   *                      **#,,***,*,*/*,*(/                       ,.  .   .";
+			escribir"   .   *         /,(%%(#%/.,.     , ,##(*/(,       ,,#%#(#%*/(.        ,.  .   .";
+			escribir"   .   /     ,#/***,,**,****,//,               ,*(,,***,***/*/*,(.     ,.  .   .";
+			escribir"   .   /   .#****/*,*,*,*,/*****(.           .(*,******,*,,,*****,%.   ,.  .   .";
+			escribir"   .   /  .(,*,,,,*,,,/,,,,,,,**,(.         .#,***,,,,*,**,,,,,,**,/.  ,.  .   .";
+			escribir"   .   / .(,//,*,***/#((/*/,,,**,,(.       ./**/*,,,/**(((/**,,*,**,&, ..  .   .";
+			escribir"   .   /  (,*//**,**(#%#(*,,**//,,#.        /******,,*/#%##*,,*,***,&* ..  .   .";
+			escribir"   .   /  *(,**,**/,(***(,/******((.        ,(,,****/,#***/****,***/#, ..  .   .";
+			escribir"   .   /  .*/,*,,,*,*,/,*,,,,**,(*.          ,(,,,,,,,/,/,*,,*,,***(,  ..  .   .";
+			escribir"   .   /    .(/,******,*,****,/(.             .((,******,*,****,*#,    ..  .   .";
+			escribir"   .   /      .**(**,,,,,*/((.                   .*#/*,,*,,**((.       ..  .   .";
+			escribir"   .   /                                               . ..         (  .,  .   .";
+			escribir"   .   /                                                           ***/..  .   .";
+			escribir"  .    . .  .     .  .     .  .     .  .     .  .     .  .     .  .     .  .   . ";
+			Escribir  Sin Saltar"";
+			//	//"3 copa";
+		43:
+			escribir " .   ,      ,,,***(############(/**/*,,                                    .  . ";
+			escribir " .   ,      ,*/*,,**,,*****,,,*****/(#(                                    .  , ";
+			escribir " .   ,      .********/***/((##%####%##*                                    .  , ";
+			escribir " .   ,       .*,*,*******/#(##%#%####/                                     .  , ";
+			escribir " .   ,        .**/******,/##########,                                      .  , ";
+			escribir " .   ,          .***/****/########/                                        .  , ";
+			escribir " .   ,            .****,,(####%#/                                          .  , ";
+			escribir " .   ,               ,*(####%(.                                            .  , ";
+			escribir " .   ,                #######.                                             .  . ";
+			escribir " .   ,        ...   .(###&###(    ..                                       .  . ";
+			escribir " .   *       *(((#,(#&&##%(#&&#(,/##((            .,*/((((//*..            .  , ";
+			escribir " .   *        ,###%@@@&#%@%#&@@@%##(*       /######################(*      .  , ";
+			escribir " .   *          **,*,,,,,,,,*****/*       .##########################/     .  , ";
+			escribir " .   *        .......................      ,,*(###################//*,     .  , ";
+			escribir " .   *                                     **,***,*,,*,*,*,*,,*****/**     ,  , ";
+			escribir " .   *                                     *,,*******,,**,***//(#####,     ,  , ";
+			escribir " .   *                                      *,******,*,*(####%#%####/      ,  . ";
+			escribir " .   *                                       *,*,*,*****###########/       ,  , ";
+			escribir " .   *                                        ,***/*****(#########,        ,  , "; 
+			escribir " .   *                                          ,*******########,          ,  , ";
+			escribir " .   *                                            .,****#####(.            ,  , ";
+			escribir " .   *                                               ###(##(               ,  , "; 
+			escribir " .   *                                              /###&###.              ,  , ";
+			escribir " .   *                                      *###. ,(#&##&(#&#/. /#((.      ,  , "; 
+			escribir " .   *            .,/#########(*.           *#((###@@%##&(#%@&#(((##.      ,  ."; 
+			escribir " .   *      ./#######################/,        ,/*************/*/          ,  ,"; 
+			escribir " .   *      /#########################(     ./#(/((((((((((((((((((.       ,  ,"; 
+			escribir " .   *      ,,,*(#################(/*,,                                    ,  ."; 
+			escribir " .   *      ,*,*,,**,*,,,**,,******/**/                                    ,  ."; 
+			escribir " .   *      ,,,/,*/***********/(#%####/                                    ,  ."; 
+			escribir " .   *       ,***,/,****,/#(##%####(#(                                     .  . ";
+			escribir " .   *        ,,******,*,/##########/                                      ,  ,"; 
+			escribir " .   *         .*,******,/#########,                                       .  ."; 
+			escribir " .   *           .******,/######(,                                         ,  ."; 
+			escribir " .   *              ,*,*/(####/.                                           ,  ,"; 
+			escribir " .   *                #######.                                             ,  ,"; 
+			escribir " .   *               *###&##(/                                             ,  ,"; 
+			escribir " .   *       ,###*.,**************/##*                                     ,  ,"; 
+			escribir " .   *       .(##(((##(//#//(###(((#(.                                     ,  ,"; 
+			escribir " .   *          .&@@@@@@@@@@@@@@@&.                                *(%     ,  , ";
+			escribir " .   *       .(%%%%%%%%%%%%%%%%%%%%#*                             *#,      ,  . ";
+			escribir " .   *                                                            ,#.,     ,  ,"; 
+			escribir " .   *                                                                     ,  ,"; 
+			escribir " .   ........................                     .........................   .";  
+			escribir " .............................................................................."; 
+			Escribir Sin Saltar " " ;
+			//	//"3 basto";
+		23:
+			
+			escribir "   .,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,.";
+			escribir "   .,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,.";  
+			escribir "   .   ..,,,*,.. . 								                                .";
+			escribir "   .   ..,,*/*,. .                  				                          		.";
+			escribir "   .     .,**,. .                  				                          	    .";
+			escribir "   .   ..,****,. .   							                          	    .";
+			escribir "   .   ..,,,*,.. .                                                               .";   
+			escribir "   .                                                                             .";
+			escribir "   .								                                                .";
+			escribir "   .                                                                .            .";
+			escribir "   .           ,,.                         (%#(((#%#.                ..          .  "; 
+			escribir "   .        ,%#%&#%&/                     ((########%,             .,#%#%%#%#%#  .   ";
+			escribir "   .      .(%%%&%######%(                ,#/,,*#(#####/                 %##%&&&%%.   ";
+			escribir "   .    %(%&&&%%########%#             %#(,,,,*(#####%/                ###%%#%%&..   ";
+			escribir "   .    ,      ,(#########&(.         (%#%#*,,,,/######%               %#######&..   ";
+			escribir "   .              ##(###(%#/**#      .@####/,,,,,**((###*            ,########%* .   ";
+			escribir "   .               ##(#####%%//#     *&####(*,,,**,,(###/          ,#########%(  .   ";
+			escribir "   .                ####(#####%@*    ,&#####(*,*,(*,*###*        .%#######%%&(   .   ";
+			escribir "   .              .%########%#%&.   %###########*,,##&,       /#######%%%**/     .   ";
+			escribir "   .                *%(###(#####&*  .%###########%###&.      /########%#*,(      .   ";
+			escribir "   .                  /%&####((##&,  (&#############%*   .,*%%%%######%%.        .   ";
+			escribir "   .                  ,%######%%#%@, .&##############  /%############%&.         .   ";
+			escribir "   .                  /###%%(##&##&&. &%###########&&%####%%%###(###&#           .   ";
+			escribir "   .                  .%##%#(###%###%#%(#%########&&#%%&#(#######(%&.            .   ";
+			escribir "   .                  .%######(##%%####(#%%######%(.  (###(#####%&*              .   ";
+			escribir "   .                   #&&* .&(#####%&&%#########%###&%%#(####%&*                .   ";
+			escribir "   .                         /#######%%##########%#%%&##%#%##&*                  .   ";
+			escribir "   .                         .%#####(%%##########%##/,//%*,*&##    . .*&.        .   ";
+			escribir "   .                          (##(##(#&##########%#%*,/(*,/###/ .%#(##((         .   ";
+			escribir "   .                           ,%(#####&#########&#*,*#&/,##%./@%%%%/            .   ";
+			escribir "   .                            /%#####%&########(*,,.*.&%/,  *&*                .   ";
+			escribir "   .                        .*#  ((#####&########(**(, ,/%&%#.(####              .   ";
+			escribir "   .                      .%(%.  .%#####%%#########,   .%##%#(*(###.             .   ";
+			escribir "   .                     ,&#%(*    #####&##########/     .,##/  /##/             .   ";
+			escribir "   .                     ,#%((     *&###&##########&       #,                    .   ";
+			escribir "   .                      ,&(  ./(%&(%%#%%#########&.                            .   ";
+			escribir "   .                (##(%. ./#*,,,,###(%%&%########&#                            .   ";
+			escribir "   .              *%(#%,   **,(%//#(#####&#########%#%&(.                        .   ";
+			escribir "   .                   .#(,*,(#%%##%%(#(%&########%##((#%%.                      .   ";
+			escribir "   .                   (#%####(%%##*,/%#&%#######%%#####((%#                     .   ";
+			escribir "   .                    ..*###%#####,,/&&########%####((##((%*.                  .   ";
+			escribir "   .                       *%#%#&#(#%*,,,(#######%#####((#(#%%####%#.            .   ";
+			escribir "   .                     .%###%%&&#%&#,***(#####%(##(#((###%#####%####(*         .   ";
+			escribir "   .                   *&###%(##%###%#&(*#######. .%#######%%##%#   *##%#        .   ";
+			escribir "   .                ,%###(#&##%%%%###%&#######%*  ,,%##########(%&,              .   ";
+			escribir "   .              /%##(#(###&#(######%&########%%##&&#############%%.            .   ";
+			escribir "   .            (##############(#&/.(&%#######%###%..@##############%%*          .   ";
+			escribir "   .          ,#################&,  ,&######%#####   *%###############(&/        .   ";
+			escribir "   .        .%##/*,*#(#########&.   (%####%######     ####(####(#########@*      .   ";
+			escribir "   .       /###%/,/(*/(#######%/    #%######%%&       .&###**###/**/(#####&/     .   ";
+			escribir "   .      %##(*,,,**,,,/#######     *%%%######%*        %(%*,,/(,,,,,,/####&(    .   ";
+			escribir "   .     ,#####(**,,,,,(####%&.    .(%%########(         (##%%(,*,,,,,,*(##(&,   .   ";
+			escribir "   .     ,######*,,,,,(####%%      /,#&%%#####%*          ####/****,,,,,,*/(#%   .   ";
+			escribir "   .     (######/,,,*((##%&*       .(,(%%#####%            *%########(/*,,,,(.   .   ";
+			escribir "   .   .########*,*,*#(#&*           %########/               %##########((%%,   .   ";
+			escribir "   .   .######%%/,*,*&(..            /&#######(                  ,%##########&.  .   ";
+			escribir "   .    .%#######%..                  #######%##                   #%#%####%%    .   ";
+			escribir "   .       .,(*.                      .%%%#(##((%%  .*                .**,       .   ";
+			escribir "   .                                    /#&&&#####%&/                            .   ";
+			escribir "   .								                                    ..,,,*,..   .       ";              
+			escribir "   .								                                    ..,,*/*,.   .        ";          
+			escribir "   .								                                       .,**,.   .          ";        
+			escribir "   .								                                    ..,****,.   .  ";
+			escribir "   .								                                    ..,,,*,..   .";
+			escribir "   ..,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,";
+			escribir "   ..,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,,.,....,,,.,  ";
+			//	//3 espada";
+		13:
+			escribir " ....................... .. ....... ... .....  .... ...... ... .....  ..... .   ";
+			escribir " ....................... .. ....... ... .....  .... ...... ... ..... ..... ..    ";
+			escribir " .  ,                                                                   *   .  ";
+			escribir " .  ,                                                                   *   .  ";
+			escribir " .  ,   . #.                                                            ,   .  ";
+			escribir " .  ,     /*        *(*               .&(               .((.            ,   .  ";
+			escribir " .  ,   ,,.       ,(((((,           .,,,,(,.          .(((((/           ,   .  ";
+			escribir " .  ,             *((((((.           ,,*/,,           /((((((.          ,   .  ";
+			escribir " .  ,             *((((((.           /####*           /((((((           ,   .  ";
+			escribir " .  ,             *((((((.           *####,    ,,,    (((((((           ,   .  ";
+			escribir " .  ,             *((((((.          .#%##%*      *.,  /((((((           ,   .  ";
+			escribir " .  ,             *((((((.         .%%%%%%%*    ,,,,,./((#(((           ,   .  ";
+			escribir " .  ,             *((((((.         /#%%%%%%(     ,#.  (((#(((.          ,   .  ";
+			escribir " .  ,             *((((((.         /%%%%%%%(     *#,  (((#(((.          ,   .  ";
+			escribir " .  ,             /((((((.         *%%%%%%%/    ,,.,,./((#(((.          ,   .  ";
+			escribir " .  ,             /((((((,         .#%%%%%#.     ,,,  (((#(((.          .   .  ";
+			escribir " .  .             /((((((*           #%%%#.   ..,,    (((#(((.          ,   .  ";
+			escribir " .  .             /((((((*  .,,.   (########,  ..,,   (((#(((.          .   .  ";
+			escribir " .  ..            (((((((/  .,,*****,,,,,,,,(****,,   (((#(((.          .   .  ";
+			escribir " .  ..            ((((((((  ,,.    #%%%%%%%%,    .,   (((#(((.          .   .  ";
+			escribir " .  ..            ((((((((         *(((#(((*         .(((((((.          .   .  ";
+			escribir " .  ..            ((((((((         *(((#(((*         .(((((((.          .   .  ";
+			escribir " ,  ..            ((((((((         *(((#(((*         .(((((((.          .   .  ";
+			escribir " .  ..            ((((((((         *(((#(((*         ,(((((((.          .   .  ";
+			escribir " .  ..            (((((((#         ,(((#(((*         ,(((((((.          .   .  ";
+			escribir " .  ..            (((((((#         ,(((#(((*         *(((((((.          .   .  ";
+			escribir " .  ..            ((((((((         ,(((#(((*         /(((((((.          ,   .  ";
+			escribir " .  ..            ((((((((         ,(((#(((*         /(((((((,          ,   .  ";
+			escribir " .  ..            ((((((((.        ,(((#(((*         ((((((((,          ,   .  ";
+			escribir " ,  ..            #(((((((.        .(((#(((*         ((((((((,          ,   .  ";
+			escribir " .  ..            ((((((((.        .(((#(((*         ((((((((,          ,   .  ";
+			escribir " .  ..            #(((((((.        .(((#(((*         #(((((((,          ,   .  ";
+			escribir " .  ..    .,..   (%##%%#%%/   .,*  .(((#(((,  ,,.   ,%%%%%#%%#.   .,,   ,   .  ";
+			escribir " .  ..    ..,,,,,*.,,.,,,,*,*,,,,  .(((#(((,  .,,,,,*.,,.,.,,,*,*,,.,   ,   .  ";
+			escribir " .  ..    .,.    /########*   .,,   (((#(((,  .,.   .#########.   ..,   ,   .  ";
+			escribir " .  ..     ,,.     (%%%%(           (((#(((,          ,%#%#%.    .,,.   ,   .  ";
+			escribir " .  ..   .,,,     *%%%%%%*          (((#(((,         .#%%%%%#     .,.,  ,   .  ";
+			escribir " .  ..  .*,,*,   .%%%%%%%%.         (((((((,         #%%#%%%%*    **,*,..   .  ";
+			escribir " .  ..   .#%,    ,%%%%%%%%,         (((((((,        .%%%%%%#%(     #%,  .   .  ";
+			escribir " .  ..    ,*     .%%%%%%##.         (((#(((,         #%%%%%%#/     ,*   .   .  ";
+			escribir " .   .  ,,.,,,    /%%%%%%/          (((((((,         .#%#%#%#.   .,,.., ,   .  ";
+			escribir " .   .    ,.,      #%%%%(           /((((((,          ,%#%#%.     .,,.  ,   .  ";
+			escribir " .   .      ,,,.  .(###(,           /((((((,           //((#,  .,,,.    ,   .  ";
+			escribir " .   .             *#(#/.           /((((((,           ,((//.           ,   .  ";
+			escribir " .   .            ..(#/,,           /((((((,          .,,/(,,           ,   .  ";
+			escribir " .   .            .,/,,,,            *(((((           ..,,,,,           ,   .  ";
+			escribir " .   .              .@*                //.               &*       (     ,   .  ";
+			escribir " .   ,                                                            .(    ,   .  ";
+			escribir " .   .                                                                  ,   ,  ";
+			escribir " .                                                                          .  ";
+			escribir " ....................... .. ....... ... .....  .... ...... ... .....  ..... .  ";
+			escribir " ....................... .. ....... ... .....  .... ...... ... ..... ..... ..  ";
+			Escribir Sin Saltar " " ;
+			//	//"3 oro";
+		33:
+			escribir"  ,  (........... .................... ........ ......................  .*. .   ";
+			escribir"  .  ,                                                                   ,  .   ";
+			escribir"  .  ,    *,                                  .. ../ * ,                 ,      ";
+			escribir"  .  ,    ./                              *.@(/,,*,,,,,,*/%,, .          ,  .   ";
+			escribir"  .  ,   .                           ..*#/,,*,**,,,*,,,****,,*#/ .       ,  .   ";
+			escribir"  .  ,                              .#/,,**,****,*,*,*,,****,*,,/#..     ,  .   ";
+			escribir"  .  ,                            .*/,,/,*,**,,,*,,(,,**,,,*,,,*,,(#,    ,  .   ";
+			escribir"  .  ,                            ,(,,**,,,,,,,.,,,/,,,,,,,,*,,,,*,*,    ,  .   ";
+			escribir"  .  ,                          .*(,,,*,*,,,(%,,//*/*,(,,#/,,,,,,,*,#(.  *  .   ";
+			escribir"  .  ,                          ./#,***/,,*,,,,*/%#%##(*,,,,*,**,*/,//   *  .   ";
+			escribir"  .  ,                           ./,***/*,*,,,,*(#%%%#(*,,,,*,**,**,/%/. *  .   ";
+			escribir"  .  ,                          .*#,,,**,,,,(%*,*#*(**/,*%/,,,*,*,*,%/.  *  .   ";
+			escribir"  .  ,                           ,,(,,**,,,,,,,,,,,/,.,,,,,,,,,,,,,/(/.  ,  .   ";
+			escribir"  .  ,                            ./%,,*,,,,*,,,*,,/,,*,,,,*,*,*,,%,..   *  .   ";
+			escribir"  .  ,                              .*#,,****,**,,*/,*,,******,,(#*      *  .   ";
+			escribir"  .  .                                */#/,,,**,*,,*,,,***,,,/(#.        *  .   ";
+			escribir"  .  .                       .           , %/%/.,,,,,,,,*%%/,.           *  .   ";
+			escribir"  .  .            . #,%((*/**/*(((/,.         . ,., *., .                *  .   ";
+			escribir"  .  .         .,((*,,****,**,****,,*#/(.                                *  .   ";
+			escribir"  .  .       *,(,,,*,***,,*,,*,****,**,,(*,                              *  .   ";
+			escribir"  .  .     ./#,********,*,,/,,,,,******,*,(..                            *  .   ";
+			escribir"  .  .    *#*,*****,*,**,,,%(,,,*,,,,,,,****%*                           *  .   ";
+			escribir"  .  ..   **,*,,,,,**/,,//***,//,*/**,*,,**,/.                           ,  .   ";
+			escribir"  .  ..  ,(*,*/*,,*,,,,**/#%##/**,,,,*,,***,,&*                          ,  .   ";
+			escribir"  .  ..  /%,,***,*,*,***/##%%%#****,*,*,***,,@*,                         ,  .   ";
+			escribir"  .  ..   ,*,*/***,,,***,*((#//,**/,,,*****./&*.                         ,  .   ";
+			escribir"  .  ., ..%%,,*,*,*,,,*,(,,/,.*#,,,,**,*,**.%#                           ,  .   ";
+			escribir"  .  .,   ..%*,*,,,,,,,,*,,(/,,*,,,,,,,,*,*#(,                           ,  .   ";
+			escribir"  .  .,     ,((,,*******,**/,,*,,******,,#(.                             ,      ";
+			escribir"  .  .,        ##*,,******,*,*,*****,,*&*..                              ,      ";
+			escribir"  .  .,         . (/#,,,,,,.,,,,,,/##*.                                  ,  .   ";
+			escribir"  .  .*              ..*,*/,#,#.( ,        .* //(%(%(%(/( ,              ,  .   ";
+			escribir"  .  .*                                ..%(/,,,,*,***,***,,//%..         ,  .   ";
+			escribir"  .  .*                             . (/*,*,*,**,,*,*,,****,*,,(/ .      *  .   ";
+			escribir"  .  .*                            ,((,,*******,*,,/,,*,*,*,*,,*,/%      ,      ";
+			escribir"  .  .*                            /*,*****/**/*,**%**,*/*/*/*/*/,,/,.   ,  .   ";
+			escribir"  .  ./                          ,#*,*,**,**,**,#,,/,,(/,,,**,*,,,,*#,   ,  .   ";
+			escribir"  .  ./                          ,(,****,,,,*****(##(/****,,,*,,,**,(*.  ,      ";
+			escribir"  .   /                         ./#.*/*/**,,*%#((%%%#%((##*,,,*,**/,*%/. ,      ";
+			escribir"  .   /                         .*(,*,*,**,*,*,/*(%##(*/,,,,,,,,,**,(&*  ,  .   ";
+			escribir"  .   /                           /*,/,,*,**,*,*#,,/,,#/,**,,,*,,,,*%..  *  .   ";
+			escribir"  .   (                           ,(/,**********,,*%*,,**,,**,,,*,,&(    *  .   ";
+			escribir"  .   (                             /#,,*******,,*,/,,,,,***,,*,,/(/     *  .   ";
+			escribir"  .   (                             .,.&,,,/*,*,*,*,**,,,***,,,##/       *      ";
+			escribir"  .   (                                 *.&(,*.,,****,*,,,,/&,*   #  .   ,      ";
+			escribir"  .   (                                    .,.(///#/##(%/*.,      ,#.    *  .   ";
+			escribir"  .   (                                                           .(/    *  .   ";
+			escribir"  ,   (............................... ........ ......................  .*. .   ";
+			Escribir  Sin Saltar"";
+			//	//"2 copa";
+		42:
+			escribir" ,.,,,,,,,,,,,,,.,,,,,,,,,,,.,,,...............,,.,,..,,,,,...,,,,,,,,,,., ";     
+			escribir" ..,...........,,,,,.....,,..                      .,.,.......,,...,,..,,* ";     
+			escribir",                                                                        * ";    
+			escribir",   .*-*&                                                                * ";      
+			escribir",      *,                                                                * ";      
+			escribir",    ((//,,               .,/#####################(*,                    * ";      
+			escribir",                       (%%#%%%%%%%########((#(((##(/(/*                 * ";      
+			escribir",                       (%###################((####((##/                 * ";      
+			escribir",                       **,*#############/###/(((##/,*,,                 * ";      
+			escribir",                       *,,,,,,**,,**,,**,,,,,********,*                 *";       
+			escribir",                       *,*//,,,,**,,,*,,*,,,*****/####/                 * ";      
+			escribir",                       .****,**,,,*/,*/###############,                 * ";      
+			escribir",                        ,,**,,*,*,,*,,*#########(####,                  * ";      
+			escribir",                         ,*,****,/,/,,*############(,                   *";       
+			escribir",                           ,*********,*###########/                     *";       
+			escribir",                            .*,********#########(.                      *";       
+			escribir",                               **/**,,*#(#####*                         *";       
+			escribir",                                 .,/#######/.                           *";       
+			escribir",                                  ,##%%%%#(                             *";       
+			escribir",                                 .(##(&%###/                            ,";       
+			escribir",                        ,#(##.  ((%&##&%##&##,  ,##((.                  * ";       
+			escribir",                        /(###(##%@@###%%##&@&######(#.                  , ";       
+			escribir",                          *(#%&@@@@&&&@&&%&&@@@&#((.                    , ";       
+			escribir",                           **,,,,,,,,,,,,,,*****//                      , ";       
+			escribir",                        **,***********************//,                   , ";       
+			escribir",                                                                        , ";      
+			escribir",                                                                        , ";      
+			escribir",                                                                        , ";       
+			escribir",                                 ..*******,..                           , ";      
+			escribir",.                       .*(%#%###%#################(,.                  , ";      
+			escribir",.                      ###############################(.                , ";      
+			escribir",.                      /(############################(*                 , ";      
+			escribir",.                      *,**,(%%##%%%%###########/,***,*                 , ";      
+			escribir",.                      /*,,**,,*,,*,,*,,,,*,,*****/,**/                 ,.";      
+			escribir",.                      **,**//*,,,*,,,,,,*,,***/######/                 ,.";      
+			escribir".,                      .*,********,/,,*###############.                 ,.";      
+			escribir".,                       .*,**,/,**,/,**#############(.                  ,.";      
+			escribir".,                         **,****/,/,,*############(                    ,.";      
+			escribir".,                          ,*,/********###########,                     ,.";      
+			escribir".,                            ,*********#########,                       .,";      
+			escribir".*                              .*,**,,*######(.                         ,,";      
+			escribir".*                                 ,(#######.                            .,";      
+			escribir".*                                 *########                             .,";      
+			escribir".*                                *#%##%%(##(.                           .,";      
+			escribir".*                       /(#(#, ,(#&&((%%(#&##(. /#(##.                  .*";      
+			escribir".*                       ,(#(##(#&@@#((&%((%@@%###(##(                   .*";      
+			escribir"./                           ./**************,***(                       .*";      
+			escribir"./                         ./,,,*,,,,,,,,,,,*****//,                     .*";      
+			escribir" /                                                                /&@%*  .*";      
+			escribir" /                                                                 ,,    .*";      
+			escribir" /                                                                ,#..,  .*";      
+			escribir" /                                                                       ./";      
+			escribir" .   ,,,,,,,,,,,,,,,,,,,,,,,,,.              .,,,,,,,,,,,,,,,,,,,,.,,,,. .*";   
+			escribir" .. ...  ....  ..............................................   .....  .../"; 
+			Escribir Sin Saltar " " ;	
+			//	//"2 basto";
+		22:
+			escribir"   ...................................................................   .... ";
+			escribir"   . .....    .                            .   .      ..            ...   ...  ";  
+			escribir"   .    ,%#,                                                                .   ";
+			escribir"   .      .&                                           ..                   .   ";
+			escribir"   .     *.       *&%####%..                        ,%%&%(####%#            .   ";
+			escribir"   .    ,..,     &#########.                       (&%%#####%,..*.          .   ";
+			escribir"   .            .%######*,,//                     (%######%,                ,   ";
+			escribir"   .           .%#####(,,,,//%,                  ,&#######,                 ,   ";
+			escribir"   .          ,%#####*,,,,/###@.                 /%#######*                 ,   ";
+			escribir"   .          %##//**,,,,,/###%/                (,/#%#####(                 ,   ";
+			escribir"   .          %###(/,*,,,*####%#               ./,#%######%.                ,   ";
+			escribir"   .          (##,,,%*,*/#####&/                .%&#######%.                ,   ";
+			escribir"   .          *##(*/#(########@.                ,&##%#####(                 ,   ";
+			escribir"   .           ########(#####%.                 ,&####%##%%*                ,   ";
+			escribir"   .           (############%%    ..            .&#########(%.              ,   ";
+			escribir"   .            (###########%(  ,%#%(            #&######%%(#%,             ,   ";
+			escribir"   .             &########%#&#,###%.     /       ,&#######%%##%&            ,   ";
+			escribir"   .             .#######%%######%.     ####,     %%######%  ,/             ,   ";
+			escribir"   .              #########%&%&(.        ##(##    (#*(#####(                ,   ";
+			escribir"   .        *#%,  (#######(((%             .%&%/*#,***(#####&               ,   ";
+			escribir"   .  (%#, .#(*,/ (#####(###(%          .,(%&/  /**,*(###(##%,              ,   ";
+			escribir"   .  ,%##,  /*,/ ###((##(##%(         (##%#( .(*,(,#########*              ,   ";
+			escribir"   .    /%#  ./,,*%###((((#%#        /#((*. *###*(, *&#######%.             ,   ";
+			escribir"   .     ,#&* #,*,*%#((####&                  */  .  &########(             ,   ";
+			escribir"   .    %###.   ((##((####%.                         &########%.            ,   ";
+			escribir"   .   (#%#*    .%########%*                        ,&########%,            ,   ";
+			escribir"   .   .##      *##########%                        #%########%,      .     ,   ";
+			escribir"   .            /#########%*                        %#########%      .%%    ,   ";
+			escribir"   .            *#########&                         (%#########     ##%%/   ,   ";
+			escribir"   ,            ,#########%                         /%######%*/(,  .#%#(    ,   ";
+			escribir"   .             #########%    /##.                .&#######%**,,/ #&*      ,   ";
+			escribir"   ,              ########%, (.*%(#* /###%#.      .&%########%/***   /##    ,   ";
+			escribir"   ,              #########%(*,(/ .##%##,         %##########*,(,*(  ,###   ,   ";
+			escribir"   ,              (#######/,,,/,  ((*,           ,&##########, (,/*%.  /&,  ,   ";
+			escribir"   ,               #######*,,**..(&%/            ,&##########*  .(/         ,   ";
+			escribir"   ,                ##(##%%#&/    ##((#        /&%#%%########/              ,   ";
+			escribir"   ,            *%*. ###(###%#      (##*     *%#######%######%.             ,   ";
+			escribir"   ,            %###&########&        ,     /##%* %%###########             ,   ";
+			escribir"   ,              ###%%######%#           .&###   #%###########%            ,   ";
+			escribir"   ,              .%###(######@.                 .&#############,           ,   ";
+			escribir"   ,                .%%#######@.                 (%#############&.          ,   ";
+			escribir"   ,                 ######%##@.                ,&##########,,/#%,          ,   ";
+			escribir"   ,                ,########&%                 #%#####*,,*#*,/%#/          ,   ";
+			escribir"   ,                ,######%%%,(                %#####,*,,*,,*###(          .   ";
+			escribir"   ,                 ##(###&%*,/                #%###/,,,,*,*((##(          .   ";
+			escribir"   ,                 /#######%                  ,&###*,,,,(#####%           .   ";
+			escribir"   ,                 (#######%                   *&*,,,,*(######            .   ";
+			escribir"   ,                ##(#####%*                     *#/,/#####(#             .   ";
+			escribir"   ,          .(**#%(#####%&,                       *#(######%(             .   ";
+			escribir"   ,            ,/#%%###%##.                         .(&%%%&/          (/*#..   ";
+			escribir"   ,                                                                   .(   .   ";
+			escribir"   ,                                                                   %* *,.   ";
+			escribir"   ............          ..........          ..........          ........,...";
+			Escribir  Sin Saltar "";
+			//2 espada";
+		12:
+			escribir "  .  ,                                                               .  . ";
+			escribir "  .  ,    ,(%&&(,,                                                   ,  . ";
+			escribir "  .  ,  .*.  ./%%,.      ((.                           ,%.           ,  . ";
+			escribir "  .  ,        ##,    ,(((((.                       ,,.,(,,           ,  . ";
+			escribir "  .  ,      ,((*     ,(((((/                        ,,.,.            ,  . ";
+			escribir "  .  ,     .*/*.     *(((((/                       .##(##,           ,  . ";
+			escribir "  .  ,    ,*(%%((##  *(((((/                        (%%#.     ,,.    ,  . ";
+			escribir "  .  ,               *((#((/                       (%%%%%.    ,,,,   ,  . ";
+			escribir "  .  ,               *((#((/                      /%%%%%%(     ,     ,  . ";
+			escribir "  .  ,               *((#((/                      (%#%%%%#    *##.   ,  . ";
+			escribir "  .  ,               *((#((/                      (%##%%%(   .,,,,   ,  . ";
+			escribir "  .  ,               *((#///                       #%%%%%,    ,,,    ,  . ";
+			escribir "  .  ,               *///(//                       .%%%%*   .,,.     ,  . ";
+			escribir "  .  ,               *((((((                .,,,,,(#######/.,,,,.    ,  . ";
+			escribir "  .  ,.              *//#((/                ,.,,,,/////////,,..,.    ,  . ";
+			escribir "  .  ,.              *((#(((                      /((((((*           ,  . ";
+			escribir "  .  ,.              *((#(((                      /((((((*           ,  . ";
+			escribir "  .  ,.              *((#(((                      /((((((*           ,  . ";
+			escribir "  .  ..              /((#(((                      *((((((*           ,  . ";
+			escribir "  .  ..              /((#(((                      *((((((*           ,  . ";
+			escribir "  .  ..              /((#(((.                     *((((((*           ,  . ";
+			escribir "  .  ..              /((#(((.                     ,((((((*           ,  . ";
+			escribir "  .  ..              /((#(((,                     ,((((((*           ,  . ";
+			escribir "  .  .,              /((((((,                     .((((((*           ,  . ";
+			escribir "  .  .,              /((((((*                     .((((((*           ,  . ";
+			escribir "  .  .,              /((((((/                     .((((((*           ,  . ";
+			escribir "  .  .,    .        .(######(     .                (((#((*           *  . ";
+			escribir "  .   ,            *,******                        (((#((*           *  . ";
+			escribir "  .   ,            *######## ..,,,                 (((#((*           ,  . ";
+			escribir "  .   ,              /%%%#.                        (((#((*           ,  . ";
+			escribir "  .   ,             *%%%%##                        (((#((*           ,  . ";
+			escribir "  .   ,             #%%%#%%/                       (((#((*           ,  . ";
+			escribir "  .   ,            .%%%%%%%#                       (((#((*           ,  . ";
+			escribir "  .   ,             (%#%%%%.                       (((#((*           ,  . ";
+			escribir "  .   ,             .%%%%%(                       /((#((*            ,  . ";
+			escribir "  .   ,               .%#%*                        /(((((*           ,  . ";
+			escribir "  .   ,              .####(                        /(((((*           ,  . ";
+			escribir "  .   ,               ,,*,,                        /(((((*           ,  . ";
+			escribir "  .   *              .,*,,,,                        (((((.           ,  . ";
+			escribir "  .   *                 @.                            (,             ,  . ";
+			escribir "  .   *                                                              ,  . ";
+			escribir "  .   *                                                   ,(%&&(,,   ,  . ";            
+			escribir "  .   *                                                 .*.  ./%%,.  ,  . ";   
+			escribir "  .   *                                                        ##,   ,  . ";   
+			escribir "  .   *                                                      ,((*    ,  . ";
+			escribir "  .   *                                                     .*/*.    ,  . "; 
+			escribir "  .   *                                                    ,*(%%((## ,  . ";
+			escribir "  .  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,. , ";
+			escribir "  .  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,.  ,. , ";	
+			escribir "**.**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **  ** ";                                                                              
+			escribir "**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **.**  ** ";  
+			Escribir Sin Saltar " " ;
+			
+			
+			//	//2 oro;
+		32:
+			escribir" .   *,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,,,,,,,,,.  .  ";
+			escribir" .   *   *(,                                                             ,.  .  ";
+			escribir" .   *  .  /.                      , ..,. , ..                           ,.  .  ";
+			escribir" .   *   ,,                 ../(*&((/*****/*/*%,*/.,                     ,.  .  ";
+			escribir" .   *                  . *%((,,,,,*,**//****,,,,,*/#/ ,                 ,.  .  ";
+			escribir" .   *                .#.#*,*,*,,**/*,*,,*,,,,*,,**,.,*/#,               ,.  .  ";
+			escribir" .   *               ,&**.*,,*,**,/,,*,,*,,,.,,,,,,*,*,,,#*.             ,.  .  ";
+			escribir" .   *            ,.*#,,*,*,*****,,,*,,,*,,,*,,,*,*,,*,*,,,(//           ,   .  ";
+			escribir" .   *           .*/*,,/*********,*,*,*%#,,,,,*********,**,,((/.         ,.  .  ";
+			escribir" .   *          .%@*,,*,,*,,**,,,,,((,,,/,,,%/,*.,,**,*,,,/,*(%.         ,.  .  ";
+			escribir" .   *          /%#,,***,,**,,,#(,,,*(,/(****,*(%,,,,*,,,*,*,*@*.        ,.  .  ";
+			escribir" .   *          ,%/,,**,*,,,,*,,,,,*(####%%#**,,,,,**,****,*,,%,         ,.  .  ";
+			escribir" .   *          .(/,,****,,,,*,,,,**(#%%%%%%/,,,,,,*,,****,**,%#,        ,.  .  ";
+			escribir" .   *           .*.,**,,,**,,.*,,*,,*##%#(*,/*,*,,,**,,**,*,,@&(.       ,.  .  ";
+			escribir" .   *           ./*,,,,,,*.,,,//,,*#**,**,/#,,//**,,,*,,,*,,((*.        ,.  .  ";
+			escribir" .   *             (*,,**,,,,,,,,,,,,,,,(,,,,,,,,,,,,,,***,,/(,,.        ,.  .  ";
+			escribir" .   *             ,%,,,*,,,,,,,,,,,**,,/,,,,*,*,*,,,,,**,,#* ,.         ,.  .  ";
+			escribir" .   *              *##*,,*,*,****,,,*,,*,,*,,***,**,*,,,(&...           ,.  .  ";
+			escribir" .   *               ,,.#/,,,**,****,,,*,,*,,****,*,,,,#/(.              ,.  .  ";
+			escribir" .   *                 , .%((*,*,,***,,,**,,***,,,,*(&, /                ,.  .  ";
+			escribir" .   *                       ./,&#/,,,,,*,,,,*(&%&* *                    ,.  .  ";
+			escribir" .   *                         .  * * /.**.( /, .                        ,.  .  ";
+			escribir" .   ,                                                                   ,.  .  ";
+			escribir" .   ,                                                                   ,.  .  ";
+			escribir" .   ,                                                                   ,.  .  ";
+			escribir" .   ,                                                                   ,.  .  ";
+			escribir" .   ,                                     .                             ,.  .  ";
+			escribir" .   ,                         # .( %.&#%#%&,&.%  /                      ,.  .  ";
+			escribir" .   ,                     /.%%(*,,,,,,,*,,,,,,,,*/&,//                  .,  .  ";
+			escribir" .   ,                 ,..%/*,,,**,,,,,,***,,***,**,,,/&...              .,  .  ";
+			escribir" .   ,               ./*/,,,*,,**,**,,*,,,,*,,***,*,,*,,,*(/             .,  .  ";
+			escribir" .   ,              .%%,,**,*,*****,,*,,*,,,*,,***,***,*,,,#*   .        .,  .  ";
+			escribir" .   ,              ((,,*,,***,,,***,,,,(/,,,,************,,** .         .,  .  ";
+			escribir" .   ,           .,*/,,*,*,,,,,,,,,,*,,,,,,,,/,,,,,,,,,,*,,*,***.        .,  .  ";
+			escribir" .   ,           ..#,,*,,,,*,*,,%(,,,#/**,*,#*,,#%,,,,*,,,**,,*#,.       .,  .  ";
+			escribir" .   ,            #*,,****,,,*,,,,,,**##%%%#/*,,,,,,**,,***,/,,&#.       .,  .  ";
+			escribir" .   ,           /&,,,*****,,**,/#(//#%%&&%%#/((#/,*,,,,**,,/,,#(*       .,  .  ";
+			escribir" .   ,           *%/,,***,*,*,,,,*,,*/###%%#(*,,,,,,,*,,***,*,,%,.       .,  .  ";
+			escribir" .   ,           /%#.,*,,*,*,,,,%(,,,#*****,#*,.##,,,**,,*,*,,#@(.       .,  .  ";
+			escribir" .   .           .*//,,*,*,,*,,,,,,,*,,,,,,,,*,,,,*,,,,,*,*,,/@%*        .,  .  ";
+			escribir" .   .            .,*#,,**,,,,,,,,,,*,,,((,,,**,,,,,,,,,,*,,/##,          ,  .  ";
+			escribir" .   .               .%*,,*,********,,*,,,,,*,,,*,*,**,*,,*##(            ,  .  ";
+			escribir" .   .                *&%*,,,*,/,,*/*,,*,,,*,,,****,/,,,,&*..             ,  .  ";
+			escribir" .   ,                  /*/&/,,,,,**,,,,***,,,***,,,,*#*#,.               ,  .  ";
+			escribir" .   ,                    . /./%/**,,,,,,,,,,*,,*/%/(* .           ,(#%,  ,  .  ";
+			escribir" .   ,                          * *(.@/@(&###,%,.,                  #.    ,  .  ";
+			escribir" .   ,                                      .                      .&%#   ,  .  ";
+			escribir" .   ,                                                                    ,  .  ";
+			escribir" .   *,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,,,,,,,,,.  .  ";
+			Escribir  Sin Saltar"";
+			//	//1 copa";
+		41:
+			escribir"   .,.,,,,,,,,,,,,,,,,,,,,,,,,,,..,,,.............,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,.., ";   
+			escribir"   ...........................                        ...........................   .";
+			escribir"   #                                                                            (   .";
+			escribir"   (  *#,                                                                       (   .";
+			escribir"   (   #,                                .,*,                                   (   .";
+			escribir"   (   #,                              .(####(                                  /   .";
+			escribir"   (   #,                         /#######%%#####((.                            /   .";
+			escribir"   (                             ,*(####(#####%##((/                            /   .";
+			escribir"   (                              .,,,,,,,*,,,,,,,.                             /   .";
+			escribir"   (                               ./*///(((//////                              /   .";
+			escribir"   /                               .(##(#(((#(#(#(.                             /   .";
+			escribir"   /                                /###%##(#####.                              /   .";
+			escribir"   /                               ,(######(######                              /   .";
+			escribir"   /.                             .(##############/.                            /   .";
+			escribir"   *.                           ./#########(#####(##,                           *   .";
+			escribir"   *.                        .*(###########(##########(*.                       *   .";
+			escribir"   *.             .    *((((##########(#%##############((#((#/.                 *   .";
+			escribir"   *.        .((##(######%##(###################(###########%####(###(.         *   .";
+			escribir"  *.        ##(######(###//############(#################*/###########/        *   .";
+			escribir"   ,.       *###(##########(**#((############(###(###((#*,*########(####,       *   .";
+			escribir"   ,.      *,*(###(#####(#######(/***,*(/,((,,*,,,,*/*##((#########(##(/*       ,   .";
+			escribir"   ,.     .,,*,*(###############((##((########(((#(#(###############(/,*,,      ,   .";
+			escribir"   ,.     .,,*,,****(###################((########((######(######(*,,,*,,*      ,   .";
+			escribir"   ..     ,((*,*,***,.,*,,*(##(####%####((#############(###(*,,**,******((      ,   .";
+			escribir"   ..     .//((((*,,***/,*,,****,,,,,,,*********,,,,,,,*,,*,**,,**/#((#/(/      ,    ";
+			escribir"   ..      *(((/(((((//*,,,*,,,*,,,***,,****,,/**/,,**/,*,*//((/#((((((((.      ,   .";
+			escribir"   ..      ,((((((((((((/((/(((/,,,,,,,,,,,,,,,,,,*(#((((/#//#/(((((((((*       ,   .";
+			escribir"   *.       /((((((((((((((((((((((((#(((((((/(((#(((((/(/((((((((((((//.       .   .";
+			escribir"   *.        /(((((((((((((((((((((((#((((((((#(((((((#(/((((((((((((/(.        .   .";
+			escribir"   *.        .//((((((((((((/(((((((((((((((((#((((#((((((((((((((/#((.         ..  .";
+			escribir"   *.          /(((((((/((((((((((((((((((((((((((((((((((((((((((((/.          ..  .";
+			escribir"   *.           ,/((((((((((((((/((((((((((((((((((((((((((((((((((,            .   .";
+			escribir"   *.             ,((((((/(((((((((((((((,,((((((((((((((/(((((((*              .   .";
+			escribir"    .               */(((((/#/(((((/,#((/*,((((,/((((((((((((((,                ..  .";
+			escribir"    .                 .,,,,,/*(/(***,/**,*,,/*/*/,/((/,/,,,,,                    .  .";
+			escribir"    .                     .****,*,**,,//**,*/*,*****,*,/,.                       .  .";
+			escribir"    .                           */,,*,*,,*,,**,,,*/,                             .  .";
+			escribir"    ,                             *#(#############.                              .  .";
+			escribir"    ,                            .*#############(,                               .  .";
+			escribir"    ,                          .(##%#############//.                             .  .";
+			escribir"    ,                       .*(#############((%#(/#(/*                           .   ";
+			escribir"    ,                          ,(#((#(((((((((((//(/                             .  .";
+			escribir"    ,                         *((((((#//((//(((((((((.                           .  .";
+			escribir"    ,                      ,(((#((((//((#/(#((#((/(((((*.                        .  .";
+			escribir"    ,                 ,((((((//(////(////(((((((((((((((((((/                    .  .";
+			escribir"    ,               .*,*/((((((//((((//#((((((((((((((((((/.                    ..  .";
+			escribir"    *              ,,*,*,*//(((////((((((((((((((((((((#(*,***.                  .  .";
+			escribir"    *            ,*,/#/*,***/(//(((((((((#(((((((#((((/****,/#/*,               ..  .";
+			escribir"    *          .,*,*(((#(****,,,,,,,***/,*,****,,,,,,,,**,*#####*,*.             .  .";
+			escribir"    *             ,,,*/(###/,,,,,,,,,,,,,,,,,,,,,,,,,,,,/(####(*,,              ..  .";
+			escribir"    *               .,,,(#################################(#(,,,.               ..  .";
+			escribir"    *                 .,,,/((((((((((((((((((((((((((((((((*,*.           *//   .,  .";
+			escribir"    *                    ,,*,,,,,,,,****,,,,,,,,,,,,,,*,,*,,,              //   .,  .";
+			escribir"    *                                                                      //   .,  .";
+			escribir"    ,                                                                           ..  .";
+			escribir"    ,....,,,,,,,,,,,,,,,,,,,,,.                      .,,,,,,,,,,,,,,,,,,.,,,,,,,,.  .";
+			escribir"    ,............................................................................ .,.";
+			Escribir Sin Saltar " " ;	
+			//	//"1 oro";
+		31:
+			escribir" ...........................................................................  ";
+			escribir" .  ,***********************************************************************   .";
+			escribir" .  /                                                                      /   .";
+			escribir" .  /  .#                               .                                  /   .";
+			escribir" .  /   (.                             .#.                                 /   .";
+			escribir" .  *  ,(./                       , *.,%%#,, ..                       *    /   .";
+			escribir" .  *.    ,%/                  .**,.*,/*/,*,,.,*,                   *%,    /   .";
+			escribir" .  *      (((#*        . *.*,,***.   *//,,  ..,,*,,,,...        *#((*     /    ";
+			escribir" .  *.      ,(#,       ,*,/,.,,/*%#(((#&##((((%%*/,..*/,**       *##/.     /   .";
+			escribir" .  *         *&*      /*%(#((#%&%#%##%@&%%##&#%&%######,/      /%*        /   .";
+			escribir" .  *.    *,**###(    .*/#(((#(#(*//*((/*****/**(((#(#(%/,.    (%#(**,*    /   .";
+			escribir" .  *.   ,/*,(##(,%.      ,*(##(#%%%%%%%%%%%%%%######*/      ,#,#(#(,*/    /   .";
+			escribir" .  *.    **(####,,//      /%%%%%%%%%%%%%%%%%%%%%%%%%#.     //,,####//.    /   .";
+			escribir" .  ,.   **.,###(,,*#%.     /%###&@@@@&&&&@@@@@%###%%.    .%(*,*####.,*,   /   .";
+			escribir" .  ,.  /..  /#(#,,*(#%*      ,/,,*,,,*****,,,,,/(,      /%((*,*(#(/   ,*  /   .";
+			escribir" .  ,. . #(# *#(#*,,(#((#.,,,,*,,,*(#%/##*/##(*,,**,,*, #(#((,,*(##*.((/   /    ";
+			escribir" .  ,.    ,#/,%##/*./##*,****/*/,,,//*,,.,**//,,,/*(*,*,,#((*,,/###./%,    /   .";
+			escribir" .  ..     /#/*##(*,*,**,,(/,**,,*,*,,,,,,,,,***,,**,((,,,*,*,*(##*(%.     /   .";
+			escribir" .  ..   . /((#/##(,*,*,(/,,,,,,,,,,,,*%(,,*%/,,.,,*,,*,//*,*/###(((# /    /   .";
+			escribir" .  ..   ,,(((((#*/,*/,*,,,,,,,,,,/%(*,%#%%#%(,,,,.,,,*,*,*(*,,((((((*,    *   .";
+			escribir" .  ..     #(#((,*,**,*,,,,,,,*((,,(%%%#&@&#%#,,,,,,,,,,*,*,//,*#((#(*     *   .";
+			escribir" .  ..     ((##**,,,**,*,,,,,,,,(%%%%%####(,/,/,,,,,,,,,,***,,,,*(#((,     *   .";
+			escribir" .  ..     .##(*,/#(/,*,,,,,/####%%##(/,*,,,**//,,,,,,,,,.*,*(#(*(#((      *   .";
+			escribir" .   .      .(*,**/*,,,,,,,,.,,,,,(,,,/.,,.,,,,,,*,,,,,,,,,,*,**,/#(.      *    ";
+			escribir" .   .       .*,,((*,*,,,,,,,,,,,*,**,*,,,,,,,,,,*,,,,,,,,,,*,//,/,        *   .";
+			escribir" .   .        **,##/,,*,,,,,,,,,,***,*,,,,,,,,,,/,,,,,,,,,*,*/##,/.        *   .";
+			escribir" .   .        ,*,*#,*,*.,,,,.*#((/(/*,,,,,,,,,,/*,,,,,,,,,*,,*(,*,         *   .";
+			escribir" .   .         ,*,**,*,*,,,,,,(/,****,,,,,,,,,,,,,,,,,,,,*,,/*,**.         *   .";
+			escribir" .   ,          ***,/**,,*.,,,.,,,/,,,*,,,,,,*,,.,,,,,.*,,*(,,*/           ,   .";
+			escribir" .   ,         ,/(**,*/,*,,*,,,,,**,,,,,,,,,,,,*/,,,,*,*,/*,,**.           ,   .";
+			escribir" .   ,        (##(%/**,##,**,,*,,,.,,,,,,,,,,,,,,,*,**,/#,,**/(#(.         ,   .";
+			escribir" .   ,        ,######/**,////,***,******,****,,,,***/*(,**/%#%%#%#.        ,    ";
+			escribir" .   ,        (########%/,**,*(*,,,**/*//**/**,,,/(,*,***,,,,*####/        ,    ";
+			escribir" .   ,       ,#######**,,,,,(,,**,,*#/*(#,*(/,,,**,/##/*,,,,,*###%%        ,   .";
+			escribir" .   ,        &#%##&%%%%%(,,,,(###((//(//////(##(#(##/((((((((%####        ,   .";
+			escribir" .   ,        */#(((,(/*(%%%,,*/###((((##(#(##(/((#(/,,,,,,,,*####,        .   .";
+			escribir" .   ,         #%##,#/#(%##%%**((((#(#(##(#(((((((/#%/,,,,,,,*###/         .   .";
+			escribir" .   *        .#/,/*//(#(*/%%##(((####(#((/#((((#(((#(,**/((//*,,          .   .";
+			escribir" .   *       ,((##((##(%&&&#(((((((((#((/(#////(((#(((############(.       .   .";
+			escribir" .   *    ./((((#((((((((((((((((((//((/(///(((((((((((((((((##(#####/.    .    ";
+			escribir" .   *   .%%#%%#%%%%%%%%##%#(#%##%#(#%#(#%%%#%%%%%#%%%%#%%%%%%%%%#####%.   .   .";
+			escribir" .   *      .(##((((((###(###(/(#((/((###(##(#####(####(###((((((##(,      ..  .";
+			escribir" .   *      ,,,,**,*,*/#%%((#(/****,,,,##(*,,,,***##%%#%#(**,*****,,*      ..  .";
+			escribir" .   *      *,***,*(%#(###. .*,*((((,,*(#(,***((#(/*. .#%%%#%(*,*,**,.     ..  .";
+			escribir" .   *      **,,*#%#(##,        *,.(((*,*,*/(((.*,       .#%####*,,**.     ..  .";
+			escribir" .   *  .   */#%*./,               ,/*((**(#**.              .#*.%(**.  .  ..  .";
+			escribir" .   *   .,**,.                       *(/((*                       .**,.   ..  .";
+			escribir" .   *                                                                 .#.  ,   ";
+			escribir" .   /                                                                  (  .,   ";
+			escribir" .   *                                                                  (, .,   ";
+			escribir" .   *                                                                     .,  .";
+			escribir" .  ,***********************************************************************   . ";
+			escribir"        ....................................................................... ";
+			Escribir  Sin Saltar"";
+			//	//12 copa";
+		412:
+			escribir"   ... ....  ....  ....  ....  ....  ....  ....  ....  ....  ....  ....  ....   "; 
+			escribir"   ,************************.*******************  ,***********************   .  ";  
+			escribir"   .    ,%. ./%#.              ..                                        .   .    ";
+			escribir"   .     @.    (,              ,(. ,*,/. ,**                             .   .    ";
+			escribir"   .     @.  ,*             ./*/(#######(((,**,                          .   .   "; 
+			escribir"   .                         .(%##%#(((%%%%&(                            ..  .    ";
+			escribir"   .                         ,(///,//(*,,/(**                            ..  .    ";
+			escribir"   .                         ./,,/,,,,,,,/*,*            .               ..  .    ";
+			escribir"   .                        ,,*.,((#*,,,*.//**.          ((              ..  .    ";
+			escribir"   .                        **//*,****,,/*,/,*,        .(#%/              .  .    ";
+			escribir"   .                        *#*,/*,,,,*,#*,,*,/      **//%#//*.          ..  .    ";
+			escribir"   ,                       ,*(##/*,,,,/,/(#(#,,.        (#/,             .,  .    ";
+			escribir"   ,                 .*,,**/,,*###########/,/,*,,,((.   */,.             .,  .    ";
+			escribir"   ,             .(((#***,,,/,*/,,*(#/,,//,*,,,%**#((/( ./               .,  .    ";
+			escribir"   ,.         ./((((((#*,,(,,/#%##((((##%%%/*(,,*#((((((#/               .,  .    ";
+			escribir"   ,.      .((((((((((((**,,,,/****,*,,,,,/,,,,*#(((((((%#((,            .,  .    ";
+			escribir"   ,.     /((((((((/#(((#*(,/,/%%#%%%%%#%(#*#,((((###(((&((((((.         .,  .    ";
+			escribir"   ,.    ###((((((//(/(##(*,*/,#//#%%%%%/**,*#(((%#(#(((&((((((((.       .*  .    ";
+			escribir"   ,.   /##((/((((((#(%((#(,,.,(###//%%/,,.*(((((#%(####&(/((((((#,       *  .    ";
+			escribir"   ,.  .(#//(////((#%(#(((#,/#/*%######*/(*###((((#*(/****#,,*/#((#*      *  .    ";
+			escribir"   ,.  ,((/((//((#((((%((((#,,,*(*(##%*,,,((#(####* *,*,,,,,(,/,((((,     *  .    ";
+			escribir"   ,.  /#(//(//,/##%%#(#(((#,.**%%%/*#,**,(#(##%#.   (/,*,*,((**#((#/     *  .    ";
+			escribir"   ,.  /(((*,,#%%%####,,,,,***/*%%%%%/,,,*%((((*     **#/%##%(*(,/###     *  .    ";
+			escribir"   ,.  #((*,,#%#####%,,,,,**//((***/////***,*/*     .,///%##%#*,*##(#     *  .    ";
+			escribir"   ,. *(##,,(%#%##(,#/(((((/**(**///*,,,.,*/((#.    ,*(*(%##%#*.,(##/     *  .    ";
+			escribir"   ,. *(#,*,%(%#%((,,((((((#,,,*%%%#%/,,,/((#(((/   ,*#*/%##%#,*,###,     /  .    ";
+			escribir"   ,.  ((,,#######*/,((((((*,///%%%%%(,/,*(((((#((  .,%**%##%(,,((#,      /  .    ";
+			escribir"   ,.  ,(,,%(##(##,,*((((((,,,,#%%%%%#,,,,##((#(((*  /%,,%##%(//(#.       /  .    ";
+			escribir"   ,.  .,**%(####/,*((((((*,/#,%%%%%%%*/*(*#((((((#. %(,,#%#%,,(*         /  .    ";
+			escribir"   ,.   ,,*,###((***#(##((*,,./*,,,.,/#,,,,##((((((,  .*,,%#,,/           /  .    ";
+			escribir"   ,.   .**,*#((*(*((#(((/,*,.*/(/,*((/*,/,*#(((((#(     *(/*.            /  .    ";
+			escribir"   ,.      (,**,.#((##((#,,,,,/%#%/(%#***,,*((((((#(*                     (  .    ";
+			escribir"   ,.      .   .((((%#(#*,,,,/*****,**,*,,*,/(((((###,                    (  .    ";
+			escribir"   ,.          /(#(##(((,**(*%%%%%%%%%%%**,*,%(((#(##(*                   (  .    ";
+			escribir"   ,.         .(#(##((#,,,,,(%%%#%%#%#%%%*,,,*(((((##((.                  (  .    ";
+			escribir"   ,.         (##(#((#*,,(,*/,/%(//(/,/(//,/,,(((((###((                  (  .    ";
+			escribir"   ,.        /(#(((((/,,,,,%#(#/##(,(##/(#*,,,*(((((((#(.                 (  .    ";
+			escribir"   ,.       .(##((((/,*##,((###(####((#####/*(,/((((((((/                 (  .    ";
+			escribir"   ,.       (#%#(((/,,,,,*///((########((///,,,,(((((((((                 /  .    ";
+			escribir"   ,.      (#(#((((,,(*,,/,,*////******///(/,*(**#(((((((.                /  .    ";
+			escribir"   ,.     *((#((((,,,,,*/,**,(#*,*(,*(*,,/,,/,,,,*%((((((/                /  .    ";
+			escribir"   ,.     (((((((*,((*,*.%%%#%##,**.%%%#%(%*.*(/(,/%(#(((#,               /  .    ";
+			escribir"   ,.    #(((((#,,,,,,* /%%%%%%/    *%%%#%#, .,,,,,(#(#((((.              (  .    ";
+			escribir"   ,.   /(((((#,,//,,,  .%%%%%*      ,#%%#%.  *,*#,,(#(#(((/              (  .    ";
+			escribir"   ,.  *(((((#,,,,,,/    (%%%/        #%%%*    /,,,,,###(((((             (  .    ";
+			escribir"   ,,  .((((#,*/(,,,    /%#%#%.      *%#%%%.    *,(*(,(#(((((/            (  .    ";
+			escribir"   ,,      ,*,,,,*,   /%#%#%%%*      (%%##%%#.  ./,,,,,(#((((*(##%. (#.   /  .    ";
+			escribir"   ..        ./(/.. *&@@@@&,(&      . ##*#&&&@&* ./*,,*..      (    /(    /  .    ";
+			escribir"   ..                                                        .&, .. *#    /  .    ";
+			escribir"   ,,                                                                     /  .    ";
+			escribir"   .//((((((((((((((((((((((,                   ./((((((((((((/(/((((((((//  .  ";
+			escribir"   ..................  ..............................       ..................    ";
+			escribir"   ...........................................................................      ";
+			Escribir Sin Saltar " " ;
+			//	//"12 basto";
+		212:
+			escribir"  ,.............           ............            ...........           .............";
+			escribir"  ,.............           ............            ...........           .............";
+			escribir"  ,                                                                                  .";    
+			escribir"  *  .#(  ./ /@.                                                                     .";    
+			escribir"  *   #(     .#                                                                      .";    
+			escribir"  ,   #(   .((                   ..    ,***  ,***,    ..                             .";    
+			escribir"  ,  .,,  ,,,,,.,***,,            .*,* **//#//((//* .**,                             .";     
+			escribir"  ,           *,,,*,*/#/            /#%###############.                              .";     
+			escribir"  ,          ,,,,/(####(*.          .(((*,,,,,,,,,,,(*                               .";     
+			escribir"  ,        .(#######(**,**          ,,***,.,*/*.,**,**,                              .";     
+			escribir"  ,        /###((*,******/         ,*,**,,,,.,..,.,,,*,                              .";     
+			escribir"  ,        ,*,*,*,,,*(#(#/        ,****,,,,,,,,.,*,,***.                             .";     
+			escribir"  ,        .****/##((##%%(.       ,*,,**,,,,,,,**,,/*,*,*                            .";     
+			escribir"  ,           ,(#(####%%%%,      **/,/***,,,,.,.,****,**,                            .";   
+			escribir"  ,            .(##(##%%%,       **,*/%##,,.,,,,,.(*/*,*,.                           .";  
+			escribir"  ,            .(#(#####(     .,*,***(*/#%###(##%%(/##(**,,                          ."; 
+			escribir"  ,            .(#(#(###//#((#/*,/,**#%&#/***//*/#&&#%%(,***,*,.                     ."; 
+			escribir"  ,             ((#####(##(#((/*/%,*/%%%#%%%&&%%%#%%%%%#/***,**#((*                  .";  
+			escribir"  ,             .####((####((#/**(**/%%%#%%#%%%%%#%%%%##/*//***(#(##*                .";   
+			escribir"  ,          ./#(###(######((##**##*/######%%%%%#%######*(/***(#((####*              ."; 
+			escribir"  ,         .###((####((######(#*/#**##%#####%#######(**,(%**#(##(#(##(#*            .";  
+			escribir"  ,       *((##(###########(####/*(**/############(**/*,****##(##((###((#(*          .";  
+			escribir"  ,     *#####(###########(,###(#(/#(,(########/******(#(*/#(###(#(#%#((####,        ."; 
+			escribir"  ,    ,(##(##((##########(.(#(#(#/,**,(##(/***,/,,/*/%*,/#(#(##(###((((#####/       ."; 
+			escribir"  .    /(###(((##((###(#(## ,##(#(#**#/,*/***/*******/*,*########((((((#(((####      ."; 
+			escribir"  .   .#(##/,,*,,,/(###((##/ ,#((#(#*/(**/*****/((*(#(**###(##(*,/#(/,*(###(##(,     .";
+			escribir"  .   *#(/*/%/###*,*(######(  *(##(#(**(*/**(####*,*%**(##(##*,/###/*/#**((#(((/     ."; 
+			escribir"  .   ,#**(*(%%#*,,,.,,.,/#(   .(#(#((*@**(#####(*,(*,/##((#/*(###%##*/***(#(#(/     .";  
+			escribir"  .    **((**/(/,,,,,,,,,(#/     ,###(***,(#####(**/*,,,,,,,,*(%#%##%(*(/,*(#(#*     .";  
+			escribir"  .    *,#,*****,**,,,,*(((      *//**/***//**/**(**/*,*,,,,,,*((//*/,//(,,/(#(*     .";  
+			escribir"  .    *,(****/,(####*,**,       /**/***//**/**/*/**/*,*,(((/*,/*****,*/#*,*(#(*     ."; 
+			escribir"  .    **#/****/####**,#*.     .(#####/****/#%%#(**,**######(***,*,*****/,,*(((,     .";
+			escribir"  .    *,/**/*,*####*****.    .#######/,%/*/#%%#(,/%*,######(/#/*******/#/,*(((.     .";
+			escribir"  .    .,*%****,,*,*,/(#*    .(#######***,*(#%##(*****######(,****,********,##(      ."; 
+			escribir"  .     *,*/,****,,,*/(,.   .#########/(/*,(#####*/##*(######*,,**,*,***#/**#(       ."; 
+			escribir"  .     .*,##***,,,***,,   .(######(#/,****######/*,*,*#######*,****,******/#.       ."; 
+			escribir"  .      .*,**,****/#/,   .##########*,%#**(#%%##(,*%(*(######(##/*,,,**#/,*         .";  
+			escribir"  .         *,*(*,*(%/,    /%###%((##(***,*(##%%###/*,**/#####(#(*,*,*,**/**.        .";   
+			escribir"  .          .**,,**,     /####%(####(**,**(##%%%#((**((/#########*,**,/,,,          .";   
+			escribir"  .             .*,      *########((#**((//##%%#%##(****,(##########*,,,.            .";   
+			escribir"  .                     ,###(###((###*%(*/%%%##%%#%#(,(%**##########(                .";   
+			escribir"  .                    .(###(##((#(#***,*(%#%%/(#%#%%/****(##########(               .";  
+			escribir"  .                    (####(######///**/#%%#/,**#%###*##/*(##########.              .";   
+			escribir"  .                   ,(##########(,**//#(********,/(#(*//**##########*              .";  
+			escribir"  .                   *##########(**%#**/***/***,,*****/,*#,*##########              .";   
+			escribir"  .                   *##########***,*/*/(#%%##%%%#%#(/****((/#########,             .";  
+			escribir"  .                   /#########*((**/#%%%%%%%%#%%%%%%%%#(/*/,/##(#####/             .";   
+			escribir"  .                  /%########*/****##%%%%%#((((###%%%%%#/*(#*/#######(.            .";   
+			escribir"  .                 *#%######(*/#***%%&%#####(((((#####%%%%(****/#######(            .";   
+			escribir"  .                *########(*/****(#########(((((######%%%(*((/,*#######/           .";   
+			escribir"  .               .(#######/***((*/(#######((((((((########((*,##**#######*          .";   
+			escribir"  .               (#######*,(#,,*((((#####(((((((((((######(((***,**/######*         .";   
+			escribir"  .              /######(*******(((((######((##((((((######((((**#(*,*(#####,        .";   
+			escribir"  .             ,######(**(/(**(((((######%#((((((((#########(((**/#/**(#(/          .";   
+			escribir"  .             *#####(,*/**,*((((######(#@&((((((((#&%########((****,,,*            .";   
+			escribir"  .                  ......,,**#&@&&&&#,,@(           (# .#@@@@@@&#****, ,#((#, .//. .";   
+			escribir"  .                 .,**,.                                       **    */    ,       .";
+			escribir"  .                                                             .%      */    ,      .";
+			escribir"  .                                                            .%&##.  /&,   ,       .";
+			escribir"  .                                                                           ,      .";
+			escribir"  .,.............      ............            ...........           .............   .";
+			escribir"  ,.............           ............            ...........           .............";
+			Escribir  Sin Saltar"";
+			//	//12 espada";
+		112:
+			escribir "**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **.**  ** ";                                                                              
+			escribir "**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **.**  ** "; 
+			escribir "**                                                                 ** ";     
+			escribir "**     ,%  ,(/&                ,  .  (                             ** ";       
+			escribir "**     #     (             *,*,.*((,*,,((,,.,,,.                   ** ";   
+			escribir "**      #. .#///              ,*(#%%%%%%%%#(**                     ** ";   
+			escribir "**           .//,            (#/*,...,,/(%#.                       ** "; 
+			escribir "**            /((,          ,/%&(,*%%(,.,,*,                       ** ";    
+			escribir "**            ,((/          **..,.......,,**                       ** ";   
+			escribir "**             (((*        ,**,.,....,...,*,,,                     ** "; 
+			escribir "**             ,(((        **,,,........***,,,                     ** "; 
+			escribir "**             .(((*        .,,,*.......*,...                      ** "; 
+			escribir "**              *(#(*/#**,,,,#/***,,,,***/#/*****,                 ** "; 
+			escribir "**             *(((#%%%#,****#%#((((##%##***,*(%#%%(.              ** "; 
+			escribir "**         .#%##(#(%%%%%/,,*/%%%%%%%%%%****/%%%#%#%%#,             ** "; 
+			escribir "**         *#%%%%(((#%%%#%/,**(##&##%&#(***(#%#%%%%%%%%#.          ** "; 
+			escribir "**      ,#%#%%#(#%#(((%%%%%%/*,*######//,**(%%%%%%%%%%#%#%#,       ** "; 
+			escribir "**   .###%#((#%##((((#%%%%%%*,,(#(**(%***#%%%%%%%%%%%%#%%%##*      ** "; 
+			escribir "**    /((###%%#(%%#%####*,(#%#,,/*(%%%(**/%%#%%%%%%%%%%%%%#%%%#.   ** ";  
+			escribir "**   .###(%######*/(((###%####*,,%%%%%***##%%%%%%%%%#%%%%%%#%%%(   ** ";     
+			escribir "**   /%#(%#(*%,/(//,...,,#%%%##*,##**(,*/%%%%#%%%%(*,,,*#%%%%%#%.  ** ";       
+			escribir "**   /(##%(,,*(###......,#%%%%%**/(##(**/%%%(/**(/*/##*,,(%#%%%#   ** ";      
+			escribir "**   *%%%#*/(*(#((/,*,(*(**/##%/**###(//****.,......###/,,#%#%#/   ** ";     
+			escribir "**   #%%#,*,/(#(((*/* #(,***(*,#/**#/,,*,/,,,,****(##((**/%%%%.    ** ";      
+			escribir "**    *%##*(//#(((/*,*  ,###%##**,*,,*,,,(#%%#*.**,(#((#*,*%#%#*   ** ";    
+			escribir "**     *%%*,,*(#((/*/, *%%%%%%(,*,***/*,,/%#%%%**,,/###((,*##%#.   ** ";   
+			escribir "**       .%/*#*#(((*** *%%%%%#%**,,#%%%(*,*#%%%%%/***#(#(#**%#%.   ** "; 
+			escribir "**         **,*((((*/,,#%%%%###,,,/%%%%#*,*(%%%%%%*,,(####,/%#,    ** "; 
+			escribir "**          ,,//(((**.%%%%%%%%(,,,(###%#(,,*#%%%%%#,,*(((/,#/.     ** "; 
+			escribir "**           ,*,((*..(%%%%%%#%*,,*###%%##/**/%#%%%%#,**((**.       ** "; 
+			escribir "**              .   /%%%%#%%%/,,*/#######(,,,#%%#%%%%***,,,        ** "; 
+			escribir "**                 .#%%%%#%%%*,,,(#((#####/,,*#%%##%%#.            ** "; 
+			escribir "**                 /#%%%%#%#*,,,/((**#(,*//,,,/%%%%#%#%,           ** "; 
+			escribir "**                .%#%%%%%#(*,,,/****,*****/*,,/#%%%%%%%.          ** "; 
+			escribir "**                *%%%%%%%%*,,,(%%#%%%%%%%%%(,*,(%%%%%%%#.         ** "; 
+			escribir "**                (%%#%#%#***,/,***,**,,**,,**,,*(%%%%%%%/         ** "; 
+			escribir "**                #%%%%##*,,*****##*,,*,*#**,**,,,(%%%%%%#,        ** "; 
+			escribir "**               *#%#%#%/,*,***%(*,%(,*#(*(#/,**,*,#%%%%#%#.       ** "; 
+			escribir "**              *%##%%#*,,**##*/%%%#****%%##*%%(,,,*(%%%#%#(       ** "; 
+			escribir "**             *%%%%%%*,,,**(##%%%%%(  *#%%%%%#****,*/#%%%%%,      ** "; 
+			escribir "**            ,#%%#%%/*,,*. .#%#%%%(.   (%%###.  .,,,,*%%%%%%,     ** "; 
+			escribir "**          .%%#%%%(,*,,*   (#%%%*      /####.   .*,*,*#%%%%%,     ** "; 
+			escribir "**           /%%%%%#*,,,*    ,%%#(        *%%#.     *,*,*#%%%#%/   ** "; 
+			escribir "**          *%#%%%%#*,,,,   .(%%%%*       (#%%#.     *,,*,(%%/.    ** "; 
+			escribir "**          (%%%%%%(*,,*   /%##%%&,      /@%%%%%%%.   .**,,*.      ** "; 
+			escribir "**                  ,,. ,@@@@#  #(        */  /&&&@@&* ,#/#(  #,   ** ";  
+			escribir "**                                                     ,,    (,    ** "; 
+			escribir "**                                                     %*,/  (/    ** "; 
+			escribir "**                                                                 ** ";  
+			escribir "**.**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **  ** ";                                                                              
+			escribir "**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **.**  ** "; 
+			Escribir Sin Saltar " " ;
+			
+			//	//12 oro";
+		312:
+			escribir"     .......................................................................... ";
+			escribir"  .   /********************************************************************/  , ";
+			escribir"  .  /                                                                    ..  . ";
+			escribir"  .  /   ,%  */,&,                                                        .,  . ";
+			escribir"  .   /    %.    (.   ./#//((,.                                            ,  . ";
+			escribir"  .   /    %. .(//*.(***/*,**/**(  .(.    //   ,**    .*                  .,  . ";
+			escribir"  .   (           *(//***,(,,***/,/  .#//*##*/,(#*//,**                    ,  . ";
+			escribir"  .   (          .#*//,*/%##/(**//*    %(#(##(##(((%#                      *  . ";
+			escribir"  .   (           *****//(**/(***,(.   /*(*.*/*.,**,*                      *  . ";
+			escribir"  .   (            */**/**,**/**/(    */,.*......//*,.                     *  . ";
+			escribir"  .   (              ,((*****/(/     ./,*.*,,.....//,*.                    *  . ";
+			escribir"  .   (            /.                */**,,*,...,**/,//                    *  . ";
+			escribir"  .   (           /,* .*.             ..*(......,*/*,.                     *  . ";
+			escribir"  .   (         ***(,,*,,        .,*,,/%/,,***/*,*(%*,*/*,.                *  . ";
+			escribir"  .   /          *,./.,,,     */,,,,,,#%%#%%#%%#%%%%(///,*((((             /  . ";
+			escribir"  .   /           .#(/##    .(((*,(,*,%#%%%%%%%%%%%#,,,,,*#(((((,          /  . ";
+			escribir"  .   /          #%###%%%%#(((((/,,,,,#####%####%##*,/*/,(((((((((         /  . ";
+			escribir"  .   /          .*#(((/(#//#/(#(**/,*(####%#%(*/#(,,,,,((#(((((((#.       /  . ";
+			escribir"  .   /         /**#(#((##(,/((((((,,,*%#%#(*#%%%/,**,,#((###(#((((#/.     /  . ";
+			escribir"  .   /        **,(#######/,(/(%(((/,*,/#*(#%%%%#*,,,((###%###(((((((#/    /  . ";
+			escribir"  .   /        *,/#%######/**,((#/((/,,,(%%%%(*/,,**#(####((##(###((((((   /  . ";
+			escribir"   .  /.      ./**#%%#####/*/((/##((#**/,%#*(%(*,,,((((##((%/*(*#((#((((*  /  . ";
+			escribir"  ..  /.       ,**#%%%%##%(,**(%(, *#(,,,/#%##(,,,/*,* ,.*%%#%(*(#((#####  /  . ";
+			escribir"  ..  *.       ,/*(%%%%%%#/*(((%/  .%#%%%%%%#%#%#%(*#(,,..*%%%%/**#(##%(#  /  . ";
+			escribir"  .   *.        ,**#%%%#%#*/*(#,   %#%%%%#%%##%%%%#%%%#/*,#%%%%(,,((((#(.  /  . ";
+			escribir"  ..  *.        ,**,##%#%**/#.    (((//,,(####(*,(((####,*%%%%%(,,/#(#(/   /  . ";
+			escribir"   .  *.          *******/,     ,(/((((**%####(**(((#((///%#%%%#,*,#%((*   /  . ";
+			escribir"   .  *.           ..,/**     .#(((((#,**####%(*,*#((((((,(%#%%#*/##((/    /  . ";
+			escribir"  .   *.                      (((((((/*/*######/**##(((#//*#%%#%,**#(*     /  . ";
+			escribir"  .   *.                     (#/((((#,,*/(%%###/**/#((((((,(%%%#*/#*       /  . ";
+			escribir"  .   *.                    /#((((((//**(#######***(#((((#/**((***.        /  . ";
+			escribir"  .   ,.                   (#((%((((/**,###/(##(/***(((((((((***           /  . ";
+			escribir"  .   ,.                  //(#(((/(#,**(*//**//***,**#((((((((             /  . ";
+			escribir"  .   ,.                 ((((/(/(((*/,*//,*//*,*/#*(,(((((##%((            /  . ";
+			escribir"  .   ,.                *((((((((((***/(#%(*/###(/(,*,((((((%#(,           /  . ";
+			escribir"  .   ,.               .(((#(#(((#*/*/%##%##%##%###///*(((#(##(/           /  . ";
+			escribir"  .   ,.               (((##(((/(,*,/#/,*,*#/**,*,/#*,**#((###((           *  . ";
+			escribir"  .   ,.              .((((#(((&,*,*(/*,,,/(/**,,,*/(****((((#%(,          *  . ";
+			escribir"  .   .,              ,((#(#(/(,/,/(((((##(*(#(((((#(#,*,/#((#(#/          *  . ";
+			escribir"  .   .,              *((#(((/*,*/%((((##%%#%%#((((#(%#*,**(((((/          *  . ";
+			escribir"  .   .,             /(#(#(#/(/,(#%(((((##%###%#(((((%##*(/((((((          *  . ";
+			escribir"  .   .,            /((((/(*,**%%%%#(((%%%%%##%#%(((#%#%**,,%((((/         *  . ";
+			escribir"  .   .,           /(((((/****#%%#%#(((#%#%%##%##(((#%%%#,/**(#((((.       *  . ";
+			escribir"  .   .,          ((((((/,**,%#%%%(((((#&######&%(((((#%#/,/**((((/.       *  . ";
+			escribir"  .    ,              *(,*,** *@@@&&&*#@.  .   *@*.%@@@@@&(*//    .        *  . ";
+			escribir"  .    ,                                                                   ,  . ";
+			escribir"  .    ,                                                      /.   #       ,  . ";
+			escribir"       ,                                                    ./     #       ,  , ";
+			escribir"  ..   ,                                                     .*.   ,       ,  , ";
+			escribir"   .   /*******************************************************************/  , ";
+			escribir"    .......................................................................... ";
+			Escribir  Sin Saltar"";
+			//	//"11 copa";
+		411:
+			escribir "................................................    ........................   ..";
+			escribir ". . .,.....,.................,.                      .,.....................,,  ,"; 
+			escribir ".  ..   *#   *%     .,****,..                                               ,   . ";
+			escribir ".  ..   .%   .%  /#%%#########(.      ,(##(#%###(((%(.                      ,   . ";
+			escribir ".  ..   .%   .%  ,***///(////**      ,%#%##%#%#%%%#%%%##(                   ,   . ";
+			escribir ".  ..            .*/*/*/#%%###*        (##((((((((#(%%(.                    ,   . ";
+			escribir ".  ..             .*/*/*##%##,        .(/**,,*/*,,//*(.                     ,   . ";
+			escribir ".  ..               .***###*          ,**,*,,,...,(**,*                     ,   . ";
+			escribir ".  ..                 (%%#.          .***,*/*,,,.,,(/(**                    ,   . ";
+			escribir ".  ..            ./##%@#%%%(((.      *///..,,,.,.,(****/                    ,   . ";
+			escribir ".  ..             .(//**//(((.         *((*,....***///.                     ,   . ";
+			escribir ".   .       **.                      ..,,((,,,,,.*(#(*,..                   ,   . ";
+			escribir ".   .      ..,*(*(/,            .#(((#/**,*(#(/(#/*,,,((((((#/              ,   . ";
+			escribir ".   .   .(%#/*****(###(##(*   *%%%&%&(#(#//***/**///(#(#(#%%#%%(.           .   . ";
+			escribir ".   .  %#%%%%##%###%,,#%(%###&(((%&%%(((%#%%%%%#(((((((#%#%%%##%#(#*        .   . ";
+			escribir ".  ..  ,,*********/%*,***/###(#%%#%#(((%%#%%%%#((((((##%#%%#(########*      .   . ";
+			escribir ".   .  .*,*,*&%/**/#**/,,/#%#######(((%%%%%%%#((((((((#&%%######(####(#/    ,   . ";
+			escribir ".  ..   .********,(#****,****%####%((#%%%%#%%((((((((##(%%((#########%%%%.  ,   . ";
+			escribir ".   ,    /,/,*,**,#***/*****/*/#(#(((%##&%(**(((((######(.  .,((#%%%%%%#(   ,   . ";
+			escribir ".   ,    */###(/*#(*/**,/,,**,((###%#%%*,,**,*#(((#####*      .#%%#%%%%#,   ,   . ";
+			escribir ".   ,    ***,,,*%%(./*,*./,,**/##(##%%/,*....((((/%(*         .%%#%#%%#/    ,   . ";
+			escribir ".   ,   .***((*#*/../*,*//*,**########(/,,*,,,,,,**,*.        /#%%#%#%*     ,   . ";
+			escribir "    ,   .*/**,/,*******(*/*,,**%((##,/(&######%#((((#/(/     /%#%%%%#,      ,   . ";
+			escribir ".   ,           ,//,*,////*,,**//**(/*#(####(((((((%&%(##(*/%%#%##%,        ,   . ";
+			escribir ".   ,          ,*,/****,***(/,*,/*,/(*%((((((((((((((,,..,..,*#&(.          ,   . ";
+			escribir ".   ,        .(#**//,*/***/(*(**,,*(#%#%#((#(((((((((#,/.,*/((,             ,   . ";
+			escribir ".   ,        /##(,**,***,,**/(##((*#%##%%#((((#(#(((((((((%@%#(**.          ,   . ";
+			escribir ".   *       ./##%##%(/#####(####/*/%%%#%%%%#(((((#(((((((#//(&(*****.       ,   . ";
+			escribir ".   *       *,**#%#%######/**,**,*%%%%%%%#%%%#((((#((####((**,*,*,****      ,   . ";
+			escribir ".   *   ***,%*,*(#(*******(**,*,*(%%%%%%#%%%%%############*(/,*,*,,//*/.    ,   . ";
+			escribir ".   *  (,**/#(**#((*******,*(#/,*####%%%%#%###############,*(***,***//,*    ,   . ";
+			escribir ".   *  (***#(#(*(#(*,*/,,*///,*,*##%%%#%%(**/######(####/##((,,*,,,,*(**,   ,   . ";
+			escribir ".   *   /*/ ,##%###**(,****,***,*/%%%%%%%%///****/((((**#(,,/*,*,*,,///*#/  ,   . ";
+			escribir ".   *   .*/    ,,(##*/***/*******/#((((((((/*********,*,*/*//#(,*,*,*/*,#(, ,   . ";
+			escribir ".   *   .**.         **(##(*/#*/(/(((((((#(#************,,,,*&(&#***//*,(#* ,   . ";
+			escribir ".   *   ****.       ,**(#((##/**,/,#(((((#(#***********(,,***##*(**//**/##, ,   . ";
+			escribir ".   *   ***,       ,/,*,   .*/***/,/(((((#((,**,*//////(,*****,**,*****##*  ,   . ";
+			escribir ".   *   .//&@@#    ,/**/.        ,  ,((((((..  .#%%#%#(#%**,,*,*,***,,(#((  ,   . ";
+			escribir ".   *    *@#&@(     ***,        .(.  /((((/     #(((((/(//(**********,.%#(  ,   . ";
+			escribir ".   *      #&%.     .%&@@@#     *,#  .(#(#.      ***/((*,(*//********.(##(  ,   . ";
+			escribir ".   *                 %#@&.    /  (/((((((/.      ///*////*.**/,,*,*/###%.  *   . ";
+			escribir ".   *                 ,&*     /@@@(#@&%&&@&,       ,/*,*/(,* ,%(*,,**,#/    *   . ";
+			escribir ".   *                           .,*,..  .*.           /*****#####%(*,****   *   ."; 
+			escribir ".   /                                                .*,*,*##%(%#%(*,**.    *   . ";
+			escribir ".   /                                               **** ./%#%#(*****,      *   . ";
+			escribir ".   *                                             /*/. #(##,    ,***        *   . ";
+			escribir ".   *                                         //*,**. ./.    ./**/          ,   . ";
+			escribir ".   *                                       .%#** *        **,**.,/*  ,/*   ,   ."; 
+			escribir ".   *                                     #%(#&@&       .#%(#&.   (,   (,   ,   . ";
+			escribir ".   *                                                  .&%&@&&/   (,   (,   ,   . ";
+			escribir ".   *                                                             ..   ..   ,.  ."; 
+			escribir ".   *.........................                     ........................,*   ."; 
+			escribir "................................................    ........................   .. ";
+			Escribir Sin Saltar " " ;
+			//	//"11 basto";
+		211:
+			escribir"    .................................................................................. ";
+			escribir"    .................................................................................. ";   
+			escribir"    .                                                                                ,  "; 
+			escribir"    .    .#.   ,%                                                                    ,  ";  
+			escribir"    .     #.   .%                                                                    ,  ";  
+			escribir"    .     (.    %                    .*((((//(((/((*.                                ,  ";  
+			escribir"    .      .   ..                /((##%%%%#%####%#####/                              ,  ";  
+			escribir"    .         ,*,,,*//,           .(##(((((((((((/##(.                               ,  ";  
+			escribir"    ,        *,,,,/###(**          .(///,,,,,,,,,,,/,                                ,  ";  
+			escribir"    .        ***(###(/**,,         ,,*,*,,,*%(,,*#%/,,                               ,  ";  
+			escribir"    ,       *#####(*,****/.        ,/,,*,,,,,,,,*,,,,,,                              ,  ";  
+			escribir"    ,       /##(*,,,,,/##(.      .***,/,,,,,,.,,,,,***,                              ,  ";  
+			escribir"    ,       ,**,,,*(##(#%%%(.    .***,,**,,,,,**,,****                               ,  ";  
+			escribir"    ,         .***######%%%(.         .**,**,,,***..                                 ,  ";  
+			escribir"    ,             .(#######/     .*(#%%#***,,,,**,//*.                 .**,   .(     ,  ";  
+			escribir"    ,              /####(##########%%%###%(//*/(%%#%%%#(#/.     .*/###(*/*((((#/     ,  ";  
+			escribir"    ,              .####(###(###(#####%%%%#%%%%%#%%%#(######,(####/,,/,,,,,,,/#(*    ,  ";  
+			escribir"    ,               .%##(##############(#(###(/,*,,/##########((##,,(##(/*,,,,*(((.  ,  ";  
+			escribir"    ,            ,((#####(########(##########*,,**,,(##########/,,,,*/*,,,*(*,,,,    ,  ";  
+			escribir"    ,          ,(##(###(##############(###(#(#*,,*,,,((###(####*,,,*,*/,,,,****,,,   ,  ";  
+			escribir"    ,          /#########(######(##########(##(,,,*,,/########/,,,**,*,*,,,,**,,,    ,  ";  
+			escribir"    ,         *######(##*,. (#(################/***,,*#####(*,*,,*,*,,****,,,,,,,    .  ";  
+			escribir"    ,         /##(#####(.    (#(##%####((###(#/.,....*##(*###*,,*,,,,(/*,/***,,,,    .  ";  
+			escribir"    ,          (#(#(###/     *(########(##(#(#/,..,..(##/,/(/,,,,,,,/#(./%(*,,*,*    .  ";  
+			escribir"    ,           (######(.    ,#####%####((######(****###(*,,,,,*,,*,((.  ,,*,//,,,.  .. ";  
+			escribir"    ,            /####/****. .####//%%%%%%%%%%%%%##,(#(*((,,,,,***,,*((. ,,.**,,,    .  ";  
+			escribir"    ,              /((*,*//*,,,,*/.(%%%%#%%%%%%%#%(,/##/,,**,,,*,***,,*(. .          .  ";  
+			escribir"    ,               .*,/,,........,/###############(*,/(#(,,,,,********//,           .  ";  
+			escribir"    ,                 .. .**...,,*%####%######%%%(######***,,,**,,,,,*,,,*,          .  ";  
+			escribir"    ,              .,,,,*,*(###/,,###%%%%%%%%%#%%%##%%%##*,,,,*,,****,,,,/##,        .  ";  
+			escribir"    ,           ,*,,,,,,,((###*,,*,,,****////////**,,,,(####(/*******/######/        .  ";  
+			escribir"    ,         ,,,,,,,,,,,/##(,,,**,,,*,,,*,,,,,,*,,,,*,,*/(####((###((#%%%/,*.       .  ";  
+			escribir"    ,       .*,,,,,,,,,,,*,*,,,*,,**,*,,,*****/(((//**,**,,,,,,,,,,,,,*/##/,,.       .  ";  
+			escribir"    ,       ,,*,,,,,,*,,((#/,,*//,*,/,,***(%#%%%%%%%%#/,,,,***,,,,,,,,,,/##,/(/,,.   .  ";  
+			escribir"    ,      *,**,,,,,,,,*/*,,,,*%%#*,,,**,(%%%%%%%%%%%(,,*,,,***,,,,,,,*,*####/,,,,   . ";   
+			escribir"    ,    *#,*,*,,,,,,,,*,,**,,,,*,*,,,,*,*/%#%%%%%%%##,,,,,,,,,,,,,,,,,**%##(,,,,,   . ";   
+			escribir"    ,   .((,*/*,,,,,,,,**(##(*,***/(**,,,,,(#%%%%%%%%#,,,,,,,,,,,,,,*,,*%###.,,,*.   .";   
+			escribir"    ,   .((,***,,,,***(#/,,,,,*/#/***,,/(#/,*(####%%(/,,,,,,,*,,,,,,,,/##(.   ,,,    . ";  
+			escribir"    ,    (/,*/*,,,*/*,,**,,,,,,,,,,,,,,*,*,*//**,,,*/*,***,***,(((,*.         ,,,    . ";
+			escribir"    ,    ,(,***,,,,**,,,,,,,,,,,*,,*,,/*,*,(#(######(,,***,,*((,  ,*.         ,,,,   . "; 
+			escribir"    ,     //,,,,,,,,,,,,,,,,**/*((##*,,,*,,####(#####*,,**.       *,,       .*,,,*   . "; 
+			escribir"    ,     (#/,,,,,,,,,,,,,,,*#%#(###/     .((#(####(#            ,*,,,      .(*,,.   . ";  
+			escribir"    ,    *###(,,,,,,,,,,,,,*/(######,      .(###(###/            ,,,,,    .&@&#%*    .  "; 
+			escribir"    .    *####,,,,,,,,,,,,**,****,*.         /#(#(#(,          .(%/,*      ##(@,     .  ";  
+			escribir"    .     /##(,,,,,,,,****,*/**,*.            .((###,  %(      %@&(%.       /&/      . ";  
+			escribir"    .      .(,,,,,,,,,**/,***,*.                #(#(#. ,       /%(&,                 . ";  
+			escribir"    .      ,*,,,,**(/**,,,,,              .,    #(##(#/,. ./,   .#.                  . ";  
+			escribir"    .      **,,,,(##/**,,,*                ..  (%%##%&&*#/,%                         . ";  
+			escribir"    .       .,,,*###((. ,*,,                    (@,   .*,                            . ";  
+			escribir"    .         .*,(/#####, *,,,                                                       . ";  
+			escribir"    .          .,,. ,/((#* .*,*,..                                                   .";   
+			escribir"    .           ,,,,,    (#* *,,,,,.                                                 . ";  
+			escribir"    ..          .,*,,,.          *(%@&.                                              . ";  
+			escribir"    ..              &@@#         %@@@@@&.                                            . ";  
+			escribir"    ..             ,&@@@&*         ..,,                                  #(   .@.    . ";  
+			escribir"    .                                                                    #/   .@.    . ";  
+			escribir"    ..                                                                   #(   .&,    . ";  
+			escribir"    ..                                                                               . ";  
+			escribir"    ..................................................................................";
+			escribir"    ..................................................................................";  
+			Escribir  Sin Saltar"";
+			//	//"11 espada";
+		111:
+			
+			escribir "**.**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **  ** ";                                                                              
+			escribir "**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **.**  ** ";                                                                            
+			escribir "**         .                                                       ** ";
+			escribir "**     #/.@.                   ..,,.                               ** ";
+			escribir "**     // &.             /###/*,******(##*                         ** ";
+			escribir "**     /( &,,            */####%#%%####%/                          ** ";
+			escribir "**         ./ .           *(**..,,...,,,.                          ** ";
+			escribir "**           /((*        .**,,*.,**.,*(**                          ** ";
+			escribir "**            /((*      ,,**,........,.**,                         ** ";
+			escribir "**             *((/     .**,,,........,,,,                         ** ";
+			escribir "**              *(((      .../*..,..,.                  ,          ** ";
+			escribir "**               /((/  .*****###,,,,/#,/*.            ,,*/*        ** ";
+			escribir "**               *((#%#%#%#**,,*//*,**#%%%#%#* /(##/,,,,,,(/,      ** ";
+			escribir "**              *#%#(((%%%%%#%#((#(/#%#%%%%%%#####/,,/(#(**,*(/,   ** ";
+			escribir "**             #%%%%#(((%%%%%%%%%%####%%%%%##(##*,,,/#*,,/,,,,,.   ** ";
+			escribir "**           (#%%#%##(##%%%%%%%%%%(###%%%##(((*,,,,,((,,*,,,.,.    ** ";
+			escribir "**        .(%#%##%%%%#(((%%#%%#%%%%####%#####*,,,,/,*((,,,,,,,.    ** ";
+			escribir "**       .##%%%%%%%%%%%(###%%%%%%%##/..####/##/.,,,**,(/,,*((/,    ** ";
+			escribir "**       *#%#%%####(*,*#/,..,(%%%%%(,..#(####/,.,,,*  .#%(,,,,,    ** ";
+			escribir "**       *%%%%%(,**,*/......,#%#%%###..##(###,,,,,,,    *,,/%,,,.  ** ";
+			escribir "**       .(%%%#*****,*...,**,*(##%#((/((#(/(#*,,,,,,,.  .*,,*,,    ** ";
+			escribir "**        .%%#(****((((##,,*##*,,,*,,,**,/##(*,,,***,,,..          ** ";
+			escribir "**         .%%#,**/((((##*,,,,,,,*,,((,,,,,*##(#(#((///(* .        ** ";
+			escribir "**           (#****((((##*,,,,,,,,*,((#,,,,,,,,*(#(/,,,****        ** ";
+			escribir "**        .,,,**,**((((##**,,,,,,,,,*##(%%####/**,,,,(##%#/,       ** ";
+			escribir "**      ,,,,,,,****(((##/,,**,,*,,,*,*(###,,,/##%%%%%%###,,,       ** ";
+			escribir "**    .,,,,,,,,,,***((#/,*,,*,,*,*/(((####/,,,,,,,,,,,,(#(*,,..    ** ";
+			escribir "**   ,,*,,,,,,,,*%#%((,,,**,*/(((((((((##(/,*,,,,,,,,,,*##*,.,,,.  ** ";
+			escribir "**  .,*,,,,,,,,,,#%#**.,,,,,.*((((((((((#*,,,,,*,,.,,,,,(%*  ,,,*  ** ";
+			escribir "**  ,,,*,,,,,,,,,(#%/****,,,,***((((((((,.,,,,,,,,,,,,/,#,    ,,.  ** ";
+			escribir "**  .,**,,,,,,,,,#%%%%%%%###%%%###(((((*,,**,*,,,,,..,*.      ,*   ** ";
+			escribir "**  ,,,*,,,,,*(#%(,,,,,*,**,***(%%%#%%%%/,*,,***.,. .,        ,,   ** ";
+			escribir "** *#*,*,,,,,,/#(,,,,,,,,,,,,,,*#%%%%%%(,.,,,..     .,,     .,,,.  ** ";
+			escribir "** (##*,**,,,,,,,,,*/(###(,,,,,,#%%%%%%#,.          ,,,,     .,,.  ** ";
+			escribir "** /##(/,,,,,,,,,,,###(##(       #%%%%%(            ,,,.  .&@@&@.  ** ";
+			escribir "** .##(#/,,,,,,,,,**,**,,.       ./%#%%*         .&@@#&    ,@#%    ** ";
+			escribir "**  /###/,,,,,,,**,***,,.          *%%%*          %&(&       ,.    ** ";
+			escribir "**  *#(/,,,,.,*,*****,.            %#%%%(.         .,.             ** ";
+			escribir "** . .,,,,,*  .,,,,*.             .&&%#%%&@@@@&,                   ** ";
+			escribir "**  ,,,,,,(. .,,,,,                 /&. .,,%&*                     ** ";
+			escribir "**  .,,,,###((,,,,,,,                                              ** ";
+			escribir "**     .,,(####(.  .,,,.                                           ** ";
+			escribir "**       .,*,/(((#*  .,,,,,,                                       ** ";
+			escribir "**        .,,,,,       ,,***%&.                                    ** ";
+			escribir "**            .,*%.       %@@&#&.                      ,*.  *,     ** ";
+			escribir "**            *@@&(&.                                   &   ,,     ** ";
+			escribir "**                                                      %   ,*     ** ";
+			escribir "**                                                                 ** ";
+			escribir "**.**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **  ** ";  
+			escribir "**.** **.** **.** **.** **.** **.** **.** **.** **.** **.** **.**  ** ";
+			Escribir Sin Saltar " " ;
+			
+			//	//"11 oro";
+		311:
+			escribir"    .   ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*  .  ";
+			escribir"      ..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,..,,,,,,,,,,,,,,..,,,,,,,,,.    ";
+			escribir"    ..                                                                       ..  ";
+			escribir"    .  #                                                                  ./  .  ";
+			escribir"   ..  #  *&  ./(                                                          (   . ";
+			escribir"    .  #  .&   .(    .*/(((//*.                                            /   . ";
+			escribir"    .  #  ,&   .(  ,/**/****/****.        ,///(##///,                      /   . ";
+			escribir"    .  #          (,/****,/**,***%.   ,##(##(((((((#####*                  /   . ";
+			escribir"    .  #         ./(**,/(###/,/(/.*     //((##(##%#((((                    (   . ";
+			escribir"    .  (          *,****/,*#*/***(,     ,/,,,.,,,.*/*,,                    (   . ";
+			escribir"    .  (          .*/*//*****/**(.      *(..*......**,/                    (   . ";
+			escribir"    .  (            .,//*//*/(*.       .*,*./**..../,(*/                   (   . ";
+			escribir"    .  (              .                /*,/..(,..,/,*/,,.                  (   . ";
+			escribir"    .  (             .,/ ,,                ./**,..,(.                      (   . ";
+			escribir"    .  (            ,***,/,/          /(*,(#***,**,(#/,*,                  (   . ";
+			escribir"    .  /      / **, ,**.,....     .#(#((#/*,(((##(/,,,*((((((.             (   . ";
+			escribir"    .  /      #(#,,/(##(%(###, .*((((#(##(#/(%/,,*#,*((((((((((            (   . ";
+			escribir"    .  /    *%#(//(/(%/,#/##%####((((##(((%%%#(((((((##((#((((((           (   . ";
+			escribir"    .  /     /*,*(/,***,/,,,*(#####((#(((#%%#(((((##(%((#(((((((*          (   . ";
+			escribir"    .  /     *,*,/**,(/,,#*,*##%###%(#**////******#((#((#####((((.         (   . ";
+			escribir"    .  *      ****,,/(***/****%#######((/***/#/**#((((#/#%(((((###         (   . ";
+			escribir"    .  *      */(/(***//**/*,*###%#%#%/*/%#,*,**/(/*/*((((#(#((##(,        (   . ";
+			escribir"    .  *      *,,,**((. ***/***####%#,/**((*,**(//#(*/*//(((((#((#         (   . ";
+			escribir"    .  *     .*,*/**(/ **,**/,***#%#*,**.....(###%#%(,**,(#((#(#(.         /   . ";
+			escribir"    .  ,        /**   (,****(,,/,*(//*/,...../%#%%&&%%*(*//((%(%.          /   . ";
+			escribir"    .  ,          . ,*//**///**,*(*(//*(#%%#%#%%%(#%#%*,**((#%(            /  .. ";
+			escribir"    .  ,           /**,*//**//***,*/,/#%#%%%%%%%%#%%##*,**/((%/            /     ";
+			escribir"    .  ,          /##(###****/(######%#%%%%%%#%#%###%%****(%%%%%#.         /  .. ";
+			escribir"    .  .          /(#&#%%(%#####**,(**(%##%###%%#&#(%%*(,%%###(*,,/        /   . ";
+			escribir"    .  .      ***##*,#%****,*,,,,*,,*/,*/*%%(%#*(*/###(%#%%%#*,(*,,.,      /   . ";
+			escribir"    .  .     /,**###/##,*,*,*,***,,/*,##(#//(((#%#%%%##((/**#//*,*,*,/.    /   . ";
+			escribir"    .  .     .***.(#%#(#**,***,*,*,,*((((((((#/*((/,,*,,#,*/,*,,*,,*,,,    /   . ";
+			escribir"    .  .      *(   /%(##,*,(,,/,*,,*/((((((#(*/*,*/,,**,,,*,*,,,,*,*,//    *   . ";
+			escribir"    .  .     /,*.      /,/(#/,***(**(#%#((((#%/,,,*,*,,,,,***,,*,,*,*/(,   /   . ";
+			escribir"    .  ..   ,*,**      // .(((#///,,**%%%#%%%%****/**(*,*,,,*,,***//*((%.  *   . ";
+			escribir"    .   .    **,.     *,*     .****#,((((##(((*,**,**/*(,***,**,,**(/*##   *   . ";
+			escribir"    .   .     ((@@(  (,*,#        .  ,((((##(   ,####%%#*(,,,,,**,*/*##*   *   . ";
+			escribir"    .   .      %(@.   **,         ,  .#((###.   ./****//*(**,,,*,,**###/   *   . ";
+			escribir"    .   .             ((&&/      %*  .#(((,       ,//*///*/#/***,,,####,   *   . ";
+			escribir"    .   .              %#@*    (. * *#((##.        ./****//****/**,*%##    ,   . ";
+			escribir"    .   .                     &@%&(((((((#.,/         /*//**, .##/,*,#.    ,   . ";
+			escribir"    .   .                     *,..(/*.(@/             ./,****##%##**/*,    ,   . ";
+			escribir"    .   .                                           .**,**/%%###%%***.     ,   . ";
+			escribir"    .   .                                         ,**/ ../#%#(*****        ,   . ";
+			escribir"    .   .                                     ***,,/ ..%(/*,  .(**.        ,   . ";
+			escribir"    .   .                                   #@@(*           ,*,,*,         ,   . ";
+			escribir"    .   .                                 (@@&%#,        .#@@@(,,. .,.     ,   . ";
+			escribir"    .   ,                                               ./##%(,,/   (.     .   . ";
+			escribir"    .   ,                                                      ,(   (.     .   . ";
+			escribir"    .   ,                                                       .   ..     .. .  ";
+			escribir"    .   ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*  .  ";
+			escribir"      ..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,..,,,,,,,,,,,,,,..,,,,,,,,,.    ";
+			Escribir  Sin Saltar"";
+			//	//10 copa";
+		410:
+			escribir ",,...........................................................................*, ";
+			escribir ",,...........................................................................*, ";  
+			escribir ",, .#. .(.*/      ..,,,...                                                   .,  ";
+			escribir ",,  #. // ,#..#%%%##########,                                                .,  "; 
+			escribir ",, .%. .(./*  **/((#((((((/*.                                                .,  "; 
+			escribir ",,            ,**///(#######.       ./%#(,                                   .,  "; 
+			escribir ",,             ***/**(%###(,     *#%%#%%#%#%%%%(*,..                         .,  "; 
+			escribir ",,              .**//(###*  .   (%%%%%###%%#%%#%%##                          .,  "; 
+			escribir ".,                 (##%,         /(**,,,,,,,/(###*.                          .,  "; 
+			escribir ".,            .(/ *&#%%(.,#,    ,//#%/,/%%.,,,/**,                            *  "; 
+			escribir ".,             *(%%%%%#%%%*.    ,*,../.,.,,..,****,                           *  "; 
+			escribir ".,            .**********/*.   *,**.,***,,.,.,**/***                ..        *  "; 
+			escribir ".,                            ,,*,,/,.*,,,.,,**/,*,*.              .*,,       *  "; 
+			escribir ".,                            ,,*,/(#/,,,*,.*%#/,*/*,           ,/, ,,*(/.    *  "; 
+			escribir ".,                         .,/#%#####/,,..,*(##%###,,.           ,,/,*//***   *  "; 
+			escribir ".,                   .,,,/*,,*##%%#############%##/,,,,/(/.      ,,.,/,,.*.   *  "; 
+			escribir " ,                /#((((*,,,,*(###%###%#####%##%#(,,**,(#(((       *.,.../    *  "; 
+			escribir " ,              ,#(#((((,,**,,*#############%###(,,,/###((((#.   /########*   *  "; 
+			escribir " ,             *(((((((((*,,,,,,######%########*,,*,/######(((.  .(%%###/(,   *  "; 
+			escribir " ,            *(((((((((((/,,**,,/####%##%###(*,,*#(((###(#((((. /%#%%#%,     *  "; 
+			escribir " ,         .((#(((((#(##(#(/,,,,,,,/#####%#/*,*,,((#(((#((((((/*(%#%%#%%,     *  "; 
+			escribir " *        .(((((((((##((##((((*,**,,,/##/*,,,*/(#(###(%(((((/**#%%%%%%%#*     *  "; 
+			escribir " *        *(##(((((((#####((#((((/,,,,,,***,/#(((####/%(#((*,,(%%%%%%#%(,,    *  "; 
+			escribir " *        *#(((((((((##((*##((((#/*,,,*,,,,/#(((###(* ##(#(*,*#%%##%#%%*,,.   *  "; 
+			escribir " *        ,##(#(((((*,,,*,,,,((((((((*,,**,,,/###%(   ,##(**,*##%%%%%##(*/,,  *  "; 
+			escribir " *        /#(#(#((,*,,/,,.,,*#%%%#%#%%#%%#%##%%##%,    (#((*,*####%%%##(,,,   *  "; 
+			escribir " *        %##((#(/,,*(#*.,,,**,(#%%###%%##%%#%#%%(((.   ((/,,*(#((%%%##(,*,,  *  "; 
+			escribir " *       .%##(##,,,,/####,,,**,*//(##((((/,**,,/((#((*   .//,,(((#%%%##/,,*.  *  "; 
+			escribir " *        ##((#(,,,*##%###%/,*,,*/(##(#(((/,,**//*(((((.  .,*,(###%###(/*,,   *  "; 
+			escribir " *        *#((#/,,,#######%##((**,,*/(##(((((/,,**,,,*((.   *,*#######(,,,,   *  "; 
+			escribir " *        ./(((*,,*###(%#%#%%%%%/,,*,,,((##((((/**,,/*,**  .,*,/#####***.     *  "; 
+			escribir " *          /(#/,,/#%####%#%#%%#%%%%#/,*,,/((###(((*,**,,.   .,,*/(/,*,,      *  "; 
+			escribir " *            /*,,/#####%%#%%%#%%%%%%#/,((**,,**#((#((/,**     ***,*,         *  "; 
+			escribir " *              /.,####%%#%%%%%%%%%%%%. *%%/*,,,,,,,*((/*,,,.   ...           *  "; 
+			escribir " *             .,*,,((,#%%%%%%%%%%%%%/   *%%%###/*,*****,,*,*.                *  "; 
+			escribir " *               .,,,. *%#%%%%%%%%%%(.    ,%#%##%%%%%####*,**                 *  "; 
+			escribir " *                     *%%%%%%#%%%##.      .#####%%%%%%%%#,,                  *  "; 
+			escribir " *                     (%%%%%%%%%%/.         ,##%%%#%%#%%%,                   *  "; 
+			escribir " *                     *%%%%%%%%#/            ./%%%%%%%#%%,                   *  "; 
+			escribir " *                     ,(%#%%#%%#*              /%%%%%%#%%.                   *  "; 
+			escribir " *                     .**(#####/,*.            *##%%##%##,                   *  "; 
+			escribir " *                     ///,****,,****         .*,********/,*.                 *  "; 
+			escribir " *                     .(#######%%/             /#(#(*(%#%#..                 *  "; 
+			escribir " *                     .(#######%#(             #######%%%#.                  *  "; 
+			escribir " *                     .(######%##,             .#########(.                  *  "; 
+			escribir " ,                      *(##(####,               ,%(######*                   *  "; 
+			escribir " ,                       *#####*                   (#####(                    *  "; 
+			escribir " ,                        #(###.                   .(###%                     *  "; 
+			escribir " ,                      .#%####%*                  %#####.                    * ";  
+			escribir " ,                     /%####%&@&.               ,&@%#####/                   , ";  
+			escribir " ,                  .*@@&@@#..%%                  *@@#&@@%%&     ..# /(. .#.  ,  "; 
+			escribir " ,                  *///*.                         ..   /@@@@@%.  %/  &*  #.  ,  "; 
+			escribir " ,                                                                /# ,%. .#.  ,  "; 
+			escribir " ,                                                                            ,  "; 
+			escribir " ,..........................                       ...........................* "; 
+			escribir " ,,...........................................................................*, ";
+			Escribir Sin Saltar " " ;
+			//	//10 basto";	
+		210:
+			escribir" ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ";                                                                      
+			escribir" ,,,,,,,,,,,,           .,,,,,,,,,.          .,,,,,,,,,,.          .,,,,,,,,,,,,   ";
+			escribir" .                                                                              .  ";  
+			escribir" .     ..    ,.                                                                 .    ";
+			escribir" .      #  ,% .&                       ./(##/                                   .    ";
+			escribir" .      #  *# .&.             */((#####%%%#%#%###(/.                            .    ";
+			escribir" .      ,.  .,.               /%%#%#(#(((((((((#%%(.                            .    ";
+			escribir" .           .*,,,,*,           ((###(*,,,,**/(((,                              .    ";
+			escribir" .          ,*,,*,/(#%/.        ,,,*/,..,,,,.,..,,                              .    ";
+			escribir" .         ./(##%%#%#%(*       .*,,*,,.......,.,,*                              .    ";
+			escribir" .         /%%%#%##(*(##(     .*,/*.......,.,,..*,,                             .    ";
+			escribir" .         /#(/***,*/####    .*****/...,..,,,..,*/*,                            .    ";
+			escribir" .         ./*,*,,*(####(     ,******..,......**,*,                             .    ";
+			escribir" .           ***#########       .,/%#,......,#/,                                .    ";
+			escribir" .             .//(######/***(%%#%/*#%%(///##(*%%%%%#*,                         .    ";
+			escribir" .              **#@%#####,*****/(%&%/******(%&&%/*******.                      .    ";
+			escribir" .           .(##***######/,***/#%##%#%%%%&%%##%%#*,***/*/,                     .    ";
+			escribir" .         .#######%#####(#****#####%####%#%#######/,**,/,/.                    .    ";
+			escribir" .      ./#####(#####((####/,*####(######,//(#######(**/(#%.                    .    ";
+			escribir" .    .####################(##(##########/*#*########%%#%#%,                    .    ";
+			escribir" .    *#########(/,. *(################%##*,,(#######%%%#%##.                   .    ";
+			escribir" .    *#########.     /##(#####%(#########**,/#######%%%%%%#%(,                 .    ";
+			escribir" .    *########/      (###((##############**,/########%##%%#%%##.               .    ";
+			escribir" .    .#####(##.     ,####,*##############*,*/######( /%%%%%%%%#(               .    ";
+			escribir" .     ,##((##(,     (###*  .(###########//#*(######   /%%%%%%%#%.              .    ";
+			escribir" .      .((*,**,,.  (###*    .(%%%%#####(,**(#%%%%%(    ,#%%%#((*,,.            .    ";
+			escribir" .        ,**,*,,..####.     .%%%%%%%%%%%%%%#%%#%%%(      .#%*,,,,,             .    ";
+			escribir" ..          .,...,....,    *######%%%%%%%%%%%%#######,    .*,,,*,,,,,.,,,,.    .    ";
+			escribir" ..           .......,,.. .##(#(##################%####(,      ,,,,,,,,,,,,,    ,    ";
+			escribir" ..          .(###,,..   /###%###########################(        ..,,,,,,,,.   .    ";
+			escribir" ..        /######.    .##%###############################(                     .    ";
+			escribir" ..       .*.#(#,      (###################################*                    .    ";
+			escribir" ..                   (##(###############################%%/                    .    ";
+			escribir" ..                  ,/#%%##%#%#%%####%#########%#%#%%#%##(,                    .    ";
+			escribir" ..                   ***/##/**/((###/((##(/#(%#/(/***###(,                     .    ";
+			escribir" ..                    (###########((#(,**(###((##########.                     ,    ";
+			escribir" ..                    (##############(  ./##############(.                     ,    ";
+			escribir"  .                    *##############,   .(#######(((###(.                     ,    ";
+			escribir"  .                    .#############*      (#######(##(#/                      ,    ";
+			escribir"  .                     *##########(,        .#######((##,                      ,    ";
+			escribir"  .                     .##########,          *#######(##,                      ,    ";
+			escribir"  .                     (##########.          .##########.                      ,    ";
+			escribir"  .                     .#########/            *########/                       ,    ";
+			escribir"  .                      ,,*****,,.            **,,***,,.                       ,    ";
+			escribir"  .                      ##########.          *#########(                       ,    ";
+			escribir"  .                     ,##########/         .###########                       ,    ";
+			escribir"  .                     ,#########%/         .###########                       ,    ";
+			escribir"  .                      ########%#,          *#########/                       ,    ";
+			escribir"  .                      *#######(             .########.                       ,    ";
+			escribir"  .                       *#####/               .######.                        ,    ";
+			escribir"  .                       .(((##*                /####/                         ,    ";
+			escribir" .                       ,#####/                (#####.                        ,    ";
+			escribir" .                      (######%@.            ,@#######(            (#*  .#%*  ,    ";
+			escribir"  .                    /%(##%&&@@.              .@@&&%###%*        .&. *&  ,%   ,    ";
+			escribir"  .                ,&@@@@@/     .                .     /&@@@@%,    .&. *&  ,%   ,    ";
+			escribir"   .                                                                  ((/   *#,  ,    ";
+			escribir"  ,,,,,,,,,,,,           .,,,,,,,,,.          .,,,,,,,,,,.          .,,,,,,,,,,,,    ";
+			escribir"  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ";  
+			Escribir  Sin Saltar"";
+			//	//10 espada";
+		110:
+			escribir " .  .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, .   ";    
+			escribir " .  ,*/******//*.         */*******,         ,*/*******.      .*/********* , .   "; 
+			escribir " .  ,                                                                     .* .   ";
+			escribir " .  , .#,  #.(,                  ,(#####*.                                .* .   ";
+			escribir " .  ,    /. */ .#           .#######%#####%&####.                         ./ .   ";
+			escribir " .  ,    (*  #.#.               /##%%%%%%%%%#%%#.                         ./ .   ";
+			escribir " .  ,          .              ,**,,.,*,,.,,***                            ./ .   ";
+			escribir " .  ,           (((/           ,*,,,*..,...,*,,,.                          / .   ";
+			escribir " .  ,           *(((*       .*,,.,,.......*,,,,*                           / .   ";
+			escribir " .  ,         .((((.      .*,,..,,,.....,,,,,,                             / .   ";
+			escribir " .  ,            ,(((/       .,,*,.......,..,,.                            / .   ";
+			escribir " .  ,             /(#(,     ..,/#*.,,,...,,,#,,.                           / .   ";
+			escribir " .  ,             ,((((..,***,**%%%*,**,**,/&&#%/******,                   / .   ";
+			escribir " .  ,              /((((/,*,**,/#%%&%%&@@&#%#%%#/,*,**/*%(.                / .   ";
+			escribir " .  ,             ,#((((/,******%%%#%##%%%%####/,**,/,/*#%%#*              / .   ";
+			escribir " .  ,           *#%#%(#((/,/***####/*/#%#%%###(,********%%#%%%/.           ( .   ";
+			escribir " .  ,         ,#%#####((((*,*,(#(##,**,*,*(###/,,**,***(%%%%%#%%#,         ( .   ";
+			escribir " .  ,       ,#%#%#%%%#((((/,**####/,/,,***###(,,,/,*,,(%#%%%%%%%%#%/       ( .   ";
+			escribir " .  ,     *#%%%#%#%%%%%(#((,**####,**,**,(###(,,*,*,*(%%%%%%%%%%%%#%(      ( .   ";
+			escribir " .  ,.   /#%%%%%%%%%%%%(((((*,(##(,*,,,,,###(/,,**,*#%%%%%%%%#%#%%%##*     ( .   "; 
+			escribir " .  ,.  .#%%%%%###%%#%%#(#((/*/##(,*,,*,*####*,****%#%%%%%(*,,,*##%#%%,    ( .   ";
+			escribir " .  ,.  *%%%%%#%###(**(##(((/*,*((,*,,(**####,**,,(%%%(,,,,*,,,,*/%%%#/    ( .   ";
+			escribir " .  ,.  *#%%#%#**,,*/****..,,,.(#(*,/,,*,###(,**,*##/. ./((##/,,,,(%%%(    ( .   ";
+			escribir " .  ,.  .#%#%#**,,((#(/.....,*####*,,,*,,(##/**((,,......./(#((***,%#%/    ( .   ";
+			escribir " .  ,.   #%%#(,#*/#(((.....,*/%%%%##%###%%%%###/*.,./,.,,/##(((*,,*%%%.    ( .   ";
+			escribir " .  .,   *%%%(*,*(##((,,, ,,,(#%%##%%%%%%##%(#%#%#/,*/. */##((#*,*,%#*     / .   ";
+			escribir " .  ., .#%%#,*,####(,,*.*#%#(,/**,,,*****,**,,,,*,*,****#####,(,*%/        / .   ";
+			escribir " .  .,  .#%%*#//####*,**/##(,*,/**,,*****,,*,,,,****,**,####(*,*//         / .   ";
+			escribir " .  .,      ,#(,,*##(#*,,*(##*,***,*,,*/***,,*,,,*,/,*,,/,/#(#/,,*         / .   ";
+			escribir " .  .,         **,(###*,**(##,**/*,**,*****,,**,,,,,*,,,,*,((#(*,          / .   "; 
+			escribir " .  .,       .**/##(*,**(((,****,,,,*,**,,,*/,*,,,**,,,**,(**.             / .   ";
+			escribir " .  .*           ,***,,,.*(**/(/(*,,*/(*,,,*/(((//(((((/(  .,.             / .   ";
+			escribir " .  .*             ,*, .(((/(((((/(((/ ./((((/(((((((((.                   / .   ";
+			escribir " .  .*                    /(((((((((#((,  /((((((((((((((                  / .   ";
+			escribir " .  .*                    ,/((((((((((*    //(((((((((((.                  / .   ";
+			escribir " .  ./                     *((/(((((((,     *(((((((((/*                   / .   "; 
+			escribir " .  ./                     /((((((((((,      /((((((((/*                   * .   ";
+			escribir " .  ./                   .(((((((((/       *(((((((((,                     * .   "; 
+			escribir " .  ./                      ,*//(//*,,,      ,*((((((/*.                   * .   ";
+			escribir " .  ./                  .,/#/*(/*/%#.      /#(//(*/#/,                     * .   ";
+			escribir " .  ./                   .#%%%%%%#%%.      /%%%#%%#%#                      * .   ";
+			escribir " .   /                      #%%#%#%#%%.      *%%%%%%%%*                    * .   ";
+			escribir " .   /                      ,%%%%%###,        *%%#%#%/                     * .   ";
+			escribir " .   (                     .##%%%#,          ,#%%##.                       , .   "; 
+			escribir " .   (                      ,%##%(            ,%%%(                        , .   ";
+			escribir " ,   (                      (#%%#%.         .#%#%%(.                       , .   ";
+			escribir " .   (                    .(##%%#%#.         #&%#%%%%#                     , .   ";
+			escribir " .   (                  .%@&%%%(#@.          /@/.&@@@@@&*   ** %*  %.      , .   ";
+			escribir " .   (                    *,                                   @, *#  #.   , .   ";
+			escribir " .   (                                                          (,%.  #/   , .   "; 
+			escribir " .   (                                                                     , .   ";        
+			escribir " . ,*/******//*.         */*******,         ,*/*******.      .*/********   , .   ";
+			escribir " .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,. , .   "; 
+			Escribir Sin Saltar " " ;
+			
+			//	//"10 oro";
+		310:
+			escribir"   ......................................................................... ";
+			escribir"   .........................................................................";
+			escribir"   ,                                                                       ,  ";  
+			escribir"   *  (,  /*/,                                                             ,    ";
+			escribir"   *  (. *%  %.    ...,.                                                   ,    ";
+			escribir"   *  (,  %./* ,(**,*/**/*/*.       ,(#%##/.                               *    ";
+			escribir"   *         ,(,**/***,***,//* .(%#%%#((((##%%%%%((,                       *    ";
+			escribir"   *        .(//*,(*((//(,**//* ./(##%%%##%#(##/((.                        *    ";
+			escribir"   *        .///**,*(##/,**///(. ,(,,,.,**,..(//(                          *    ";
+			escribir"   *         **//***,(,****/*#.  *(,*,,,.,,.,//,*,                         *    ";
+			escribir"   *          .#/*//,***/**(*.   *(../,......,///*.                        *    ";
+			escribir"   *             ,,##%#//,      *//*..*(,....***/,*.                       *    ";
+			escribir"   *    ,*.                     .,,**,.......////,.                        *    ";
+			escribir"   ,    ..,. ,#                   .(##...,..,#%%(..                        *    ";
+			escribir"   ,    /*/**/./          *((((#/*/,/##%##%%#/****/#((#%%#/.               *    ";
+			escribir"   ,   ,*/.,*....       .##(###(((%/#*,***,,,/#*##((#%%#%(,*/**            *    ";
+			escribir"   ,    ,,.....%.     */(#(*(%(((####%%%#/**###(#%##%%##(%##(*****.        *    ";
+			escribir"   ,      .(**/*,*(. /((#(,,/(((%###%#%%#**######%(#%%#/##(###/***//.      *    ";
+			escribir"   ,       **/(*(#(. //**,,/((((##%#%%%%/*#########%#%#/****/*/%#%#%%#/    *    ";
+			escribir"   ,        .#############(/(((####%%%%%*/#####%##(#%%#*////**%%%%%#%%%*   *    ";
+			escribir"   ,         *(############%(((####%%%%#,########(((((/   . ../%#%%%%#%.   *    ";
+			escribir"   ,           (#############(((###%%%%#,########(###,        (##%#%%%#    *    ";
+			escribir"   ,             .(#####((,. /(((%#%%%%%*(######(((#.         (####%%#,    *    ";
+			escribir"   ,                  .,.     ,###%%%%%%(*####%%%#/         .*%##%%%%.     *    ";
+			escribir"   ,                          *#(########(#####(#%/         */,**#%(       *    ";
+			escribir"   ,                       ,(((#(#(#(#(%(%(#(((((#(#/,  ,,**/**/****       *    ";
+			escribir"   ,                     *(((((((##((#(%(#(#((((#(##(#/......,*,*          *    ";
+			escribir"   ,                   .(##((#((((#(#((#(#((#(#((##(((/*,,,,*,,            *    ";
+			escribir"   ,                  .(((((#(((#((((#(#(((#(((((((#(#(#(##.               *    ";
+			escribir"   ,                 .##(%##(((((((((#(((((((((((#(((((####(.              *    ";
+			escribir"   ,.                /#####(#%####%##%%######%#%#(##%%#####(/              *    ";
+			escribir"   ,.               .***#(**(##################(#####/*/#(,,*.             *    ";
+			escribir"   ,.                 ,(***,,//,/,*#(*,(##(**(#**,*#*,****,,               *    ";
+			escribir"   ,.                  /%###%###%#(/**,***,**/((#####%%%*                  *    ";
+			escribir"   ,.                  *%#%#%%%%%%%%%#,   %%%%#%%%%%#%%%(                  *    ";
+			escribir"   ,.                  .#%%%%%%%%%%%#(    ,%%%%%%%%#%#%%/                  *    ";
+			escribir"   ,.                   /%#%%%%%%%%%#.     /%#%%%%%%%%#%,                  *    ";
+			escribir"   ,.                   .%#%%%%%%#%(.       ,%%#%%%#%#%#.                  *    ";
+			escribir"   ,.                   .#%%%%%%%%(          *#%#%%%##%#                   *    ";
+			escribir"   ,.                    #%%%##%#%/           //#%%%#%#/                   ,.   ";
+			escribir"   ,.                    ./,,,**,*(,          .(/***//(                    ,.   ";
+			escribir"   ,.                     //((((((((.        .#((((((#(*                   ,.   ";
+			escribir"   ,.                     *(((((((((.        ,(#((((#(#*                   ,.   ";
+			escribir"   ,.                     ,((/((((((.        .(#((((((#*                   ,.   ";
+			escribir"   ,,                      (/((/(/(*          ,((((((((,                   ,.   ";
+			escribir"   ,,                      .((((((*            ,(((((((                    ,,   ";
+			escribir"   ,,                       *((/(#.             *((((#.                    ,,   ";
+			escribir"   ,,                       *((/((/             *((((*                     ,,   ";
+			escribir"   ,,                      #(((((/#%.          ,&((#((#,        (#.  *%*   ,,   ";
+			escribir"   ,,                   *&@&&&%&%@@*           .%@&@%%%%@&*   .&. #/ .#    ,,   ";
+			escribir"   .,                  /#%#/,.                        ./%%&%* ,@  %* .%    ,,   ";
+			escribir"   .,                                                           ,,    ,    ,,   ";
+			escribir"    .                                                                       .";
+			escribir"   ..........................................................................";
+			escribir"   .........................................................................";
+			Escribir  Sin Saltar"";
+			//	//7 copa";
+		47:
+			escribir"  ,//**************************,**************************,***********************/***/  .";
+			escribir" ,((((((((((((((((((((((((((((/,                         */(((((((((((((((((((((((((((.  .";
+			escribir" .*                                                                                  *.  .";
+			escribir" .*  .#%&&.                                                                          *.  .";
+			escribir" .*     (.                                                                           *.  .";
+			escribir" .*    *,,*##%%##########/*.                                .*(#%%##########(*,      *.  .";
+			escribir" .*    ,#####################.                             #####################,    *.  .";
+			escribir" .*    .,*/(########%##(((***                              ,*/(###########(#(*/,.    *.  .";
+			escribir" .*    .****,***,,**,****/((#                              /****,**,,,,,**,///#(,    *.  .";
+			escribir" .,     *,***,/***##########.                              .****,****(###%#####/     *.  .";
+			escribir" .,      ,****/**,#####%###.                                .***/***,(###%%###/      *.  .";
+			escribir" .,       .****/**#######/.                                  .,****/*/######(.       *.  .";
+			escribir" .,         .*/*,,#####/.                                      .,****/####(,         *.  .";
+			escribir" .,            *###%#*                                            ,(####*            ,.  .";
+			escribir" .,           .(#%&##,               .*//((((((//**.              *%#&%#/            ,.  .";
+			escribir" .,     ,(#(*/#&##&#%%#,*#((     .(###################/     (##**(%%#%#%%#**(##.     ,.  .";
+			escribir" .,      ,*(%%&%#%&#%&&%%/*      ./(%#%##%###########/*     .*/#%&&%%%%%%&&#(*.      ,.  .";
+			escribir" .,      *((//(////(/((#(#*      .***,,**********/**/*/     .(((/(//////((/(#(.      ,.  .";
+			escribir"  ,                               ,*/*////////((######*                              ,.  .";
+			escribir"  ,                               .*,/***,/*(########/                               ,.  .";
+			escribir"  ,                                 ,***/,/*(#%#####*                                ,.  .";
+			escribir"  ,                                   ,//***(###%#*.                                 ,.  .";
+			escribir"  ,                                    ..*/(#%%(,                                    ,.  .";
+			escribir"  ,                                      *#%%%#,                                     ,.  .";
+			escribir"  .                                *#/. (#%%%#&#, .((*                               ,.  .";
+			escribir"  .          ..........           ./###%@@##&##@&#(##*          ...........          ..  .";
+			escribir"  .     *(################%(.       ./*,,,,,,,****(,       ./(((##############(,     ..  .";
+			escribir"  .    ,(#%%%%%%%##########((                              /(%%#%%%############(.    .   .";
+			escribir"  .    ,**,*/(((((((((//*****                              **,*//((((((((/*/**/,.    ..  .";
+			escribir"  .    .,*/*/*********/((###(                              ,**/*******,**//(###(.    .   .";
+			escribir"  .     ,****,/**,##########                               .********,(#########,     ..  .";
+			escribir"  .      .********########/                                  ,**/***,(#######(.      .   .";
+			escribir"  .        ,**/***###%##(,                                    .,*/***(###%##*        .   .";
+			escribir"  .          .**,*%###/                                         .,***(###(,          .   .";
+			escribir"  .            ,##%#(,                                            ,(##%#*            ..  .";
+			escribir"  .      ,*.  ,#%#&(#/. .,*                                 .*,  .(%#&##(, .,*.      ..  .";
+			escribir"  .     .##((#&&##%(%&#(//(*                                (#((#%&##%##&%#(#(#.     ..  .";
+			escribir"  .       .*/*/***/**/*/(,                                   .*///////***//(*.       ..  .";
+			escribir"  .      ,*,,,,,,,,.,..,,,.                                 .*,,,,,,,,,,,,,,*,       ..  .";
+			escribir"  ,                                                                                  ..  .";
+			escribir"  .                                                                                  ..  .";
+			escribir"  .                                                                                   .  .";
+			escribir"  ,.                                                                                 ..  .";
+			escribir"  ,.                                                                                  ,  .";
+			escribir"  ,.                                                                                  ,  .";
+			escribir"  ,.          ..........                                         .........            ,  .";
+			escribir"  ,.    *#################%(,                              .(##################,      ,  .";
+			escribir"  ,.   ,#%%%#%%%###########((                              (%%%%#%%############(.     ,  .";
+			escribir"  ,.   .,*,*/((####((((/*****                              *,,*/((###(((((//**/*.     ,  .";
+			escribir"  ,.   .**/*/*****,****((###/                              ,***/*********//(###(.     ,  .";
+			escribir"  ,.    ,*****/***#########(                               .********,(###%###%#,      ,  .";
+			escribir"  ,.     .********########/.                                .,*******(###%###(.       *  .";
+			escribir"  ,.       ,**/***######(,                                    .*/**/*(#%####*         *  .";
+			escribir"  ,.         ,,***####/.                                        .,***(###(.           *  .";
+			escribir"  ,.           ,####(,                                            ,(###%,             *  .";
+			escribir"  ,.     ,,.  *###&##/. .,,                                 .,,  .(%#&###.  .*.       *  .";
+			escribir"  ,.    .#(((#%&##&(%&%((#(/                                (##((%&##&##&&((###.  *   *  .";
+			escribir"  ,.      .*///////////((,.                                   *//////////(/(*.   /.   *  .";
+			escribir"  ,,     ,*,,,,,,,,,,,*,,*,                                 .**,*,,,,,,,,,,***. **    *  .";
+			escribir"  *.                                                                            .,,,  /  .";
+			escribir"  ,((((((((((((((((((((((((((((/,                         */(((((((((((((((((((((((((((. .";
+			escribir"  ,//**************************,**************************,***********************/***/  .";
+			Escribir Sin Saltar " " ;
+			//	//7 basto";
+			//	27:
+			//	//6 copa";
+		46:
+			escribir ".   ..........................                      .........................   .  ";  
+			escribir ".   ..........................                      .........................   .  "; 
+			escribir ",   ,                                                                       ,   .  ";
+			escribir ",   ,   *(.    ,/##%##########(*.                 ,/#%%##########(*.        ,   .  ";
+			escribir ",   *   #, #,/####################,             *####################,      *   .  ";
+			escribir ",   *    ..  ,,/(###%#########(/**.             ,*/(###%##########//*.      *   .  ";
+			escribir ",   *        ,******,**********/(#,             ,**,****,,*,**,**/*(#,      *      ";
+			escribir ",   *        .*******/*(#####%###/               *,*,/**/*/#####%###/       *   .  ";
+			escribir ",   *          *******,/########/                .***/****/###%#####        *   .  ";
+			escribir ",   *           ,**/***/#######.                   ,*******######(,         *      ";
+			escribir ",   *             ,,/*,/#####,                       ,***,*####(,           *   .  ";
+			escribir ",   *               .(####/                             (####/              *      ";
+			escribir ",   *               ,##%##(.                           ,##%%#(              *   .  ";
+			escribir ",   *         (###*(%%#%##&#/.(##.               *##/,(%%#%##&#(,(##,       *   .  ";
+			escribir ",   *          ,*##%%#####%%%#/*.                 ,*(#%##(%#(%%%#/*.        *   .  ";
+			escribir ",   *          ((//////////((/(#.                 ((///////////(/(#.        *   .  ";
+			escribir ",   *                                                                       /   .  ";
+			escribir ",   *                                                                       /   .  ";
+			escribir ",   *                                                                       /   .  ";
+			escribir ",   *            .,*/(((((//*,.                     .,*/((((((/*,..         /   .  ";
+			escribir ",   *        *#%%%%##############(.             ,#%%%###############(.      /   .  ";
+			escribir ",   *        ,(#################(*.             ,/#################(/.      /   .  ";
+			escribir ",   *        ,***********,*,*****/.             ,****,,******,***/**/.      /   .  ";
+			escribir ",   *        .,***/****///((#%####               ****//****//((#####(.      /   .  ";
+			escribir ",   *         ,,*,/**/,/(#######(.               .***/****/#####%###.       /   .  ";
+			escribir ",   *          .******,/#######/                  .,***/***#######/         /   .  ";
+			escribir ",   *             */***/#####(.                     .**/***#####(           /   .  ";
+			escribir ",   *               ,/(##%#*                           ,/#(###,             /   .  ";
+			escribir ",   *               .##%##*                             ##%#%/              /   .  ";
+			escribir ",   *         *#(* /#&(%##%(. (#(.               ,##, *(%#%##%#..(((.       *   .  ";
+			escribir ",   *.        .(#(%@@%#&%#@@&##(/                .(##%&@%(&%(&@&###/        *   .  ";
+			escribir ",   *.          **,,,,,,,,*//*/.                   **,,,,,,,,****#.         *   .  ";
+			escribir ",   *.                                                                      *   .  ";
+			escribir ",   ,.                                                                      *.  .  ";
+			escribir ",   ,.                                                                      *.  .  ";
+			escribir ",   ,.                                                                      *.  .  ";
+			escribir ",   ,.            .*/(((((//*..                      .*//(((((/*.           *.  .  ";
+			escribir ",   ,.       ,###################(.             ,#%#################(.      *.  .  ";
+			escribir ",   ,,       ,(#%%%##############*.             ./%#%%%%############/.      *.  .  ";
+			escribir ",   ,,       ,*,,,**********,**/*/.             ,*,*,*********,**/*//.      *.  .  ";
+			escribir ",   ,,       .,***/(//,***/#%%##(#              .****////*,**/(#%###(.      *.     ";
+			escribir ",   ,,        ,**,***/*/########(.               .***/*****###%#####,       *.  .  ";
+			escribir ",   .,         .******,/#######(                  .****/***#######(         ,,  .  ";
+			escribir ",   .,           .*/***/#####(.                     .******#####(.          ,,  .  ";
+			escribir ",   .,              **(#%##*                          .,*/(###/             ,,  .  ";
+			escribir ",   .,              .#%%#%*                             #%%%#/              ,,  .  ";
+			escribir ",   .,        ,((* ,#&#%##%(../#/.               ,((, *(%#%##%(. /#(        ,,  .  ";
+			escribir ",   .,        .#((#@@%#&##@@%((#/                .#((#&@%(&#(&@%((##        ,,  .  ";
+			escribir ",   .,          **,,,,,,,,**/*/                    ,*,,,,,,*,*,**(.   .( ,% ,,  .  ";
+			escribir ",   .*                                                                 *#(% ,,  .  ";
+			escribir ",   .*                                                                 ,,.  .,  .  ";
+			escribir "     /************************.                    **************************,  .   ";
+			escribir "  ..,..........................,.............,.............................,..  .  ";
+			Escribir Sin Saltar " " ;
+			//	//6 basto";
+		26:
+			escribir".................................................................................... ";
+			escribir".............            ...........            ...........            .........,.., ";     
+			escribir".  .(*#.                                   ..                                      .   "; 
+			escribir".  #/ .&.   %(%&%(&*                  (#,***,#(                .%##&%#&/           .    ";
+			escribir".     #,   .######%%                 #(/*,,*/#&/               .%#####%%           .    ";
+			escribir".          .######%#               /%#####*****%*              .%#####%%          ..   ";
+			escribir".          .######&#             .%#######/,**,#%.             .%##(##%#           .    ";
+			escribir".        .//(#####&#             ,%###########***#.           /((#####%%           .    ";
+			escribir".        */*%&####%&.             ,%#########(**&&*          ,/*&&####%&,         ..   ";
+			escribir".         ,%%######&%,             .%######%##%##,            ,(%######%&*        ..   ";
+			escribir".         .&#####%%**&%             .%######%%&.               (#####%%/*#&,       .    ";
+			escribir".         .&####%%#**#%            #**,#&%####&.               #####%%%/*(&,       .    ";
+			escribir".          (########&*             //,*(&%##%#&*               *########%/        ..   ";
+			escribir".          .#######%&#              .%%#######&#               .%######%&#        ..   ";
+			escribir".          *%%#####%&%               (########%&.              *%%%###%%&%        ..   ";
+			escribir".        ./**/%%#%%#%%               *%#########             .(**/#%%%%#%%        ..   ";
+			escribir".        (/&#*%#####%#               /######%%**%,           */#&*%%######         .   ";
+			escribir".          ##########&*              /####%&&(,%%%             /#########&(        .   ";
+			escribir".         ,##########(*(/            /%%######%((.            .((########(*(#.     .   ";
+			escribir".        .#########%(*#&&,          %,,(&#(##%.               %###(######,/&&*     .   ";
+			escribir".       ,%###(##%#***#//*           (/**##(##%.              #(#(#(#%#/,*((/(      .   ";
+			escribir".       *######(*****,(%              ,#####%&/             .###(##(,,*,/,/%       .   ";
+			escribir".        *%(###/(*,,**%.               (######&.             ,%#(##((**,**%*       .   ";
+			escribir".           (,*,*,*,/%.                (##(###&*                (/***,*,/#.        .   ";
+			escribir".            ,/*,,**(                  /%(%%##&,                 ,#*,,,*(.         .   ";
+			escribir".                .                                                                 .   ";
+			escribir".                                                                                  .   "; 
+			escribir".                                                                                  .   ";
+			escribir".                                                                                  .   "; 
+			escribir".                                                                                  .   "; 
+			escribir".                                                                                  .   "; 
+			escribir".                                                                                  .   "; 
+			escribir".                                                                                  .   ";     
+			escribir".                                                                                  .   ";
+			escribir".            ./%###/                                             .(%###*           .   ";
+			escribir".           #*,*,,**(%.               *%#&%#%%                 .%**,,,**#(         .   ";
+			escribir".         .%%###**,,/&*               #######&.               .%###(***,/&,        .   ";
+			escribir".        %####(((***,*&.              (######&.              %#####((,,**(&.       .   ";
+			escribir".       (########(/,*/&(              (####%%&.             %########(/**(&*       .   ";
+			escribir".       *%#########(/,(&&.          ,(/######&.             /#####(####(/,(%&      .   ";
+			escribir".        .#(########(,*%/          .#,/&%####&#              *%#########(,/%*      .   ";
+			escribir".          (########%%.              (#%######&#.              #########&(         .   ";
+			escribir".         (#%&&%####&#               *%####%%#,(&/            (#%&&#(###&*         .   ";
+			escribir".        *(,**%&####%%               *#####%#(,/&/           //**/&&####&(         .   ";
+			escribir".         ((/(&%####%&.              .%########%              #(*#&%###%%%         .   ";
+			escribir".          .%####(###%/               (######%%&.              *%#%######&*        .   ";
+			escribir".          .%#########/               #########&*              ,&########%/        .   ";
+			escribir".           #########&,             /***##%#%%#&,              .&########&,        .   ";
+			escribir".           #####%&%**//,          .(/%((%###((%.              ,&####%&#**((       .   ";
+			escribir".          .#####%&%/,(%.            ,&##((###(%%.             ,&####%&%**(%       .   ";
+			escribir".          &**#%####%                /#((###((#(*,#,           #**&#####%.         .   ";
+			escribir".         */*/&&#(##(               (#########%*,%@#          (/*(&%###%(          .   ";
+			escribir".          ,(#####%%#              /#######(/*,/((/.           *(#####%%#          .   ";
+			escribir".            ,#####%&.             /##(###****,**%,              /#####%&.         .   ";
+			escribir".            .##(#(#%#              ###(#(/(,*,,((               *######%/         .   ";
+			escribir".           ,#(***(%.                 (%(*%%(                  ,%/**,,*#*   .(*#.  .   ";
+			escribir".                                                               .  .        #/ .&. .   ";
+			escribir".                                                                              #,  .   ";
+			escribir".                                                                                  .   "; 
+			escribir".............            ...........            ...........            .........,..,  ";  
+			escribir"....................................................................................  "; 
+			Escribir  Sin Saltar"";
+			//	//6 espada";
+		16:
+			escribir"  .  .,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,. ";   
+			escribir"  .  ,,,,,,,,,,,,.         .,,,,,,,,,.         ,,,,,,,,,,,         .,,,,,,,,,,. ";
+			escribir"  ,  ,                                                                        / ";   
+			escribir"  ,  ,      .,.  /(,                  .*/.                     *(*            / ";     
+			escribir"  ,  *    ,#**  *((#                   ,*.                    *(((.           / ";     
+			escribir"  ,  *    */ ,# /((#                   #%,  ,,                *(((.           / ";     
+			escribir"  ,  *          /(((                  %%%#  .*,               *(((.           /  ";    
+			escribir"  ,  *          /(((                 ,%%%%. ./.               *(((.           /  ";    
+			escribir"  ,  *          /(((.                 /%%(  .*.               /(((.           /  ";    
+			escribir"  ,  *          /(((.             **,*###((.*/                /(((.           *  ";    
+			escribir"  ,  *          /(((.             ,. ,%%%%, .,                /(((.           *  ";    
+			escribir"  ,  *          /(((.                .((((                    /(((.           *   ";   
+			escribir"  ,  *          ((((.                .((((                    /(((,           *  ";    
+			escribir"  ,  *          /(((.                 ((((                    /(((,           *  ";    
+			escribir"  ,  *          ((((.                 ((((                    /(((,           *  ";    
+			escribir"  ,  *          ((((.                 ((((                    /(((,           *   ";   
+			escribir"  ,  *          ((((.                 ((#(                    /(((.           *  ";    
+			escribir"  ,  *      .,*/****/*,,              ((#(                .,******/**,        *  ";    
+			escribir"  ,  *          *#%/,,,.              ((#(                    ,%%(,,*.        *   ";   
+			escribir"  ,  *          ##%%. ,,,             ((#(                    #%%%, .,,       *  ";    
+			escribir"  ,  *          #%%%* ,#.             /(((                   .##%%*  (,       ,  ";    
+			escribir"  ,  *          /%#(  .,.             /(((                    ,%%(.  *,       ,  ";    
+			escribir"  ,  *          ,##(,..               *(((                    .##(,,.         , ";     
+			escribir"  ,  *          ,,/*                  ,(((                    .,*/            , ";     
+			escribir"  ,  *            .                     .                       ,             , ";     
+			escribir"  ,  *                                                                        , ";     
+			escribir"  ,  *                                                                        ,  ";    
+			escribir"  ,  /                                                                        , ";     
+			escribir"  ,  *                                                                        , ";     
+			escribir"  ,  *                                                                        . ";     
+			escribir"  ,  *          .(((                  ,,**                    .(((.           .  ";    
+			escribir"  ,  *          /(((                   (#*                    *(((.           .  ";    
+			escribir"  ,  *          /(((                  ,%%/  .,.               *(((.           .. ";    
+			escribir"  ,  *          /(((                 .%%%%. ./.               *(((.           .. ";    
+			escribir"  ,  *          /(((                 .%%%%. ,*,               /(((.           .. ";    
+			escribir"  ,  *          /(((.                 ,%%/  ,,                /(((.           .. ";    
+			escribir"  ,  *          /(((.             *,,*,,,,(***                /(((.           .. ";    
+			escribir"  ,  *          /(((.                .#(((                    /(((.           .. ";    
+			escribir"  ,  *          /(((.                .((((                    /(((.           .. ";    
+			escribir"  ,  *          ((((.                 ((((                    /(((.           .. ";    
+			escribir"  ,  *          ((((.                 ((((                    /(((,           .. ";    
+			escribir"  ,  *.         ((((.                 ((((                    /(((,           .. ";    
+			escribir"  ,  *          ((((.                 ((((                    /(((,           .. ";    
+			escribir"  ,  *.         ####,                 ((((                   .(###,           .. ";    
+			escribir"  ,  *.     .,*////*//*,              ((((                ,,**///*/**,        ..  ";   
+			escribir"  ,  ,.         /#%(  ,,              ((((                    *%%(. .,        .. ";    
+			escribir"  ,  ,.         #%%%* ./,             /(((                   .#%%%, ./*       .. ";    
+			escribir"  ,  ,.         #%%#,  *              /(#(                    (%%%,  ..       .. ";    
+			escribir"  ,  ,.         ,%%,  .,.             /(((                    .%%/   *.       ..";     
+			escribir"  ,  ,.         ./(.                  /(((                     *(*      ./ (* .. ";    
+			escribir"  ,  ,.         .,*,                  ./(*                    .,,*       (,(( .. ";    
+			escribir"  ,  ,.                                                                  ,(.  .,  ";   
+			escribir"  .  ,/(/((//////.        .*(((//////          */(/(((/(/,         *//////////(. ";
+			Escribir Sin Saltar " " ;
+			//	//6 oro";
+		36:
+			escribir"   .  **********************************************************************/  ";
+			escribir"   .  /                                                                     (  "; 
+			escribir"   .  /    #,                                                               (   ";
+			escribir"   .  /   /( *(                                                             (   ";
+			escribir"   .  /.   .,.    . (#/((/*/((,/,                  .,/%(/(///((,*,          (   ";
+			escribir"   .  /.       .///,***,,**,****,*(/.           .//*,***,,**,****,/(/.      (   ";
+			escribir"   .  *       //,/,,*/**,*,*,****,*.(.,       .(/,/*,**,**/,*,*/**,*,#,.    (   ";
+			escribir"   .  *.    ,#,/*******,,(/,,********,//     ,(,//******,,#/,,*********/* . (   ";
+			escribir"   .  *    .(,,*,*****,(,***#,/**,*,,/*#.   ,%,**,***/**#*/,*#,/****,,*,(.  #   ";
+			escribir"   .  *.  .##,/**,*,,,*(#%#%//,,,,*/*,,(,  .#/,*,/,*.,,/(%#%#/*,,**,//*,#,  (   ";
+			escribir"   .  *.   *(,*****,,,*/%###/*,,,*,/*,,((.  //**,*,*,,,*/%%##/*,,,*,//*,%/. (   ";
+			escribir"   .  ,.   ./,***,***,,(,*,*#,***,*,*,*&.   .(****,,/*,*(*/,*%*,**,,****%.  (   ";
+			escribir"   .  ,.    .//,*,,,,,,*./,,*,,,*,,*,,(/      (/*,,,*,,,*.(*,*,*,,,,*,/*/.  (   ";
+			escribir"   .  ,.      *#*,*****,,*,*,,****,,(/        .*%*,*****,**,*,*/***,*#*     (   ";
+			escribir"   .  ,.       . ##*,,**,*/,**,**#/..           ,.%#*,,**,*****,,*#*,       /   ";
+			escribir"   .  ,.            ,,%(,#&(*(,, .                   ..(%//%#,/*.           (   ";
+			escribir"   .  ,.                                                                    /   ";
+			escribir"   .  ..                                                                    /   ";
+			escribir"   .  ..                                                                    /   ";
+			escribir"   .  ..         .,,%(*/*,,*//*(( .               .,,%(//*,**//*(/.         /   ";
+			escribir"   .  ..       */(,**,,,,**,**,/,,#*,           ,/(,,/,*,*,*,****,,#*..     /   ";
+			escribir"   .  ..     *#*,*****,***,*,******,*#.       *#**,*/****,/,**********#.    /   ";
+			escribir"   .  ..    ,(,/******,,,(/,,********,/*.    *(,****,***,,#/,,********,/,   /   ";
+			escribir"   .   .  ..**,*,*,,(/,(*/,//,%(,,*,*/,#,  ..(,**,*,,#*,(*(,//,#(,,*,**,#.  /   ";
+			escribir"   .   .   */,/***,**(/(##%#//(,*,*/*,,(/   **,****,**(/(#%%#//(,*,*//*,#*  *   ";
+			escribir"   .   .   *(,*/***,,**/###(**,,,*,***,%/.  */,***,**,***###(**,,,*,*/*,%/  *   ";
+			escribir"   .   .   ,#**,*,*,,,,(,**,(*,,**,**,/@.   ,%**,*,*,,***,/,,(,,,**,***/&.  *   ";
+			escribir"   .   ,    .(/,**,,*,,*,*.,*,,,*,,*,/(,     .(/,*,,,,,,*,/,,*,,***,*,(*,   *   ";
+			escribir"   .   ,      ,(/,*****,,*,*,*****,/(,         ,#/,******,*,*,****,,/(,     *   ";
+			escribir"   .   ,        .,##*,,*,*/*,,,*(#*.             .,#(*,,,****,,,*#(/        *   ";
+			escribir"   .   ,            ../*,/#/,*..                     ..*(*,#(.*..           ,   ";
+			escribir"   .   ,                                                                    ,   ";
+			escribir"   .   ,                                                                    ,   ";
+			escribir"   .   ,                                                  .                 ,   ";
+			escribir"   .   ,          ,.&%/*,,,,*/(#(..               ...%%/*,,*,*(/(/          ,   ";
+			escribir"   .   ,       *//*,****,**,,****,(/,           ///,,****,,*,**/,,*(/,      ,   ";
+			escribir"   .   ,     .(*,*******,*,*,******,*(,       ,/*,*******,/,********,/(.    ,   ";
+			escribir"   .   *   ./#.(//*****,,#(,,***,**,*,((.   ./#,//******,,%(,,,**,,***,#/   .   ";
+			escribir"   .   *   ,(,,*,*,*//,(**,//,(/*,*,*/,#,   *#,**,*,*(*,(//,//,#/*,*,,*.(,  .   ";
+			escribir"   .   *   *(,/***,*,*/(%%%%(*/,*,*/*,,(,  ./*,******,/*##%%%/**,*,**/**(,  .   ";
+			escribir"   .   *   ,(,**/**,,,/*##%(/*,,,****,,%#.  */****,*,,./*(%%(**,,.**//*,%(  ..  ";
+			escribir"   .   *   .(****,**,,,/,*,,(*,,**,**,/&,   .#*,**,**,,*/,(,,(,,,******/%.  ..  ";
+			escribir"   .   *     #/,*,,,*,**,*,,*,*,*,,*,*/..     #/,*,,,,*,*,/,,**,**,,*,(,.   ..  ";
+			escribir"   .   *      *//*,,/*/***,*,*****,*#,         (/*.****/,,*,*,****,,((.     ..  ";
+			escribir"   .   *        .*#(/,,***/***.*/#*.             .*#/*,,*******,*(#*.       ..  ";
+			escribir"   .   *            ..//./%/,*..                       *(*,#(.*,      .*,   ..  ";
+			escribir"   .   *                                                             .% .#  ..  ";
+			escribir"   .   *                                                               .#.   .  ";
+			escribir"   .   /                                                                    ..  ";
+			escribir"   .  **********************************************************************/  .  ";  
+			Escribir  Sin Saltar"";
+			//	//5 copa";
+		45:
+			escribir".................................................................................... ";   
+			escribir"/............................                        ..........................,,  . "; 
+			escribir"/                                                                              .*  ,  ";
+			escribir"(   #%/    ,(%##(#%#########(*.                     .*#%##############(,.       *  ,  ";
+			escribir"(  ,/%* ./######################.                 .#%#####%##############/.     *  ,  ";
+			escribir"(  . ./ .,/(##%%%%###########(/*                   */#%%%%%%##########((*,      *  .  ";
+			escribir"(       .*,,*,,,,******,,*****//                  .****,,,***********/**/*      /  ,  ";
+			escribir"(        ,****/*///***/((####%#(                   *,/***///***//(((#####*      /  ,  ";
+			escribir"/         *,**/****,(#######%((.                   .*,/*******######%###(       /  ,  ";
+			escribir"(          ,**,/*,/,(########(.                     .*,*/,/***##%######*        /  ,  ";
+			escribir"#           .,***/**(#######,                         .*******###%##%(.         /  ,  ";
+			escribir"#              ***,*((##%(,                             .*****#####/            /  ,  ";
+			escribir"#                ,#####/                                  ./#####,              /  ,  ";
+			escribir"#               .(##&##(.                                 ,###&##(              /  ,  ";
+			escribir"#         (##/ /#&##&##&#/.*##/.                   .(#(*,(#&##&(%&(, (##/       /  ,  "; 
+			escribir"#         ,#(#(&@@##&##&@@####,                     *#(#%@@&#%&##@@&(#((.       /  ,  ";
+			escribir"#           **,,,,,,,,,**/*(,                        ./,,,*,,,,,,,**,(,         /  ,  ";
+			escribir"(                                                                               /  ,  "; 
+			escribir"(                                                                               /  ,  ";
+			escribir"(                                                                               /  ,  ";
+			escribir"(                                                                               /  ,  "; 
+			escribir"(                                                                               /  ,  ";
+			escribir"(                             .,/#%%##########%#(*.                             /  ,  ";
+			escribir"(                            (%#%###################,                           /  , "; 
+			escribir"(                            /*(#################/(,.                           /  , "; 
+			escribir"(                            /**,***************/*/*,                           /  ,  ";
+			escribir"(                            .****///*******(#######.                           /  ,  ";
+			escribir"(                             ,*/***/**,/######(###,                            /  ,  ";
+			escribir"/                              ,********/########(.                             /  ,  ";
+			escribir"/                                ,******/#######*                               /  ,  ";
+			escribir"/                                  ,****/####(,                                 /  ,  ";
+			escribir"/.                                   ,(####(.                                   /  ,  ";
+			escribir"/.                                   /%#%%##,                                   /  ,  ";
+			escribir"/                             *#((.*#%%(%%#&#/.*###.                            *  ,  ";
+			escribir"*.                            .(##%&@@%#&&#&@@%##(*                             *  ,  ";
+			escribir"*.                             .**,,,,,,,,*,/**/*.                              *  ,  ";
+			escribir"*.                            ..                                                *  ,  ";
+			escribir"*.                                                                              *  ,  ";
+			escribir"*.                                                                              *  ,  ";
+			escribir",.                                                                              *  .  ";
+			escribir",.           .**//(((((//**,.                         .,*///(((((//**..         *  ,  ";
+			escribir",.       *#%%%%################/.                 .(%%%%%%%##############*      *  ,  ";
+			escribir",.      ./####%(###############/                  .(####################(*      *  ,  ";
+			escribir",.      .,***,/(########(/******                  .,*,,*/(########(/*****,      ,  ,  ";
+			escribir",.       ,*//****,*,,*,**///(###                   **/***,*,,,,****/*((##/      ,  ,  ";
+			escribir",.       .****/*****(##########*                   ,*/********##%###%####,      ,  ,  ";
+			escribir"..        .*********(#########*                     ,,****/**,#########(.       ,  ,  ";
+			escribir"..          ,*/***/*(#######(.                       .***/***,########*         ,  ,  ";
+			escribir"..            *,***,(#####(.                           .,/***,######/           ,  ,  ";
+			escribir"..              .*(#%%#(*                                 .*#%%%#(.             ,. ,  ";
+			escribir"..               /##%##*                                  .(%#%%#,              .  ,  ";
+			escribir"..        ,(/..*,,,,,*,*,*//*/,                     *(*.,*,,,,,**,,***//.       .. ,  ";
+			escribir"..        (#####&@##&##&@#(###/.                   .(####%@%##&##@&#####/       .. ,  ";
+			escribir" .          .%@@@@@@@@@@@@@#.                         ,&@@@@@@@@@@@@@/  ./  .   .. ,  ";
+			escribir" .        (@@@&@@@@@@@@@@@@@&&* .                  ,#@@@@&@@@@@@@@@@@@@&.%/.    .. ,  ";
+			escribir" .                                                                      .//*    .. ,  ";
+			escribir" .                                                                              .. ,  ";
+			escribir" ........... ...............                         .........................    ..  ";
+			escribir" ...................................................................................   ";
+			Escribir Sin Saltar " " ;
+			//	//5 basto";
+		25:
+			escribir"  ................................................................................. ";
+			escribir"  ...........            ...........            ...........            .........,., ";     
+			escribir"  . .      .                       ..                                             .  ";   
+			escribir"  .    ,,.                                                                        . ";    
+			escribir"  .  ,%*                          *#(.         .(%%#                              .  ";   
+			escribir"        #,                       #(#%%#%#   *#######&,                            .    "; 
+			escribir"     (&(.                      *%######&(    #######%%                            .    "; 
+			escribir"                            .,%##(####&*      ,&#(#%%&&.                          .    "; 
+			escribir"  .                      .(**(%###(%&%         .%######&,                         .    "; 
+			escribir"  .                      .(*%%####%&/         .%**%&#####%#(#(.                   .    "; 
+			escribir"  .                     .%#######%&*           //,*/%###%&/*##(.                  .    "; 
+			escribir"  .                    /######%%%%&.             ./%####%&&#(#(                   .    "; 
+			escribir"  .                   /%####%%%*,(&*               ,%##########&*                 .    "; 
+			escribir"   .                  *####(#%%&//&(                  /%#########%/               .    "; 
+			escribir"  .              ,(%%#%##(####&,                      .%########%&*               .    "; 
+			escribir"  .            .#(@&*%%(%%%#%&.                        .&%%%%##%#%&*              .    "; 
+			escribir"  .             ///#%####%#&#                           %*,*%&%###%%#             .    "; 
+			escribir"  .           *###########%,                            (/***&%#####%%/*%%,       .    "; 
+			escribir"  .       .##############&.                               .,%%########***%&.      .    "; 
+			escribir"  .      #(#####(####(%((%.                                 ,%#########/(%&,      .    "; 
+			escribir"  .     .####(#/*/#(*#*/&(#                                 ,########(****/%.     .    "; 
+			escribir"  .      /%###%***,*,//*#*                                  .%########/,***&/     .    "; 
+			escribir"  .      //,*,(,*,,**&*                                       (%#######,**(*&*    .    "; 
+			escribir"  .      .%**,***#%(,                                             ,#%,***,*(,     .    "; 
+			escribir"  .        *%(/((                                                     *((,        .    "; 
+			escribir"  .                                                                               .    "; 
+			escribir"  .                      .                                                        .    "; 
+			escribir"  .             /%%%%%/,#&#*((.                .(##,                              .    "; 
+			escribir"  .       *(/*#*,,*,*,*(/((####%%%%%%&&&&%&%%&%,*//*%&(*,.                        .    "; 
+			escribir"  .      #**,,,,***,*,(#############%###%(#(####%%%%####%#%#%%########%&/         .    "; 
+			escribir"  .      /(**,*,/%#(*/##########%#%%%######((###((####################&#          .    "; 
+			escribir"  .        ./#(##############((#**#(,#%######(((####(#&%&&%###########%%,         .    "; 
+			escribir"  .            .#%####(#%%/.   .#/,*/*                #(*/#*                      .    "; 
+			escribir"  .                                                                               .    "; 
+			escribir"  .                                                                               .    "; 
+			escribir"  .                                                                    ,,.        .    "; 
+			escribir"  .       .#/*,*/#*                                                ,#/,,*,*#.     .    "; 
+			escribir"  .      (/,,*,*#####%#,                                        *&/*,,**,*,*#     .    "; 
+			escribir"  .      /&#,,*(#(###(##&,                                   .*##**,*,*(/(##(          "; 
+			escribir" .       &(**,,/####(####                                 ,&%%*/*,,*,*######(         "; 
+			escribir"  .       .&(,*/(((#######                                 ,#*,*%##########(#/     .  ";  
+			escribir"  .        /***/#((###(##%.                                 (%##############,      .   "; 
+			escribir"  .        *&&(,/(#%####&%/*(/                             ,&##(#########,         .   "; 
+			escribir"  .           ,.,%%####%&%*,*/*                           #%%#####%###*            .   "; 
+			escribir"  .               *&#####%&%%&.                         .&&%###%%%*&%**            .   "; 
+			escribir"  .                ,&#########&,                       /&%####(#%&*,*(             .   "; 
+			escribir"  .                 *&#########%,                   *#%&#########/                     "; 
+			escribir"  .                  /&#########(#.                %&#,/%%%####%,                  .   "; 
+			escribir"  .                    /%%%%%#####%*               (%(%%%%#####,                   .   "; 
+			escribir"  ..                    (/*,/%&%###%**#*            (&########%,                    .   "; 
+			escribir"  .                    .%%**%#####&&(,/,          (&#####%%%*                      .   "; 
+			escribir"  .                          /%#(###%&/          %&#####&&**(                      .   "; 
+			escribir"  .                            %%######.       *&###(#(#%#(,                       .   "; 
+			escribir"  .                            .&%#####%/     #%######%*                           .   "; 
+			escribir"  .                              %########   (&######%.                            .   "; 
+			escribir"  .                              .&####(/.     .,%#%/                     ,#       .   "; 
+			escribir"  .                                                                        (%(,    .   "; 
+			escribir"  .                                                                       ,&&/     .   "; 
+			escribir"  ,............           ...........           ...........            ............. "; 
+			escribir"  .............            ...........            ...........            .........,.  ";  
+			escribir"  ..................................................................................  "; 
+			Escribir Sin Saltar " " ;
+			//	//5 espada";
+		15:
+			escribir " .....,.,,,,,,.,,,,,,,.,,,,,,,,,..,..........,.,.,,,,,,,,,..,,,..,,,,,..,,,....  ";                                                                             
+			escribir " .....,.,,,,,,.,,,,,,,.,,,,,,,,,..,..........,.,.,,,,,,,,,..,,,..,,,,,..,,,....  ";     
+			escribir " .  ., (%*                                                                /   . ";
+			escribir " .  .* ((,        *,                                         ./,          /   . ";
+			escribir " .  .* ..       .,,.                                        ,**.          /   . ";
+			escribir " .  .*   ,/     .%%  .*                                     ,%%  .*       /   . ";
+			escribir " .  .* /#.     .#%%(  *,.                                  .%%%/ .**.     /   . ";
+			escribir " .  .*         ,%%%#  .,                                   ,%%%(  ,.      /   . ";
+			escribir " .  .*          (%%*  ,.                                    #%%,  *.      /   . ";
+			escribir " .  ./      ,**//////*,.                                *,*(//*(**,.      /   . ";
+			escribir " .  ./         .###(                                       ,(#(/          *   . ";
+			escribir " .   /         .(((/                                       .(((*          *   . ";
+			escribir " .   /         .(((/                                       .(#(*          *   . ";
+			escribir " .   (         .(((/                                       .(((*          *   . ";
+			escribir " .   (         .(((/                                        (((*          *   . ";
+			escribir " .   (          (((*                                        (((*          *   . ";
+			escribir "     (          (((/                                        (((*          ,   . ";
+			escribir " .   (          /((/                                        (((*          ,   . ";
+			escribir "     (          /((*                                        (((*          ,   . ";
+			escribir " .   (          /((*                                        (((*          ,   . ";
+			escribir " .   #          /((*                                        /((*          ,   . ";
+			escribir " .   (          /((*                                        /((*          ,   . ";
+			escribir " .   #          *((*                                        /((*          ,   . ";
+			escribir " .   #           .,                                          ..           .   . ";
+			escribir "     #                       .,*                                          .   . ";
+			escribir "     #         .*,.**#%#%%%%/(*##(((((((((((((((((((((((((((##(*          .   . ";
+			escribir "     (         .*,./,/##%%#(*#*##((((((((((((((((((((((/(((((((/.         .   . ";
+			escribir "     (             ,. . . . ,,,*                                          .   . ";
+			escribir " .   (            .  ., . ,                                               .   . ";
+			escribir " .   (          *((*                                        /((*          ..  . ";
+			escribir " .   (          /((/                                        /((*          ..  . ";
+			escribir " .   (          /((*                                        (((*          ..  . ";
+			escribir "     (          /((*                                        (((*          ..  . ";
+			escribir "     (          /((*                                        (((*          ..  . ";
+			escribir " .   (          /((*                                        (((*          ..  . ";
+			escribir " .   (          (((*                                        (((*          ..  . ";
+			escribir " .   (          (((*                                        (((*          ..  . ";
+			escribir " .   (          (((*                                        (((*          ..  ."; 
+			escribir " .   /         .(((/                                        (((*          ..  . ";
+			escribir " .   /         .(((/                                       .(((*          ..  . ";
+			escribir " .   /         .(((/                                       .(#(*          ..  . ";
+			escribir " .   /         .(((/                                       ,(#(/          ..  . ";
+			escribir " .   /      ,,**,,,*/*,.                                ,,,/,,,/**,.      ..  . ";
+			escribir " .   /          /#%* .,.                                    (%%. .*.      ..  . ";
+			escribir " .   *         .%%%#  ,,                                   ,%%%( .,,      ..  . ";
+			escribir " .   *         .%%%(  ,,                                   .%%#(  **      ..  . ";
+			escribir " .   *          ,%%.  ,.                                    *%%  .,.      ..  . ";
+			escribir " .   *          .*/.                                        .**       *.....  . ";
+			escribir " .   ,           */                                         ./,       (%*. .  . ";
+			escribir " .   ,                                                                ((,  .  . ";
+			escribir " .   ,                                                                     .  . ";
+			escribir " .....,.,,,,,,.,,,,,,,.,,,,,,,,,..,..........,.,.,,,,,,,,,..,,,..,,,,,..,,,.... ";
+			escribir " .....,.,,,,,,.,,,,,,,.,,,,,,,,,..,..........,.,.,,,,,,,,,..,,,..,,,,,..,,,....";
+			Escribir Sin Saltar " " ;
+			
+			//	//5 oro";
+		35:
+			escribir"    ....................................................................... ";
+			escribir"  ,  *,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,. ";
+			escribir"  .  ,.                                                                   , "; 
+			escribir"  .  ,   .//.                                                             *  ";
+			escribir"  .  ,   (%/                                                              *  ";   
+			escribir"  .  ,. ...*.  .   .. ,**..                        . .**.,*               *  ";  
+			escribir"  .  ,         /#(**,,***,,**((/               **#*,,,****.,,/((.         * ";   
+			escribir"  .  ,     .,#*,*****,,,*,*****,*(,         ,/*,**,**,*,,,,****,,(..      /   "; 
+			escribir"  .  ,    ,/,*,/,**,*,,/,,,*,**,****.      ,#,,*,***,*,*,,*,****,*,/,     / ";
+			escribir"  .  ,   .(,/,,*,,,.*,,/,,,,,,*.*,*,*.    ,*,,*,,,,,,*,*,,*,,,,,,*/,/.    /  ";  
+			escribir"  .  ,   **,**,*,,***/##(*/,,,*,,**,/*.  .(,***,*,,*/*(##/,**,,*,*/*,%.   /  ";   
+			escribir"  .  ,  .(*,/**,*,*//##%##//*,***/*,/%,  *(,****,,,//(%%%#///,*,**/*,%/.  /";
+			escribir"  .  ,   //,**,*,*#*,(*(*#,*#,,*,**,(*   ,#,*/,*,,(/,(*/*/*,#*,,**,**#.   /     ";
+			escribir"  .  ,  . #(,(*/////*,*%*,*//////(,(( .   ,%,*/*/////,,%*,,//////(,*%     /   ";
+			escribir"  .  ,     *(,,/*,,/,*,/,*,**,**,,#,       .(***,****,*/.*,******,%*.     /    ";
+			escribir"  .  ,.      *((*,**/*,*,,*/,**((.           ,(#*,*,//,**,*/*,,/(*        (    "; 
+			escribir"  .  ,.         .*#(#/***/%#/*.                  ,*(%(**,/(%%*..          (  .  ";
+			escribir"  .  ,.                                  . .                              (  .  ";
+			escribir"  .  ,.                      ..,/,##///*//*/(,*..                         (     ";
+			escribir"  .  ,.                   .,/%/,,,*****/****,*,,,#(*,                     (     ";
+			escribir"  .  ,.                 ..&,,,*,*/,*,**,,*,,/,*,*,,,#*.                   (     ";
+			escribir"  .  ,.                (%,,*,**,**/,*,,/,,**,/,***,*,,/*.                 (     ";
+			escribir"  .  ,.              **(,,***,*,****,,*%/*,,*,,,,,*,,*,*((                (     ";
+			escribir"  .  ,.             ,%(,*,,*,***,*,*#*,/,,/(,,,***,*,,*,,#                (     ";
+			escribir"  .  .,              #*,*/*,,*,,*,**,/###(**/,,,,*,,**,,,/.               (     ";
+			escribir"  .  .,             *&,,*****,*,/%%(##%%%####%(,*,*,*,,,,(%(              (     ";
+			escribir"  .  .,             ,(*,*/**,*,,,,,**##%##****,,,****/,*.##*              (     ";
+			escribir"  .  .,              .**,,,**,**//,,#***,*(/,//**,,*,,*,,%*,              (     ";
+			escribir"  .  .,               #(,,**,***///*,,*%*,,,*/*//////*,*&,                (     ";
+			escribir"  .  .,               ..(,,****,***,*,,/,,*,,**,***,,,(@*                 (     ";
+			escribir"  .  .,                 *(/*,,****,**,**,*,,***,*,,,(%..                  (     ";
+			escribir"  .  .,                   ..%#**,,**,,***,,**,,,*/%.*.                    (     ";
+			escribir"  .  .,                       ..*%#%/*,,,**#&&*#                          (     ";
+			escribir"  .  .,                               . . , .                             (     ";
+			escribir"  .  .,            .. .,, .                        .  ,, ..               (     ";
+			escribir"  .  .,        *(((.,*,***,,(#*/               .*(#*,,**,*.,/(#*          /.    ";
+			escribir"  .  .,      %*,,**/,,*,*,/***,,((           (#,,*,/*,/,,,**/,*,,#        /. .  ";
+			escribir"  .   *   .**,***/*,,,,/,,,******,/,,     ..(,**,***,*,/,,*,****,**/*     /.    ";
+			escribir"  .  .,  ,%***,,,,,,*,,(,,*,,,,,,,*,(.   .*****,,,,,,,,/,,*,,,,,,,/,#,    /     ";
+			escribir"  .   * .#*,,*,,,,(/*/(#/**//,*,,,*./,   /#,**,**,/(,*/(#/,/(*,*,*/**(.   *.    ";
+			escribir"  .   * .#*,//*,*,***#%%%(*/*,*,*/*,//. .((,**/*,****(%%%%***,*,/*/*.#.   /.    ";
+			escribir"  .  .*  //,,*,*,*(*,(*(*(**(,,*,/*,(#.  ,(***,*,,(/,//(//**#*,,,*,**&,   *.    ";
+			escribir"  .   ,   //,/,*,***,,*#,,,,*,*,*/,/(,    ,(,*****,*,,,(*,,,*,****,*%,.   *.    ";
+			escribir"  .   *    ,#,********,/,*,/***,,,(/.       %*,******,**,*,******,(/,     ,.    ";
+			escribir"  .   *      /#/,,/,*,,**,***,,/%..        . ,%(,,/*,*,**,****.*#/..      ,.    ";
+			escribir"  .   *         ./(/(//**/#(((,                  *//#(*/*//(%(..          ,.    ";
+			escribir"  .   *                  .                                          ./    ,.    ";
+			escribir"  .   *                                                              ,&&  ,. .  ";
+			escribir"  .   *                                                              ,,.  ,,    ";
+			escribir"  ,   *,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,.    ";
+			escribir"    .........................................................................    ";
+			Escribir  Sin Saltar"";
+			//	//4 copa";
+		44:
+			escribir" ,.    *(##%###############((                             ,(#####%%###########(/     ,.   ";
+			escribir" ,.    ***,,*//(((((//*******                             .*,,,*//((//////***/**     ,.   ";
+			escribir" ,.    ,*//*/********//((####                             .**/*/*********/((#%#(.    ,.   ";
+			escribir" ,.     *,********(#########.                              ,,/*******(#########,     ,.   ";
+			escribir" ,.      ,****/,**(#######(.                                ,*/****/*(#%#####(,      ,.   ";
+			escribir" ,.       .,******#######,                                    ,******(######*        ,.   ";
+			escribir" ,.          ,****(###/.                                        .**,*####(,          ,.   ";
+			escribir" ,,            /####(.                                            /###%#.            ,,   ";
+			escribir" ,,      ..   *#%%%#%/.  ..                                 ..   *#%#%##/.   .       ,,   ";
+			escribir" ,,     (##(/#&&####%&#((###.                              *###((%@#(##(%#(/(((.     ,,   ";
+			escribir" ,,      .,*//(///////((%,.                                 .,*//(**///////#.,       ,,   ";
+			escribir" ,,     *%%%%%%%%%%%%%%%%%#,                               .#%((((((((((%%%#%%,      ,,   ";
+			escribir" ,,                                                                                  ,,   ";
+			escribir" ,,                                                                                  ,,   ";
+			escribir" ,,                                                                                  ,*   ";
+			escribir" ,,                                                                                  .*   ";
+			escribir" ,,                                                                                  .*   ";
+			escribir" ,,                                                                                  .*   ";
+			escribir" ,,                                                                                  .*   ";
+			escribir" ,,                                                                                  .*   ";
+			escribir" ,*                                                                                  .*   ";
+			escribir" ,*                                                                                  ./   ";
+			escribir" ,*                                                                                  ./   ";
+			escribir" .*                                                                                  ./   ";
+			escribir" .*                                                                                  ./   ";
+			escribir" .*                                                                                  ./   ";
+			escribir" .*                                                                                  ./   ";
+			escribir" .*                                                                                  ./   ";
+			escribir" .*                                                                                   /   ";
+			escribir" .*                                                                                   /   ";
+			escribir" .*                                                                                   /   ";
+			escribir" .*                                                                                   /   ";
+			escribir" .*                                                                                   /   ";
+			escribir" .*                                                                                   /   ";
+			escribir" .*     ./(##%###########(/,                               .*(##%###########(/,       /   ";
+			escribir" .*   ./%##%#%###############.                            *%####################.     /   ";
+			escribir" .*    ,*/(###%%########((/*/.                            .**(##%%%#########((**      (   ";
+			escribir" .*    */***,,*,,,*,,***,*/(#.                            .****,,,,,,,****/**/(#.     (   ";
+			escribir" .*    .,,/******/(#####%###/                             .**/,/**/*/(#######%#/      (   ";
+			escribir" .*     .*****/***(######%#*                               .,******/*(########(.      (   ";
+			escribir" .*       ,*******(#######,                                  ,***/*/*(#%#####*        (   ";
+			escribir" .*        .,*****(#####.                                      ,*****(#####*          (   ";
+			escribir" .*           ./###%#/                                           .*(##%%/.            (   ";
+			escribir" .*            (%%%%#,                                            /%%%%#,             (   ";
+			escribir" .*     *#(/ ,#%#%%(%#*..#(*                               ,(#( ,(%%%%#%#*..##/.      (   ";
+			escribir" .*     ,####&@&#%&(%@&####*                               ,(###%@&##&##@&%#(#*       (   ";
+			escribir" .*       ,*,*,,,,,,,,*//*                                   ./,*,*,*,*,**///         /   ";
+			escribir" .*                                                                          .        /   ";
+			escribir" .*                                                                         (&#(#.    /   ";
+			escribir" .*                                                                          %,/      /   ";
+			escribir" .,                                                                          #,       /   ";
+			escribir" .,                                                                                   /   ";
+			escribir"  .............................                         ...............................";
+			Escribir Sin Saltar " " ;
+			//	//4 basto";
+		24:
+			escribir"  ............................................................................     ";             
+			escribir"  .                                                                          .   ";
+			escribir"  .     .%/                                                                  .   ";
+			escribir"  .    / */                                                                  .    ";
+			escribir"  .      */                                                                  .   ";
+			escribir"  .                                                                          .   ";
+			escribir"  .         .####*                                              .(%%#/       .  ";
+			escribir"  .        (,*,*,/#%/                                       */%%#(,**,*#     .  ";
+			escribir"  .       .(,,*(,****(#                                  ,%#######/**/%&,    .  ";
+			escribir"  .       /#####*****//*#%.                              %#######/****#(     .  ";
+			escribir"  .       #####%##%###/,**(                             .%########/**#%      .  ";
+			escribir"  .       .%#############&                              .%########/,,/,      .  ";
+			escribir"  .          ,%##########&*                          #***&%####%#(,(&%.      .  ";
+			escribir"  .             *%########%%.                       //***&&#%##&#            .  ";
+			escribir"  .             ,/%%*#%%##%%&*                      *&%%%#####&*             .  ";
+			escribir"  .              */*(%######%%(                    /%#######%&,              .  ";
+			escribir"  .                  *#######%&(%(                ##(######%&/               .  ";
+			escribir"  .                   ,%##(#%%#,/&#             *%########%&.                .  ";
+			escribir"  .                    *%#(##%%%%&*           /%%#((%&&#*,#.                 ,  ";
+			escribir"  .                      ########&#         (**/%%(####*%%%                  .  ";
+			escribir"  .                      .(*%%####&%        .#/%####%%.,,.                   .  ";
+			escribir"  .                       //,/#(##%#&*      ,###(#%&,                        .  ";
+			escribir"  .                           (######%%    (#####%&.                         .  ";
+			escribir"  .                            ,%#####%%  %##(###&,                          ,  ";
+			escribir"  .                             .%##&/*.   *.%##&,                           ,  ";
+			escribir"  .                                                                          ,  ";
+			escribir"  .                                                                          ,  ";
+			escribir"  .                                                                          ,  ";
+			escribir"  .                                                                          ,  ";
+			escribir"  .                          . .(/.           //                             ,  ";
+			escribir"  .                          .%##(&##(    #%%%%##/                           ,  ";
+			escribir"  .                          %######%,    /%#####(%.                         ,  ";
+			escribir"  .                         %&######       ,@####(###*,                      ,  ";
+			escribir"  .                       ,&#######          (&#####&(,/.                    ,  ";
+			escribir" .                  *%*(%#%###&#*//          ,&%####&#%                      ,  ";
+			escribir"  .                 /*#**&&%##%***#            ,&%###((##(                   ,  ";
+			escribir"  .                 .&&&&&######               /#*%%%%##(##                  ,  ";
+			escribir"  .               .%%########%/                /&%**%%######                 ,  ";
+			escribir"  .              .&%#########                    .,&########%/               ,  ";
+			escribir"  .              %%#########                       .&%#%###%#*%((.           ,  ";
+			escribir"  .            .%#(((%&%//%                          %&%%##%##**(.           ,  ";
+			escribir"  ,        /%#&%##(##%#**,%.                          ,&#####(####*          ,  ";
+			escribir"  .      #&%,*########%&%(                             .@############(       ,  ";
+			escribir"  .      /%(/(#(##(####                                ,%/(%########(#((     ,  ";
+			escribir"  .     /%****##(######                                ((&/,/*/*,*#####%.    ,  ";
+			escribir"  .     %(***/((######(                                 ./(%*,*,*,((%#%.     ,  ";
+			escribir"  .    (/*/,*(#####%%,                                     .%(,,,,**,,/.     ,  ";
+			escribir"  .     //***,*%/                                              #*,,,,//      ,  ";
+			escribir"  .                                                              .           ,  ";
+			escribir"  .                                                                     *    ,  ";
+			escribir"  .                                                                    *&((( ,  ";
+			escribir"  .                                                                     %/.  ,  ";
+			escribir"  ............................................................................ ";
+			Escribir Sin Saltar " " ;
+			//	//4 espada";
+		14:
+			escribir "  .  ,........ ....... ....... ....... ....... ....... ....... ....... ..*. . ";  
+			escribir "  .  ,........ ....... ....... ....... ....... ....... ....... ....... ..*. .  ";
+			escribir "  .  (                                                                   *  .  ";
+			escribir "  .  (   ,*(                                                             *  .  ";
+			escribir "  .  (  /(#&*                                                            *  .  ";
+			escribir "  .  (                                                                   /  .  ";
+			escribir "  .  (    ,,/,                                                    ,(,,   /  .  ";
+			escribir "  .  (      /(#   .,,                                      ,,*. .(((.    /  .  ";
+			escribir "  .  (       #%%%,  (*.                                 ..#,  #%%%.      *  ,  ";
+			escribir "  .  (       .#%%%(  .,                                  ,,  ,%%%#*      *  .  ";
+			escribir "  .  /         /%%%,*,,,,                              .,,.*,%%%(.       *  .  ";
+			escribir "  .  /          ,(/,*(.                                 .(/,/#*          *  .  ";
+			escribir "  .  /        ,,,,#((((                                  /(((#*,,,       /  .  ";
+			escribir "  .  /.           ,((((*                              .#(((*             /  .  ";
+			escribir "  .  /.             /(((/                           .,/(//.              /  .  ";
+			escribir "  .  *.              ,((#(,                        .(/(*,                /  .  ";
+			escribir "  .  *.                /(((/                      ,(/((.                 /  .  ";
+			escribir "  .  *.                 ,((((.                  ((((*                    /  .  ";
+			escribir "  .  *.                   /(((*                ,((((.                    /  .  ";
+			escribir "  .  ,.                    ,((((              /(((*                      /  .  ";
+			escribir "  .  ,.                      /(((,          .((((.                       /  .  ";
+			escribir "  .  ,.                       ,((((        *(((*                         /  .  ";
+			escribir "  .  ,.                         ((((,     ((((                           /  . "; 
+			escribir "  .  ,.                          ,/((    *((*                            /  . "; 
+			escribir "  .  ,.                                                                  /  .  ";
+			escribir "  .  ..                            ,,    ,,                              /  .  ";
+			escribir "  .  ..                          ((((    *(((*                           /  . "; 
+			escribir "  .  ..                        /(((,      .(((/                          /  .  ";
+			escribir "  .  ..                       ((((.        /(#(*                         /  .  ";
+			escribir "  .  ..                     /(#(/            ,((((.                      /  .  ";
+			escribir "  .   .                   .((((.              /(((*                      /  .  ";
+			escribir "  .   .                  *(#(/                  ,((((.                   /  . "; 
+			escribir "  .   ,                 .((((,                    .((((*                 /  . "; 
+			escribir "  .   .               /((((                        *((((.                /  . "; 
+			escribir "  .   .             .((((*                           ((((*               /  . "; 
+			escribir "  .   .            /(#((                              /((((.             *  . "; 
+			escribir "  .   ,       .*. .((((*                                .((#(*. ,.       *  . "; 
+			escribir "  .   ,         ,*,(%#.                                  #%#*,*.         *  . "; 
+			escribir "  .   ,         *%%##**,,                              ,,,,((#%(         *  . ";
+			escribir "  .   ,       /%%%#  .*.                               .,,  #%%##.       *  . "; 
+			escribir "  .   ,      /%%%#  .,*                                  ,,,  (%%%#      *. . "; 
+			escribir "  .   ,     *##/  .,*,                                    .*,.  *##/     *. . "; 
+			escribir "  .   ,   .,/*..,*,.                                       .,**..,/*.    *. . "; 
+			escribir "  .   ,    /.                                                     ./*    *. .";  
+			escribir "  .   ,                                                            .     *. . "; 
+			escribir "  .   ,                                                           /@&%(  *. . "; 
+			escribir "  .   ,                                                            %(.   ,. . "; 
+			escribir "  .   ,....... ....... ....... ....... ....... ....... ....... ....... ..*. .";
+			escribir "  .   ,....... ....... ....... ....... ....... ....... ....... ....... ..*. .";
+			Escribir Sin Saltar " " ;
+			//	//4 oro";
+		34:
+			escribir"  ,  *,,...............................................................,*  .. "; 
+			escribir"  ,  /     .                                                            *   . ";  
+			escribir"  ,  *   /**                                                            *   .   ";
+			escribir"  ,  /  //(#.                                                           *   .   ";
+			escribir"  ,  *           *,%##(##(/#,.                   /,(%#((#%/.,,          *   .   ";
+			escribir"  ,  *        /(*.**,***,*/**,*(*           . #(,**,*,***/*,**/%..      *   .   ";
+			escribir"  ,  *     .*/,**/**,*,/,*******,/(.       ,%*,*,*/*,*,,,,******,#*     *   .   ";
+			escribir"  ,  *    ,(,***,*,**,*%,,********,/.     */,*,,,***,,//,*******/,**.   *   .   ";
+			escribir"  ,  *    **,**,,*#,,%*/*#**(***,,*,*.   .(,**,,*/#**/***/*((,,*,,*,,   *   .   ";
+			escribir"  ,  *    (,*/*,,***,%%%%(,/*,*,*/*,#.   ,,****.*,/,/%%%%*,**/,***,,/   *   .   ";
+			escribir"  .  *   .*,***,*,,***#%(/*,,,****/,%#   *****,*,,,//(#%(*/,,,*,*/,*%*  *   .   ";
+			escribir"  ,  *    */,,*,*,,,*,,(,,*,,,*,*,*/#,   .(,***,,,,,/,,*,/,,,*,.*,,%/.  *   .   ";
+			escribir"  ,  *     /(,*,,***,*,(,*,*****,,#(      .#*,********,,,*,,*,**,.#.    *   .   ";
+			escribir"  ,  *      ..#,,,***,*,*,**/***##..       .,(*,,*/**,,,*,*,*/.,#/      *   .   ";
+			escribir"  .  ,         .*&(.,,,,,*,,(#(                /.&*,,,.,....#/*/        *   .   ";
+			escribir"  ,  ,.            . .. .*.                          ..*. .             *   .   ";
+			escribir"  ,  ,.                                                                 *   .   ";
+			escribir"  ,  ,.                                                                 *   .   ";
+			escribir"  .  ,                                                                  *   .   ";
+			escribir"  ,  ,.                                                                 *   .   ";
+			escribir"  ,  ,.                                                                 *   .   ";
+			escribir"  ,  ,.                                                                 *   .   ";
+			escribir"  .  ..                                                                 *   .   ";
+			escribir"  ,  ..                                                                 *   .   ";
+			escribir"  ,  ..                                                                 *   .   ";
+			escribir"  ,  ..                                                                 *   .   ";
+			escribir"  ,  ..                                                                 *   .   ";
+			escribir"  ,  ..                                                                 *   .   ";
+			escribir"  ,  ..                                                                 ,   .   ";
+			escribir"  ,   .                                                                 ,   .   ";
+			escribir"  ,   .                                                                 ,   .   ";
+			escribir"  ,   .                                                                 ,   .   ";
+			escribir"  ,   .            .. .*, .                        ..*..*,              ,   .   ";
+			escribir"  ,   ,        */((,,*****,,/(/*               *%(*,,*****,*/#/         ,   .   ";
+			escribir"  .   ,     .#/*,**/,,*,*,****,,((.        .,#*,****,*,,*,//**,,#.      ,   .   ";
+			escribir"  ,   ,   ..(.*****,,,,/,,,***,**,//.     ,/,***,**,*,,,,*,******,((    ,   .   ";
+			escribir"  ,   ,  ,*/,**,**,,/,,(,,/,,,*,**,*(.  .,(,**,*.,,,/,*,,/,,,,*,**,#*   ,   .   ";
+			escribir"  ,   ,  .(,***,*,**/,##(/***,,,,**,#/   /****,*,****(##//***,*,*/*,#,  .   .   ";
+			escribir"  .   ,  ,(,*/*,,,,,*#%%%#*,,,*,//*,#/   /,***/,*,,**%%%%*,,,*,**/**#,  .   .   ";
+			escribir"  ,   ,  *(**/,*,*(,*%*(*#*,(,,*,**,%/   /#,***,,/#,//***/,#/*,***,/%,  .   .   ";
+			escribir"  ,   ,   *%*//******,*&*,*******/.%*    .#(,/*******,((,,/******,(%.   .   .   ";
+			escribir"  ,   *    .*/,,*****,,/,*,***,*,(#        ,/*,*,******,*,**/*,,*&*     ..  .   ";
+			escribir"  .   *      ,*#/,,**/*/*****,/%*.           ,/#*,,****/***,,*#,*    .  .   .   ";
+			escribir"  ,   *          .,*(&(/(%#*,,                   ./(((##((%(,     (     .   .   ";
+			escribir"  ,   *                                                           ( *.  ..  .   ";
+			escribir"  ,   *                                                           (     ..  .   ";
+			escribir"  ,   *                                                                 ..  .   ";
+			escribir"  ,  *,,...............................................................,*  .. ";
+			Escribir Sin Saltar"";
 	FinSegun
-	SS <- VAL;
-FinSubProceso
-
+Fin SubProceso
 // ordena las cartas segun su valor de mayor a menor
 SubProceso ValorarCartas ( vect Por Referencia )
 	// valores palos : 1 espada, 2 basto, 3 oro , 4 copa
@@ -421,28 +2365,6 @@ SubProceso ValorarCartas ( vect Por Referencia )
 Fin SubProceso
 
 
-// MUESTA LAS CARTAS EN TEXTO SIN EL DIBUJO
-SubProceso MostrarMaso ( maso Por referencia , tamaño Por Valor)	
-	Escribir "Maso : ";	
-	para i<-1 hasta tamaño Con Paso 1 Hacer
-		Escribir  TraducirCarta(maso[i]);
-	FinPara
-Fin SubProceso
-
-
-// MUESTA LAS CARTAS EN TEXTO SIN EL DIBUJO
-SubProceso MostrarCartas ( cartas)	
-	Definir  palo, nro Como Entero;
-	Definir  PALL Como Caracter;
-		palo <- PALOCARTA(cartas[i]);
-		nro <- nroCarta(cartas[i]);
-		PALL <-  TraducirPALO(palo);
-		Escribir  PALO,CARTA;
-		DibujarCarta(5,"copa");
-		DibujarCarta(2,"basto");
-		DibujarCarta(3,"copa");
-Fin SubProceso
-
 //BUSCA LA POSICION DE LA CARTA EN EL VECTOR
 SubProceso pos <- BuscarPosicionCarta(vec, carta)
 	Definir  r Como Entero;
@@ -485,6 +2407,1286 @@ SubProceso cantDigitos <- ContarCantDigitos ( nro Por Valor )
 	cantDigitos <- cant;
 Fin SubProceso
 
+// INDICA SI HAY O NO FLOR
+SubProceso bool <- HayFlor ( carta1, carta2, carta3 )
+	Definir bool Como Logico;
+	// A , B,  C SI A = B Y B = C ==> A = C X TRANSITIVIDAD
+	si (PaloCarta(carta1) = PaloCarta(carta2))  Y (PaloCarta(carta2) = PaloCarta(carta3)) Entonces
+		
+		bool <- Verdadero;
+	SiNo
+		bool <- Falso;
+	FinSi
+Fin SubProceso
+
+//ORDENA LAS CARTAS POR PALO
+SubProceso  cartasEnvido(cartas Por Referencia)
+	Definir  carta1, carta2, carta3,tmp, x,z,i, mayorPalo  Como Entero;
+	Definir  existe Como Logico;
+	
+	existe <- Falso;
+	Dimension  cartasOrdenadas[3];
+	Dimension  cartasDesordenadas[3];
+	mayorPalo <-  MayorPaloCartas( carta1, carta2, carta3 )
+	
+	
+	para i <- 1 Hasta  3 Hacer
+		si PaloCarta(cartas(i)) <> mayorPalo Entonces
+			cartasDesordenadas(i) <- cartas(i);
+		FinSi
+	FinPara
+	
+	i <-1;
+	si PaloCarta(cartas(1)) = mayorPalo Entonces
+		cartasOrdenadas(i) <- cartas(1);
+		i<- i+1;
+	FinSi
+	si PaloCarta(cartas(2)) = mayorPalo Entonces
+		cartasOrdenadas(i) <- cartas(2);
+		i<- i+1;
+	FinSi
+	si PaloCarta(cartas(3)) = mayorPalo Entonces
+		cartasOrdenadas(i) <- cartas(3);
+		i<- i+1;
+	FinSi
+	
+	tmp <- 1;
+	si i < 4 Entonces
+		para w <- i Hasta  3 Hacer
+			cartasOrdenadas(w) <- cartasDesordenadas(tmp);
+			tmp <- tmp+1;
+		FinPara
+	FinSi
+	
+	cartas[1] <- cartasOrdenadas[1] ;
+	cartas[2] <- cartasOrdenadas[2];
+	cartas[3] <- cartasOrdenadas[3];
+	
+Fin SubProceso
+
+//ORDENA LAS CARTAS
+SubProceso OrdenarCartas ( cartas Por Referencia , masoOrdenado Por Referencia) 
+	Definir  carta1, carta2, carta3,tmp, x,z ,cartasOrdenadas Como Entero;
+	Dimension  cartasOrdenadas[3];
+	carta1 <- cartas[1];
+	carta2<- cartas[2]; 
+	carta3 <- cartas[3];	
+	cartasOrdenadas[1] <- BuscarPosicionCarta(masoOrdenado,carta1);
+	cartasOrdenadas[2] <- BuscarPosicionCarta(masoOrdenado,carta2);
+	cartasOrdenadas[3] <- BuscarPosicionCarta(masoOrdenado,carta3);
+	
+	
+	para x <-1 hasta 2 Con Paso 1 Hacer
+		para z <- 1 hasta 2 Con Paso  1 Hacer
+			si cartasOrdenadas[z] > cartasOrdenadas[z+1] Entonces				
+				tmp <- cartasOrdenadas[z];
+				cartasOrdenadas[z] <- cartasOrdenadas[z+1];
+				cartasOrdenadas[z+1] <- tmp;
+			FinSi
+		FinPara
+	FinPara
+	
+	
+	cartas[1] <- masoOrdenado(cartasOrdenadas[1]);	
+	cartas[2] <- masoOrdenado(cartasOrdenadas[2]);
+	cartas[3] <- masoOrdenado(cartasOrdenadas[3]);
+Fin SubProceso
+
+SubProceso mayorPalo <- MayorPaloCartas ( carta1, carta2, carta3 )
+	Definir  mayorPalo, cantP1, cantP2, cantP3, cantP4 Como entero;
+	cantP1 <- 0;
+	cantP2 <-0;
+	cantP3 <-0;
+	cantP4 <-0;
+	
+	//para i <- 1 Hasta 4 Con Paso  1
+	Segun PaloCarta(carta1)
+		1: cantP1 <- cantP1 +1;
+		2: cantP2 <- cantP2 +1;
+		3: cantP3 <- cantP3 +1;
+		4: cantP4 <- cantP4 +1;
+	FinSegun
+	Segun PaloCarta(carta2)
+		1: cantP1 <- cantP1 +1;
+		2: cantP2 <- cantP2 +1;
+		3: cantP3 <- cantP3 +1;
+		4: cantP4 <- cantP4 +1;
+	FinSegun
+	Segun PaloCarta(carta3)
+		1: cantP1 <- cantP1 +1;
+		2: cantP2 <- cantP2 +1;
+		3: cantP3 <- cantP3 +1;
+		4: cantP4 <- cantP4 +1;
+	FinSegun	//FinPara		
+	
+	si cantP1 > cantP2 Y cantP1 > cantP3 Y cantP1 > cantP4 Entonces
+		mayorPalo <- 1;
+	sino 
+		si cantP2 > cantP1 Y cantP2 > cantP3 Y cantP2 > cantP4 Entonces
+			mayorPalo <- 2;
+		sino 
+			si cantP3 > cantP1 Y cantP3 > cantP4 Y cantP3 > cantP4 Entonces
+				mayorPalo <- 3;
+			sino
+				mayorPalo <- 4;
+			fin si
+		fin si
+	FinSi	
+FinSubProceso
+
+//PUNTAJE ENVIDO
+SubProceso val <- PuntajeEnvido ( carta1, carta2, carta3 )
+	//	Escribir "Carta 1 :",carta1 , " carta 2:" , carta2 , " carta 3:" , carta3;
+	Definir val,v, mayorPalo, cantP1, cantP2, cantP3, cantP4 Como entero;
+	
+	huboFlor <- Falso;
+	mayorPalo <-1;
+	si  HayFlor(carta1, carta2, carta3) Entonces		
+	    val <- 30 ;	
+		huboFlor <- Verdadero;
+	SiNo
+		v <- 20;
+		mayorPalo <- MayorPaloCartas ( carta1, carta2, carta3 );
+		
+		//las figuras no se cuentan en el Envido
+		si NroCarta(carta1) < 10 Y PaloCarta(carta1) = mayorPalo Entonces
+			v <- v + NroCarta(carta1);
+		FinSi
+		si NroCarta(carta2) < 10 Y PaloCarta(carta2) = mayorPalo Entonces
+			v <- v + NroCarta(carta2);
+		FinSi
+		si NroCarta(carta3) < 10 Y PaloCarta(carta3) = mayorPalo Entonces
+			v <- v + NroCarta(carta3);
+		FinSi	
+		val <- v;
+	FinSi
+Fin SubProceso
+
+SubProceso  CantarJugada(accionJugador, nroJugador, accionJugadorANT, nroJugadorANT)
+	Limpiar Pantalla
+	Cantar(accionJugador, nroJugador);
+	si accionJugadorANT <> 0 Entonces
+		Cantar(accionJugadorANT, nroJugadorANT);
+	FinSi
+FinSubProceso
+
+SubProceso  Cantar(param, nroJugador)
+	
+	si nroJugador = 1 Entonces
+		si param = 33 Entonces
+			escribir "    _________        _______ _______ ______  _______ _______    __         ";       
+			escribir "    \__    _/\     /(  ____ (  ___  |  __  \(  ___  |  ____ )  /  \        ";  
+			escribir "       )  ( | )   ( | (    \/ (   ) | (  \  ) (   ) | (    )|  \/) )    _    ";
+			escribir "       |  | | |   | | |     | (___) | |   ) | |   | | (____)|    | |   (_)   ";
+			escribir "       |  | | |   | | | ____|  ___  | |   | | |   | |     __)    | |         ";
+			escribir "       |  | | |   | | | \_  ) (   ) | |   ) | |   | | (\ (       | |    _    ";
+			escribir "    |\_)  ) | (___) | (___) | )   ( | (__/  ) (___) | ) \ \__  __) (_  (_)   ";
+			escribir "    (____/  (_______|_______)/     \(______/(_______)/   \__/  \____/        ";
+			escribir "                                                                             ";
+			
+		SiNo
+			escribir "  _________        _______ _______ ______  _______ _______    __       _______ _______ _      ________________      ";
+			escribir "  \__    _/\     /(  ____ (  ___  |  __  \(  ___  |  ____ )  /  \     (  ____ (  ___  | (    /\__   __(  ___  )     ";
+			escribir "     )  ( | )   ( | (    \/ (   ) | (  \  ) (   ) | (    )|  \/) )    | (    \/ (   ) |  \  ( |  ) (  | (   ) |   _ ";
+			escribir "     |  | | |   | | |     | (___) | |   ) | |   | | (____)|    | |    | |     | (___) |   \ | |  | |  | |   | |  (_)";
+			escribir "     |  | | |   | | | ____|  ___  | |   | | |   | |     __)    | |    | |     |  ___  | (\ \) |  | |  | |   | |     ";
+			escribir "     |  | | |   | | | \_  ) (   ) | |   ) | |   | | (\ (       | |    | |     | (   ) | | \   |  | |  | |   | |   _ ";
+			escribir "  |\_)  ) | (___) | (___) | )   ( | (__/  ) (___) | ) \ \__  __) (_   | (____/\ )   ( | )  \  |  | |  | (___) |  (_)";
+			escribir "  (____/  (_______|_______)/     \(______/(_______)/   \__/  \____/   (_______//     \|/    )_)  )_(  (_______)     ";
+			escribir "                                                                                                                 ";
+		FinSi
+		
+	SiNo
+	    si param = 33 Entonces
+			escribir "    _________        _______ _______ ______  _______ _______    _______      ";
+			escribir "    \__    _/\     /(  ____ (  ___  |  __  \(  ___  |  ____ )  / ___   )     ";
+			escribir "       )  ( | )   ( | (    \/ (   ) | (  \  ) (   ) | (    )|  \/   )  |   _ ";
+			escribir "       |  | | |   | | |     | (___) | |   ) | |   | | (____)|      /   )  (_)";
+			escribir "       |  | | |   | | | ____|  ___  | |   | | |   | |     __)    _/   /      ";
+			escribir "       |  | | |   | | | \_  ) (   ) | |   ) | |   | | (\ (      /   _/     _ ";
+			escribir "    |\_)  ) | (___) | (___) | )   ( | (__/  ) (___) | ) \ \__  (   (__/\  (_)";
+			escribir "    (____/  (_______|_______)/     \(______/(_______)/   \__/  \_______/     ";
+			escribir "                                                                             ";		
+		SiNo
+			escribir "  _________        _______ _______ ______  _______ _______    _______     _______ _______ _      ________________      ";
+			escribir "  \__    _/\     /(  ____ (  ___  |  __  \(  ___  |  ____ )  / ___   )   (  ____ (  ___  | (    /\__   __(  ___  )     "; 
+			escribir "     )  ( | )   ( | (    \/ (   ) | (  \  ) (   ) | (    )|  \/   )  |   | (    \/ (   ) |  \  ( |  ) (  | (   ) |   _ ";
+			escribir "     |  | | |   | | |     | (___) | |   ) | |   | | (____)|      /   )   | |     | (___) |   \ | |  | |  | |   | |  (_)";
+			escribir "     |  | | |   | | | ____|  ___  | |   | | |   | |     __)    _/   /    | |     |  ___  | (\ \) |  | |  | |   | |     ";
+			escribir "     |  | | |   | | | \_  ) (   ) | |   ) | |   | | (\ (      /   _/     | |     | (   ) | | \   |  | |  | |   | |   _ ";
+			escribir "  |\_)  ) | (___) | (___) | )   ( | (__/  ) (___) | ) \ \__  (   (__/\   | (____/\ )   ( | )  \  |  | |  | (___) |  (_)";
+			escribir "  (____/  (_______|_______)/     \(______/(_______)/   \__/  \_______/   (_______//     \|/    )_)  )_(  (_______)     ";
+			escribir "                                                                                                                 ";
+		FinSi	
+	FinSi
+	
+	segun param Hacer
+		33:			
+			escribir "     _______ _______ _       _______    _       _______    _______ _______ _       ______  _______ _ _  ";
+			escribir "    (  ____ (  ___  | (    /(  ___  )  ( \     (  ___  )  (  ____ |  ___  | (    /(  __  \(  ___  | | ) ";
+			escribir "    | (    \/ (   ) |  \  ( | (   ) |  | (     | (   ) |  | (    )| (   ) |  \  ( | (  \  ) (   ) | | | ";
+			escribir "    | |     | (___) |   \ | | |   | |  | |     | (___) |  | (____)| |   | |   \ | | |   ) | (___) | | | ";
+			escribir "    | | ____|  ___  | (\ \) | |   | |  | |     |  ___  |  |     __) |   | | (\ \) | |   | |  ___  | | | ";
+			escribir "    | | \_  ) (   ) | | \   | |   | |  | |     | (   ) |  | (\ (  | |   | | | \   | |   ) | (   ) (_|_) ";
+			escribir "    | (___) | )   ( | )  \  | (___) |  | (____/\ )   ( |  | ) \ \_| (___) | )  \  | (__/  ) )   ( |_ _  ";
+			escribir "    (_______)/     \|/    )_|_______)  (_______//     \|  |/   \__(_______)/    )_|______/|/     \(_|_) ";
+			escribir "                                                                                                        ";
+		34:
+			escribir "     _______ _______ _       _______    _______ _______ ______________________________  _______  ";
+			escribir "    (  ____ (  ___  | (    /(  ___  )  (  ____ |  ___  |  ____ )__   __|__   __(  __  \(  ___  ) ";
+			escribir "    | (    \/ (   ) |  \  ( | (   ) |  | (    )| (   ) | (    )|  ) (     ) (  | (  \  ) (   ) |";
+			escribir "    | |     | (___) |   \ | | |   | |  | (____)| (___) | (____)|  | |     | |  | |   ) | (___) |";
+			escribir "    | | ____|  ___  | (\ \) | |   | |  |  _____)  ___  |     __)  | |     | |  | |   | |  ___  |";
+			escribir "    | | \_  ) (   ) | | \   | |   | |  | (     | (   ) | (\ (     | |     | |  | |   ) | (   ) |";
+			escribir "    | (___) | )   ( | )  \  | (___) |  | )     | )   ( | ) \ \__  | |  ___) (__| (__/  ) )   ( |";
+			escribir "    (_______)/     \|/    )_|_______)  |/      |/     \|/   \__/  )_(  \_______(______/|/     \|";
+			escribir "                                                                                                ";
+		35:
+			escribir "     _______ _______ _       _______    _______ _          _______ _______ ______________________________  _______ ";
+			escribir "    (  ____ (  ___  | (    /(  ___  )  (  ____ ( \        (  ____ |  ___  |  ____ )__   __|__   __(  __  \(  ___  )";
+			escribir "    | (    \/ (   ) |  \  ( | (   ) |  | (    \/ (        | (    )| (   ) | (    )|  ) (     ) (  | (  \  ) (   ) |";
+			escribir "    | |     | (___) |   \ | | |   | |  | (__   | |        | (____)| (___) | (____)|  | |     | |  | |   ) | |   | |";
+			escribir "    | | ____|  ___  | (\ \) | |   | |  |  __)  | |        |  _____)  ___  |     __)  | |     | |  | |   | | |   | |";
+			escribir "    | | \_  ) (   ) | | \   | |   | |  | (     | |        | (     | (   ) | (\ (     | |     | |  | |   ) | |   | |";
+			escribir "    | (___) | )   ( | )  \  | (___) |  | (____/\ (____/\  | )     | )   ( | ) \ \__  | |  ___) (__| (__/  ) (___) |";
+			escribir "    (_______)/     \|/    )_|_______)  (_______(_______/  |/      |/     \|/   \__/  )_(  \_______(______/(_______)";
+			escribir "  ";                                                                                                                 
+		36:			
+			escribir "     _______ _______ _       _______  ";
+			escribir "    (  ____ (  ___  | (    /(  ___  )  ";
+			escribir "    | (    \/ (   ) |  \  ( | (   ) |  ";
+			escribir "    | |     | (___) |   \ | | |   | |  ";
+			escribir "    | | ____|  ___  | (\ \) | |   | |  ";
+			escribir "    | | \_  ) (   ) | | \   | |   | |   ";
+			escribir "    | (___) | )   ( | )  \  | (___) |  ";
+			escribir "    (_______)/     \|/    )_|_______)  ";
+		-1:
+			escribir "     _______ _______            _______    _______ _          _______ _______ _______ _______ ";
+			escribir "    (  ____ (  ____ \  |\     /(  ___  )  (  ___  | \        (       |  ___  ) ___   |  ___  )";
+			escribir "    | (    \/ (    \/  | )   ( | (   ) |  | (   ) | (        | () () | (   ) \/   )  | (   ) |";
+			escribir "    | (_____| (__      | |   | | (___) |  | (___) | |        | || || | (___) |   /   ) |   | |";
+			escribir "    (_____  )  __)     ( (   ) )  ___  |  |  ___  | |        | |(_)| |  ___  |  /   /| |   | |";
+			escribir "          ) | (         \ \_/ /| (   ) |  | (   ) | |        | |   | | (   ) | /   / | |   | |";
+			escribir "    /\____) | (____/\    \   / | )   ( |  | )   ( | (____/\  | )   ( | )   ( |/   (_/\ (___) |";
+			escribir "    \_______|_______/     \_/  |/     \|  |/     \(_______/  |/     \|/     \(_______(_______)";
+		-8:
+			escribir "     _______ _______ _______ _______________________         ";
+			escribir "    (  ___  |  ____ (  ____ (  ____ )__   __(  ___  )        ";
+			escribir "    | (   ) | (    \/ (    \/ (    )|  ) (  | (   ) |        ";
+			escribir "    | (___) | |     | (__   | (____)|  | |  | |   | |        ";
+			escribir "    |  ___  | |     |  __)  |  _____)  | |  | |   | |        ";
+			escribir "    | (   ) | |     | (     | (        | |  | |   | |        ";
+			escribir "    | )   ( | (____/\ (____/\ )        | |  | (___) |        ";
+			escribir "    |/     \(_______(_______//         )_(  (_______)        ";
+			escribir "                                                             ";
+		-9:
+			Escribir  "rechazo:";
+			escribir "     _______ _______ _______         _______ _______ _______ ";
+			escribir "    (  ____ |  ____ (  ____ \\     /(  ___  ) ___   |  ___  )";
+			escribir "    | (    )| (    \/ (    \/ )   ( | (   ) \/   )  | (   ) |";
+			escribir "    | (____)| (__   | |     | (___) | (___) |   /   ) |   | |";
+			escribir "    |     __)  __)  | |     |  ___  |  ___  |  /   /| |   | |";
+			escribir "    | (\ (  | (     | |     | (   ) | (   ) | /   / | |   | |";
+			escribir "    | ) \ \_| (____/\ (____/\ )   ( | )   ( |/   (_/\ (___) |";
+			escribir "    |/   \__(_______(_______//     \|/     \(_______(_______)";
+			escribir "                                                             ";
+		1:
+			
+			escribir "   _______ _              _______________  _______                                                             ";
+			escribir "  (  ____ ( (    /|\     /\__   __(  __  \(  ___  )                                                            ";
+			escribir "  | (    \/  \  ( | )   ( |  ) (  | (  \  ) (   ) |                                                            ";
+			escribir "  | (__   |   \ | | |   | |  | |  | |   ) | |   | |                                                            ";
+			escribir "  |  __)  | (\ \) ( (   ) )  | |  | |   | | |   | |                                                            ";
+			escribir "  | (     | | \   |\ \_/ /   | |  | |   ) | |   | |                                                            ";
+			escribir "  | (____/\ )  \  | \   / ___) (__| (__/  ) (___) |                                                            ";
+			escribir "  (_______//    )_)  \_/  \_______(______/(_______)                                                            ";
+			escribir "                                                                                                               ";
+		11:	
+			escribir "   _______ _              _______________  _______             _______ _              _______________  _______ ";
+			escribir "  (  ____ ( (    /|\     /\__   __(  __  \(  ___  )           (  ____ ( (    /|\     /\__   __(  __  \(  ___  )";
+			escribir "  | (    \/  \  ( | )   ( |  ) (  | (  \  ) (   ) |           | (    \/  \  ( | )   ( |  ) (  | (  \  ) (   ) |";
+			escribir "  | (__   |   \ | | |   | |  | |  | |   ) | |   | |   _____   | (__   |   \ | | |   | |  | |  | |   ) | |   | |";
+			escribir "  |  __)  | (\ \) ( (   ) )  | |  | |   | | |   | |  (_____)  |  __)  | (\ \) ( (   ) )  | |  | |   | | |   | |";
+			escribir "  | (     | | \   |\ \_/ /   | |  | |   ) | |   | |           | (     | | \   |\ \_/ /   | |  | |   ) | |   | |";
+			escribir "  | (____/\ )  \  | \   / ___) (__| (__/  ) (___) |           | (____/\ )  \  | \   / ___) (__| (__/  ) (___) |";
+			escribir "  (_______//    )_)  \_/  \_______(______/(_______)           (_______//    )_)  \_/  \_______(______/(_______)";
+			escribir "                                                                                                               ";
+		2:	
+			escribir "   _______ _______ _______ _            _______ _              _______________  _______                        ";
+			escribir "  (  ____ |  ____ (  ___  | \          (  ____ ( (    /|\     /\__   __(  __  \(  ___  )                       ";
+			escribir "  | (    )| (    \/ (   ) | (          | (    \/  \  ( | )   ( |  ) (  | (  \  ) (   ) |                       ";
+			escribir "  | (____)| (__   | (___) | |          | (__   |   \ | | |   | |  | |  | |   ) | |   | |                       ";
+			escribir "  |     __)  __)  |  ___  | |          |  __)  | (\ \) ( (   ) )  | |  | |   | | |   | |                       ";
+			escribir "  | (\ (  | (     | (   ) | |          | (     | | \   |\ \_/ /   | |  | |   ) | |   | |                       ";
+			escribir "  | ) \ \_| (____/\ )   ( | (____/\    | (____/\ )  \  | \   / ___) (__| (__/  ) (___) |                       ";
+			escribir "  |/   \__(_______//     \(_______/    (_______//    )_)  \_/  \_______(______/(_______)                       ";
+			escribir "                                                                                                               ";
+		3:	
+			escribir "   _______ _______ _   ________________     _______ _              _______________  _______                    ";
+			escribir "  (  ____ (  ___  | \  \__   __(  ___  )   (  ____ ( (    /|\     /\__   __(  __  \(  ___  )                   ";
+			escribir "  | (    \/ (   ) | (     ) (  | (   ) |   | (    \/  \  ( | )   ( |  ) (  | (  \  ) (   ) |                   ";
+			escribir "  | (__   | (___) | |     | |  | (___) |   | (__   |   \ | | |   | |  | |  | |   ) | |   | |                   ";
+			escribir "  |  __)  |  ___  | |     | |  |  ___  |   |  __)  | (\ \) ( (   ) )  | |  | |   | | |   | |                   ";
+			escribir "  | (     | (   ) | |     | |  | (   ) |   | (     | | \   |\ \_/ /   | |  | |   ) | |   | |                   ";
+			escribir "  | )     | )   ( | (____/\ |  | )   ( |   | (____/\ )  \  | \   / ___) (__| (__/  ) (___) |                   ";
+			escribir "  |/      |/     \(_______)_(  |/     \|   (_______//    )_)  \_/  \_______(______/(_______)                   ";
+			escribir "                                                                                                               ";
+			
+		12:
+			escribir "    _________        _______  _______ _______     _______ _______ _       _       _______ ______  _______    ";
+			escribir "    \__    _/\     /(  ____  ( (____ (  ___  )   (  ____ (  ___  | \     ( \     (  ___  |  __  \(  ___  )	";
+			escribir "       )  ( | )   ( | (    \/| (    \/ (   ) |   | (    \/ (   ) | (     | (     | (   ) | (  \  ) (   ) |	";
+			escribir "       |  | | |   | | (__    | |     | |   | |   | |     | (___) | |     | |     | (___) | |   ) | |   | |	";
+			escribir "       |  | | |   | |  __)   | | ____| |   | |   | |     |  ___  | |     | |     |  ___  | |   | | |   | |	";
+			escribir "       |  | | |   | | (      | | \_  ) |   | |   | |     | (   ) | |     | |     | (   ) | |   ) | |   | |	";
+			escribir "    |\_)  ) | (___) | (____/\| (___) | (___) |   | (____/\ )   ( | (____/\ (____/\ )   ( | (__/  ) (___) |	";
+			escribir "    (____/  (_______(_______/|_______|_______)   (_______//     \(_______(_______//     \(______/(_______)	";
+			escribir "                                                                                                             ";
+		4:
+			escribir "    ________________         _______ _______   ";                                                                    
+			escribir "    \__   __(  ____ )\     /(  ____ (  ___  )  ";                                                                    
+			escribir "       ) (  | (    )| )   ( | (    \/ (   ) |   ";                                                                   
+			escribir "       | |  | (____)| |   | | |     | |   | |   ";                                                                   
+			escribir "       | |  |     __) |   | | |     | |   | |   ";                                                                   
+			escribir "       | |  | (\ (  | |   | | |     | |   | |    ";                                                                  
+			escribir "       | |  | ) \ \_| (___) | (____/\ (___) |      ";                                                                
+			escribir "       )_(  |/   \__(_______|_______(_______)        ";                                                              
+			escribir "                                                 ";                                                                  
+			
+		5:	
+			escribir "    _______        ________________ _______ _______    _______ _______   ________________         _______ _______  ";
+			escribir "    (  ___  )\     /\__   __(  ____ (  ____ |  ___  )  (  ____ |  ____ \  \__   __(  ____ )\     /(  ____ (  ___  )  ";
+			escribir "    | (   ) | )   ( |  ) (  | (    \/ (    )| (   ) |  | (    )| (    \/     ) (  | (    )| )   ( | (    \/ (   ) |  ";
+			escribir "    | |   | | |   | |  | |  | (__   | (____)| |   | |  | (____)| (__         | |  | (____)| |   | | |     | |   | |   ";
+			escribir "    | |   | | |   | |  | |  |  __)  |     __) |   | |  |     __)  __)        | |  |     __) |   | | |     | |   | |  ";
+			escribir "    | | /\| | |   | |  | |  | (     | (\ (  | |   | |  | (\ (  | (           | |  | (\ (  | |   | | |     | |   | |   ";
+			escribir "    | (_\ \ | (___) |__) (__| (____/\ ) \ \_| (___) |  | ) \ \_| (____/\     | |  | ) \ \_| (___) | (____/\ (___) |   ";
+			escribir "    (____\/_|_______)_______(_______//   \__(_______)  |/   \__(_______/     )_(  |/   \__(_______|_______(_______)   ";
+			escribir "                                                                                                                      ";
+		6:		
+			escribir "     _______        ________________ _______ _______            _______ _       _______       ___              ";    
+			escribir "    (  ___  )\     /\__   __(  ____ (  ____ |  ___  )  |\     /(  ___  | \     (  ____ \     /   )            ";     
+			escribir "    | (   ) | )   ( |  ) (  | (    \/ (    )| (   ) |  | )   ( | (   ) | (     | (    \/    / /) |            ";     
+			escribir "    | |   | | |   | |  | |  | (__   | (____)| |   | |  | |   | | (___) | |     | (__       / (_) (_           ";     
+			escribir "    | |   | | |   | |  | |  |  __)  |     __) |   | |  ( (   ) )  ___  | |     |  __)     (____   _)          ";     
+			escribir "    | | /\| | |   | |  | |  | (     | (\ (  | |   | |   \ \_/ /| (   ) | |     | (             ) (            ";     
+			escribir "    | (_\ \ | (___) |__) (__| (____/\ ) \ \_| (___) |    \   / | )   ( | (____/\ (____/\       | |             ";
+			escribir "    (____\/_|_______)_______(_______//   \__(_______)     \_/  |/     \(_______(_______/       (_)             ";    
+			escribir "   ";
+			
+	FinSegun
+	Escribir  Sin Saltar "";
+FinSubProceso
+
+SubProceso  erroresVarios(error)
+	segun error Hacer
+		"envidoPrimero":
+			escribir "  #######  ####              #######  ##   ##  ##   ##   ####    #####     #####           "; 
+			escribir "   ##   #   ##                ##   #  ###  ##  ##   ##    ##      ## ##   ##   ##          "; 
+			escribir "   ## #     ##                ## #    #### ##   ## ##     ##      ##  ##  ##   ##            "; 
+			escribir "   ####     ##                ####    ## ####   ## ##     ##      ##  ##  ##   ##            ";
+			escribir "   ## #     ##   #            ## #    ##  ###    ###      ##      ##  ##  ##   ##            ";
+			escribir "   ##   #   ##  ##            ##   #  ##   ##    ###      ##      ## ##   ##   ##            ";
+			escribir "  #######  #######           #######  ##   ##     #      ####    #####     #####             ";
+			escribir " ";
+			escribir " ";
+			escribir " #######   #####   ######     ##              ######   ######    ####    ##   ##  #######  ######    ##### ";
+			escribir " ##   #  ##   ##  # ## #    ####              ##  ##   ##  ##    ##     ### ###   ##   #   ##  ##  ##   ## ";
+			escribir " ## #    #          ##     ##  ##             ##  ##   ##  ##    ##     #######   ## #     ##  ##  ##   ##    ## ";
+			escribir "  ####     #####     ##     ##  ##             #####    #####     ##     #######   ####     #####   ##   ## ";
+			escribir "  ## #         ##    ##     ######             ##       ## ##     ##     ## # ##   ## #     ## ##   ##   ## ";
+			escribir "  ##   #  ##   ##    ##     ##  ##             ##       ##  ##    ##     ##   ##   ##   #   ##  ##  ##   ##    ## ";
+			escribir " #######   #####    ####    ##  ##            ####     #### ##   ####    ##   ##  #######  #### ##   ##### ";
+			
+		"jugadaInvalida":
+			escribir "      ##   ##   ##    ####     ##     #####      ##                ##     ##   ##  ##   ##    ##     ####      ####    #####      ## ";
+			escribir "           ##   ##   ##  ##   ####     ## ##    ####                      ###  ##  ##   ##   ####     ##        ##      ## ##    #### ";
+			escribir "     ###   ##   ##  ##       ##  ##    ##  ##  ##  ##             ###     #### ##   ## ##   ##  ##    ##        ##      ##  ##  ##  ## ";
+			escribir "      ##   ##   ##  ##       ##  ##    ##  ##  ##  ##              ##     ## ####   ## ##   ##  ##    ##        ##      ##  ##  ##  ## ";
+			escribir "      ##   ##   ##  ##  ###  ######    ##  ##  ######              ##     ##  ###    ###    ######    ##   #    ##      ##  ##  ###### ";
+			escribir "  ##  ##   ##   ##   ##  ##  ##  ##    ## ##   ##  ##              ##     ##   ##    ###    ##  ##    ##  ##    ##      ## ##   ##  ## ";
+			escribir "  ##  ##    #####     #####  ##  ##   #####    ##  ##             ####    ##   ##     #     ##  ##   #######   ####    #####    ##  ## ";
+			escribir "   #### ";
+		"envidoInvalido":
+			escribir "  ##   ##   #####             #####   #######           ######   ##   ##  #######  #####    #######	";
+			escribir "  ###  ##  ##   ##           ##   ##   ##   #            ##  ##  ##   ##   ##   #   ## ##    ##   #	";
+			escribir "  #### ##  ##   ##           #         ## #              ##  ##  ##   ##   ## #     ##  ##   ## #	";	
+			escribir "  ## ####  ##   ##            #####    ####              #####   ##   ##   ####     ##  ##   ####	";
+			escribir "  ##  ###  ##   ##                ##   ## #              ##      ##   ##   ## #     ##  ##   ## #	";
+			escribir "  ##   ##  ##   ##           ##   ##   ##   #            ##      ##   ##   ##   #   ## ##    ##   #	";
+			escribir "  ##   ##   #####             #####   #######           ####      #####   #######  #####    #######	";
+			escribir "													";
+			escribir "													";
+			escribir "    ####     ##     ##   ##  ######     ##     ######            #######  ##   ##  ##   ##   ####    #####     #####  ";
+			escribir "   ##  ##   ####    ###  ##  # ## #    ####     ##  ##            ##   #  ###  ##  ##   ##    ##      ## ##   ##   ##  ";
+			escribir "  ##       ##  ##   #### ##    ##     ##  ##    ##  ##            ## #    #### ##   ## ##     ##      ##  ##  ##   ##  ";
+			escribir "  ##       ##  ##   ## ####    ##     ##  ##    #####             ####    ## ####   ## ##     ##      ##  ##  ##   ##  ";
+			escribir "  ##       ######   ##  ###    ##     ######    ## ##             ## #    ##  ###    ###      ##      ##  ##  ##   ##  ";
+			escribir "   ##  ##  ##  ##   ##   ##    ##     ##  ##    ##  ##            ##   #  ##   ##    ###      ##      ## ##   ##   ##  ";
+			escribir "    ####   ##  ##   ##   ##   ####    ##  ##   #### ##           #######  ##   ##     #      ####    #####     #####   ";
+			escribir "															  ";
+			escribir "															";
+			escribir "  ######     ##      #####     ##     #####      ##              ####       ##              ######   ######    ####    ##   ##  #######  ######	";
+			escribir "   ##  ##   ####    ##   ##   ####     ## ##    ####              ##       ####              ##  ##   ##  ##    ##     ### ###   ##   #   ##  ##	";
+			escribir "   ##  ##  ##  ##   #        ##  ##    ##  ##  ##  ##             ##      ##  ##             ##  ##   ##  ##    ##     #######   ## #     ##  ##	";
+			escribir "   #####   ##  ##    #####   ##  ##    ##  ##  ##  ##             ##      ##  ##             #####    #####     ##     #######   ####     #####	";
+			escribir "   ##      ######        ##  ######    ##  ##  ######             ##   #  ######             ##       ## ##     ##     ## # ##   ## #     ## ##	";
+			escribir "   ##      ##  ##   ##   ##  ##  ##    ## ##   ##  ##             ##  ##  ##  ##             ##       ##  ##    ##     ##   ##   ##   #   ##  ##	";
+			escribir "  ####     ##  ##    #####   ##  ##   #####    ##  ##            #######  ##  ##            ####     #### ##   ####    ##   ##  #######  #### ##	";
+			escribir "																			";
+			escribir "																			";
+			escribir "  ######    #####   ##   ##  #####      ##    ";
+			escribir "   ##  ##  ##   ##  ###  ##   ## ##    ####   ";
+			escribir "   ##  ##  ##   ##  #### ##   ##  ##  ##  ##  ";
+			escribir "   #####   ##   ##  ## ####   ##  ##  ##  ##  ";
+			escribir "   ## ##   ##   ##  ##  ###   ##  ##  ######  ";
+			escribir "   ##  ##  ##   ##  ##   ##   ## ##   ##  ##  ";
+			escribir "  #### ##   #####   ##   ##  #####    ##  #   ";
+			//Limpiar Pantalla;
+	FinSegun
+FinSubProceso
+
+
+//1: se canto envido
+//2: se canto envido - envido
+//3: se canto real envido
+//4: se canto falta envido
+//5; se canto truco
+//6: se canto retruco
+//7: se canto vale 4
+//8: No se canto nada en envido
+//9: No se canto nada en truco
+SubProceso  opc <-menuOpciones(op)
+	Definir  opc Como Entero;
+	Escribir "Seleccione la accion a realizar por el jugador:";
+	segun op Hacer
+		0: // MENU GENERAL
+			Escribir  "1: Cantar Envido";
+			Escribir  "4: Cantar Truco";	
+			Escribir  "10: Irse al mazo";
+			Escribir  "11: No cantar:", "jugar callado";
+			
+			Leer  opc
+			
+			
+			Mientras  (opc <> 1 Y opc<>  4  y opc <>10 y opc <> 11)					
+				Escribir  "Opcion incorrecta. Reingreso 1";	
+				Escribir  "1: Cantar Envido";
+				Escribir  "4: Cantar Truco";	
+				Escribir  "10: Irse al mazo";
+				Escribir  "11: No cantar:", "jugar callado";
+				Leer  opc;
+			FinMientras
+		1:
+			Escribir  "1: Cantar Envido - envido";
+			Escribir  "2: Cantar Real Envido";
+			Escribir  "3: Cantar Falta Envido";
+			Escribir  "8: Aceptar";	
+			Escribir  "9: No aceptar";
+			Escribir  "10: Irse al mazo";
+			Leer  opc
+			
+			Mientras  (opc <> 1 Y opc<>  8 Y opc <> 9  Y opc<>  2 Y opc <> 3 Y opc <> 10 )					
+				Escribir  "Opcion incorrecta. Reingreso 1";	
+				Escribir  "1: Cantar Envido - envido";
+				Escribir  "2: Cantar Real Envido";
+				Escribir  "3: Cantar Falta Envido";
+				Escribir  "8: Aceptar";	
+				Escribir  "9: No aceptar";
+				Escribir  "10: Irse al mazo";
+				Leer  opc;
+				
+			FinMientras
+		2:
+			Escribir  "2: Cantar Real Envido";
+			Escribir  "3: Cantar Falta Envido";	
+			Escribir  "8: Aceptar";	
+			Escribir  "9: No aceptar";	
+			Escribir  "10: Irse al mazo";
+			Leer  opc
+			
+			
+			Mientras  (opc<>  2 Y opc <> 3  Y opc <> 8 Y opc <> 9 Y opc <> 10)					
+				Escribir  "Opcion incorrecta. Reingrese:";	
+				Escribir  "2: Cantar Real Envido";
+				Escribir  "3: Cantar Falta Envido";	
+				Escribir  "8: Aceptar";	
+				Escribir  "9: No aceptar";	
+				Escribir  "10: Irse al mazo";
+				Leer  opc;
+				
+			FinMientras
+		3:
+			Escribir  "3: Cantar Falta Envido";	
+			Escribir  "8: Aceptar";	
+			Escribir  "9: No aceptar";	
+			Escribir  "10: Irse al mazo";
+			Escribir  "";
+			Leer  opc
+			
+			
+			Mientras  (opc<>  3   Y opc <> 8 Y opc <> 9 Y opc <> 9 Y opc <> 10)					
+				Escribir  "Opcion incorrecta. Reingrese:";	
+				Escribir  " ";
+				Escribir  " ";
+				Escribir  "3: Cantar Falta Envido";	
+				Escribir  "8: Aceptar";	
+				Escribir  "9: No aceptar";	
+				Escribir  "10: Irse al mazo";
+				
+				Leer  opc;
+				
+			FinMientras
+		4:
+			
+			Escribir  "8: Aceptar";	
+			Escribir  "9: No aceptar";
+			Escribir  "10: Irse al mazo";
+			Leer  opc
+			
+			
+			Mientras  ( opc <> 8 Y opc <> 9 Y opc <> 10 )					
+				Escribir  "Opcion incorrecta. Reingrese:";	
+				Escribir  " ";
+				Escribir  " ";
+				Escribir  "8: Aceptar";	
+				Escribir  "9: No aceptar";
+				Escribir  "10: Irse al mazo";
+				Leer  opc;
+				
+			FinMientras
+		5:// truco
+			Escribir  "5: cantar quiero retruco";
+			Escribir  "8: Aceptar";	
+			Escribir  "9: No aceptar";	
+			Escribir  "10: Irse al mazo";
+			Leer  opc
+			
+			
+			Mientras  (opc<>  5  Y opc <> 8 Y opc <> 9 Y opc <> 10 )					
+				Escribir  "Opcion incorrecta. Reingrese:";	
+				Escribir  " ";
+				Escribir  " ";
+				Escribir  "5: cantar quiero retruco";
+				Escribir  "8: Aceptar";	
+				Escribir  "9: No aceptar";
+				Escribir  "10: Irse al mazo";
+				Leer  opc;
+				
+			FinMientras
+		6: // retruco
+			Escribir  "6: Cantar quiero vale 4";	
+			Escribir  "8: Aceptar";	
+			Escribir  "9: No aceptar";	
+			Escribir  "10: Irse al mazo";
+			Leer  opc
+			
+			
+			Mientras  ( opc <> 6  Y opc <> 8 Y opc <> 9 Y opc <> 10)					
+				Escribir  "Opcion incorrecta. Reingrese:";	
+				Escribir  " ";
+				Escribir  " ";
+				Escribir  "6: Cantar quiero vale 4";	
+				Escribir  "8: Aceptar";	
+				Escribir  "9: No aceptar";	
+				Escribir  "10: Irse al mazo";
+				Leer  opc;
+				
+			FinMientras
+		7: // vale 4
+			Escribir  "8: Aceptar";	
+			Escribir  "9: No aceptar";	
+			Escribir  "10: Irse al mazo";
+			Leer  opc
+			
+			
+			Mientras  ( opc <> 8 Y opc <> 9 y opc <> 10 )					
+				Escribir  "Opcion incorrecta. Reingrese:";	
+				Escribir  " ";
+				Escribir  " ";
+				Escribir  "8: Aceptar";	
+				Escribir  "9: No aceptar";
+				Escribir  "10: Irse al mazo";		
+				Leer  opc;
+				
+			FinMientras
+		8: // nada envido
+			Escribir  "1: Cantar Envido";
+			Escribir  "2: Cantar Real Envido";
+			Escribir  "3: Cantar Falta Envido";
+			Escribir  "10: Irse al mazo";
+			Escribir  "11: jugar callado";
+			Leer  opc
+			
+			
+			Mientras  (opc <> 1 Y opc<>  2 Y opc <> 3  y opc <> 10 y opc <> 11)					
+				Escribir  "Opcion incorrecta. Reingreso 1";	
+				Escribir  "1: Cantar Envido";
+				Escribir  "2: Cantar Real Envido";
+				Escribir  "3: Cantar Falta Envido";	
+				Escribir  "10: Irse al mazo";
+				Escribir  "11: jugar callado";
+				Leer  opc;
+				
+			FinMientras
+		9:
+			Escribir  "1: Cantar Envido";
+			Escribir  "2: Cantar Real Envido";
+			Escribir  "3: Cantar Falta Envido";	
+			Escribir  "4: Cantar Truco";
+			Escribir  "10: Irse al mazo";
+			Escribir  "11: jugar callado";
+			
+			Leer  opc
+			
+			
+			Mientras  (opc <> 1 Y opc<>  2 Y opc <> 3  Y opc<>  4 y opc <>10 y opc <> 11)					
+				Escribir  "Opcion incorrecta. Reingreso 1";	
+				Escribir  "1: Cantar Envido";
+				Escribir  "2: Cantar Real Envido";
+				Escribir  "3: Cantar Falta Envido";	
+				Escribir  "4: Cantar Truco";			
+				Escribir  "10: Irse al mazo";
+				Leer  opc;
+				
+			FinMientras
+			
+			
+			
+	FinSegun
+FinSubProceso
+
+SubProceso  com <- traducirAComandoMenu(coman)
+	Definir  com Como Entero;
+	Segun  coman Hacer
+			//envido
+		1:  com <-1;
+	    2:  com <-3;
+		3:  com <-4;
+		11: com <-2;
+			//truco
+		4: com <-5;
+		5: com <-6;
+		6: com <-7;
+	FinSegun
+FinSubProceso
+
+
+SubProceso  nivelTruco <- NivelTrucoSegunAccion(accionj)
+	Definir  nivelTruco Como Entero;
+	segun accionj Hacer			
+		4: // truco
+			nivelTruco <- 4;
+		5: // re truco
+			nivelTruco <-5;
+		6: //vale 4
+			nivelTruco<- 6;
+		8: // acepta accion
+			nivelTruco <- -8;
+		9: //no acepta nada
+			nivelTruco <--9;
+		10: //me voy al mazo
+			nivelTruco <- -1;			
+	FinSegun	
+FinSubProceso
+
+SubProceso  nivelEnvido <- NivelEnvidoSegunAccion(accionj)
+	Definir  nivelEnvido Como Entero;
+	segun accionj Hacer			
+		1: // envido
+			nivelEnvido <- 1;
+		2: // envido - real envio
+			nivelEnvido <-2;
+		3: //envido - falta envido
+			nivelEnvido<- 3;
+		8: // acepta accion
+			nivelEnvido <- -8;
+		9: //no acepta nada
+			nivelEnvido <--9;
+		10: //me voy al mazo
+			nivelEnvido <- -1;
+		11: // callado tiro una carta
+			nivelEnvido <--12;			
+	FinSegun	
+FinSubProceso
+
+
+
+// INDICA QUE CARTA DE LA RONDA GANA.
+SubProceso  ganador<-DarGanadorCartas(mazoOrdenado,cartaJugador1, cartaJugador2, jugadorMano)
+	definir ganador Como Entero;
+	si BuscarPosicionCarta(mazoOrdenado,cartaJugador1) = BuscarPosicionCarta(mazoOrdenado,cartaJugador2) Entonces
+		ganador <- jugadorMano;
+	SiNo
+		si BuscarPosicionCarta(mazoOrdenado,cartaJugador1) > BuscarPosicionCarta(mazoOrdenado,cartaJugador2) Entonces
+			ganador <- 1;
+		SiNo
+			ganador <-2;
+		FinSi
+	FinSi
+FinSubProceso
+
+// JUARDAR UN HISTORIAL DE CAMBIOS
+
+subProceso jugadorGanador <-EJECUTAR_TRUCO(cartasJugador1 Por Referencia, cartasJugador2 Por Referencia,vMasoReferencia , ptosJ1 Por Referencia, ptosJ2 Por Referencia, vCartasMesa Por Referencia, nroRonda, jugadorMano, nivelTrucoJ1 Por Referencia)
+	Definir  accionj1, accionj2 , puntos, opc, accionMenu, nivelTrucoJ2 , ganador,jugadorGanador,nivelTruco , cantaPrimero, cantaSegundo Como Entero;
+	Definir  sigoIterando, primero , aceptado Como Logico;
+	primero <- Verdadero;
+	aceptado <- Verdadero;
+	cantaPrimero <- jugadorMano 
+	si jugadorMano = 1 Entonces
+		cantaSegundo <- 2;
+	SiNo
+		cantaSegundo <- 1;
+	FinSi
+	OrdenarCartas(cartasJugador1 ,vMasoReferencia);
+	//ordeno cartas jugador 2
+	OrdenarCartas(cartasJugador2 ,vMasoReferencia);
+	
+	Escribir  "Turno jugador:",cantaPrimero;
+	accionj1 <- 4;
+	nivelTrucoJ1 <- NivelTrucoSegunAccion(accionj1);
+	CantarJugada(nivelTrucoJ1,cantaPrimero, nivelTrucoJ2, cantaSegundo);
+	
+	//jugador 2 responde al truco
+	Escribir  "Turno jugador :",cantaSegundo;
+	accionMenu <- traducirAComandoMenu(accionj1);
+	
+	accionj2 <- menuOpciones(accionMenu);
+	nivelTrucoJ2 <- NivelTrucoSegunAccion(accionj2);
+	
+	CantarJugada(nivelTrucoJ2,cantaSegundo, nivelTrucoJ1,cantaPrimero);
+	
+	Repetir
+		segun accionj1 Hacer			
+			4: // TRUCO
+				sigoIterando <- Verdadero;	
+			5: // retruco
+				sigoIterando <- Verdadero;	
+			6: // vale 4
+				sigoIterando <- Falso;
+			8: // acepta accion
+				sigoIterando <- Falso;
+			9: //no acepta nada
+				sigoIterando <- Falso;
+				aceptado <- Falso;
+			10: //me voy al mazo
+				sigoIterando <- Falso;
+			11: // callado
+				sigoIterando <- Falso;
+		FinSegun
+		
+		
+		si accionj1 = 10 Entonces
+			// JUGADOR 1 SE FUE AL MAZO
+			sigoIterando <- Falso;
+			ptosJ2 <- ptosJ2 +1;
+			jugadorGanador <- 2;
+			CantarJugada(-1,cantaPrimero, nivelTrucoJ2,cantaSegundo);
+			CantarJugada(33,cantaSegundo, nivelTrucoJ1,cantaPrimero);
+			nivelTruco <- -1;
+		sino
+			nivelTrucoJ1 <- NivelTrucoSegunAccion(accionj1);
+			CantarJugada(nivelTrucoJ1,cantaPrimero, nivelTrucoJ2,cantaSegundo);
+			
+			segun accionj2 Hacer			
+				4: // TRUCO
+					sigoIterando <- Verdadero;	
+				5: // retruco
+					sigoIterando <- Verdadero;	
+				6: // vale 4
+					sigoIterando <- Falso;
+				8: // acepta accion
+					sigoIterando <- Falso;
+				9: //no acepta nada
+					sigoIterando <- Falso;
+					aceptado <- Falso;
+				10: //me voy al mazo
+					sigoIterando <- Falso;
+				11: // callado
+					sigoIterando <- Falso;
+			FinSegun
+			
+			si accionj2 = 10 Entonces
+				// JUGADOR 2 SE FUE AL MAZO
+				sigoIterando <- Falso;
+				ptosJ1 <- ptosJ1 +1;
+				jugadorGanador <- 1;
+				CantarJugada(-1,cantaSegundo, nivelTrucoJ1,cantaPrimero);
+				CantarJugada(33,cantaPrimero, nivelTrucoJ2,cantaSegundo);
+				nivelTruco <- -1;
+			sino
+				
+				nivelTrucoJ2 <- NivelTrucoSegunAccion(accionj2);
+				CantarJugada(nivelTrucoJ2,cantaSegundo, nivelTrucoJ1,cantaPrimero);
+				si accionj2 <> 8 y accionj2 <>9 Entonces					
+					
+					accionMenu <- traducirAComandoMenu(accionj2);
+					
+					accionj1 <- menuOpciones(accionMenu);		
+					nivelTrucoJ1 <- NivelTrucoSegunAccion(accionj1);
+					CantarJugada(nivelTrucoJ1,cantaPrimero, nivelTrucoJ2,cantaSegundo);
+					
+					si accionj1 <> 8 y accionj1 <>9 Entonces					
+						// subio la apuesta 
+						accionMenu <- traducirAComandoMenu(accionj1);
+						accionj2 <- menuOpciones(accionMenu);	
+						nivelTrucoJ2 <- NivelTrucoSegunAccion(accionj2);
+						CantarJugada(nivelTrucoJ2,cantaSegundo, nivelTrucoJ1,cantaPrimero);
+					SiNo
+						sigoIterando <- Falso;
+					FinSi					
+				FinSi	
+			FinSi
+			
+		finsi			
+	Hasta Que sigoIterando = Falso
+	
+	si nivelTrucoJ1 > nivelTrucoJ2 Entonces
+		nivelTrucoJ <- nivelTrucoJ1;
+	sino 
+		nivelTrucoJ <- nivelTrucoJ2;
+	FinSi
+	// si no rechazo , ni se fue al mazo entonces se jugo el truco
+	si (accionj2 <> 9 Y accionj1 <>9)  y (accionj2 <> 10 Y accionj1 <>10) Entonces
+		// se pone sobre la mesa las cartas que jugo cada uno
+		vCartasMesa(1,nroRonda) <- cartasJugador1(nroRonda);	
+		vCartasMesa(2,nroRonda) <- cartasJugador2(nroRonda);			
+		
+		ganador <- DarGanadorCartas(vMasoReferencia, cartasJugador1(1), cartasJugador2(1),jugadorMano );
+		jugadorGanador <- ganador;
+		si ganador = 1 Entonces
+			ptosJ1 <- ptosJ1 +PuntosSegunJugada(1,nivelTruco,0,aceptado);
+			Limpiar Pantalla
+			Cantar(36,1);
+		sino 
+			ptosJ2 <- ptosJ2 +PuntosSegunJugada(2,nivelTruco,0,aceptado);
+			Limpiar Pantalla
+			Cantar(36,2);
+		FinSi		
+	FinSi		
+	
+	Escribir  " Carta jugada en truco Jugador: ", cantaPrimero;
+	DibujarTruco(cartasJugador1(1));
+	Esperar  2 Segundos;
+	Escribir  " Carta jugada en truco Jugador: ", cantaSegundo;
+	DibujarTruco(cartasJugador2(1));
+	
+	Esperar 5 Segundos
+	Limpiar Pantalla 
+FinSubProceso
+
+// VER QUE NO PUEDO JUGAR CALLADO UNA VEZ QUE ACEPTE EL ENVIDO
+// mostrar puntaje de c/ jugador.  Tmb mostrar cartas del envido 
+subProceso jugadorGanador <- EJECUTAR_ENVIDO(cartasJugador1 Por Referencia, cartasJugador2 Por Referencia, ptosJ1 Por Referencia, ptosJ2 Por Referencia, vCartasMesa Por Referencia, nroRonda, jugadorMano, nivelEnvido Por Referencia)
+	Definir  accionj1, accionj2 , puntos, opc, accionMenu, nivelEnvidoj1, nivelEnvidoj2,jugadorGanador, cantaPrimero, cantaSegundo, ptosA, ptosB Como Entero;
+	Definir  sigoIterando, primero , aceptado Como Logico;
+	si nroRonda > 1 Entonces
+		erroresVarios("envidoInvalido");
+		Esperar  2 Segundos		
+	SiNo		
+		primero <- Verdadero;
+		aceptado <- Verdadero;
+		cantaPrimero <- jugadorMano;
+		si jugadorMano = 1 Entonces
+			cantaSegundo <- 2;
+		SiNo		
+			cantaSegundo <-1;
+		FinSi
+		ptosA <- 0;
+		ptosB <- 0;
+		
+		sigoIterando <- Verdadero;
+		
+		nivelEnvido <-0;
+		
+		accionj1 <-1;// menuOpciones(8);
+		
+		accionMenu <- traducirAComandoMenu(accionj1);
+		
+		SI primero  Entonces
+			nivelEnvidoj1 <- NivelEnvidoSegunAccion(accionj1);
+			
+			Escribir  "Turno Jugador ", cantaPrimero , ":";
+			si accionj1 = 8 o accionj1 = 9 Entonces
+				si accionj1 = 8 Entonces
+					CantarJugada(-8,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+				SiNo
+					CantarJugada(-9,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+				FinSi
+				sigoIterando <- Falso;
+				
+			SiNo
+				CantarJugada(nivelEnvidoj1,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+			FinSi	
+			primero <- Falso;
+		FinSi
+		
+		si accionj1 = 10 Entonces
+			// JUGADOR 1 SE FUE AL MAZO
+			sigoIterando <- Falso;
+			ptosJ2 <- ptosJ2 +1;
+			nivelEnvido <- -1;
+			CantarJugada(33,cantaSegundo, nivelEnvidoj1,cantaPrimero);
+		SINO
+			
+			Escribir  "Jugador ", cantaSegundo , " responde:";
+			accionj2 <- menuOpciones(accionMenu);
+			//en caso de envido - envido
+			si accionj2 = 1 Entonces
+				nivelEnvidoj1 <- 11;
+			FinSi
+			
+			si accionj2 = 10 Entonces
+				// JUGADOR 2 SE FUE AL MAZO
+				sigoIterando <- Falso;
+				ptosJ1 <- ptosJ1 +1;
+				jugadorGanador <- 1;
+				CantarJugada(-1,cantaSegundo,  nivelEnvidoj1,cantaPrimero);
+				Cantar(36,cantaPrimero);
+				nivelEnvido <- -1;
+			sino
+				Repetir
+					//nivel de envido hasta donde itere envido, envido- envido,real envido, falta envido
+					// me puede responder que no hace nada , que acepta el envido, que lo acepta, me puede cantar real envio, me pude cantar falta envio
+					SI primero = Falso Entonces
+						nivelEnvidoj1 <- NivelEnvidoSegunAccion(accionj1);
+						
+						si accionj1 = 8 o accionj1 = 9 Entonces
+							si accionj1 = 8 Entonces
+								CantarJugada(-8,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+							SiNo
+								CantarJugada(-9,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+							FinSi
+							sigoIterando <- Falso;
+						SiNo
+							CantarJugada(nivelEnvidoj1,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+						FinSi				
+					FinSi			
+					
+					si accionj1 = 1 Entonces
+						nivelEnvidoj1 <- 1;
+					FinSi
+					si accionj1 = 11 Entonces
+						// callado tiro una carta
+						//primera carta de la mesa
+						vCartasMesa(1,1) <- cartasJugador1(1);
+					FinSi
+					
+					nivelEnvidoj2 <- NivelEnvidoSegunAccion(accionj2);		
+					//en caso de envido - envido
+					si accionj2 = 1 Entonces
+						nivelEnvidoj2 <- 11;
+					FinSi
+					
+					segun accionj2 Hacer			
+						1: // envido - envido
+							sigoIterando <- Verdadero;				
+						2: // envido - real envio
+							sigoIterando <- Verdadero;				
+						3: //envido - falta envido
+							sigoIterando <- Verdadero;
+						8: // acepta accion
+							sigoIterando <- Falso;
+						9: //no acepta nada
+							sigoIterando <- Falso;
+							aceptado <- Falso;
+						10: //me voy al mazo
+							sigoIterando <- Falso;
+						11: // callado
+							sigoIterando <- Falso;
+							vCartasMesa(2,1) <- cartasJugador2(1);				
+					FinSegun		
+					
+					si accionj1 = 8 o accionj1 = 9 Entonces
+						sigoIterando <- Falso;	
+						aceptado <- Falso;
+					FinSi
+					
+					// si  ambos jugaron callados no se canto el envido y la mesa tiene dos cartas
+					// MUESTRO LO QUE CANTO CADA JUGADOR
+					
+					si accionj2 = 8 o accionj2 = 9 Entonces
+						si accionj2 = 8 Entonces
+							CantarJugada(-8,cantaSegundo, nivelEnvidoj1,cantaPrimero);
+						SiNo
+							CantarJugada(-9,cantaSegundo, nivelEnvidoj1,cantaPrimero);
+						FinSi
+						sigoIterando <- Falso;
+					SiNo
+						CantarJugada(nivelEnvidoj2,cantaSegundo, nivelEnvidoj1,cantaPrimero);
+					FinSi	
+					// SI SIGO ITERANDO VUELVO A PEDIR ACCCION. SI EN ALGUN MOMENTO SE VA AL MAZO CORTO TODO
+					si sigoIterando Entonces
+						
+						Escribir  "Jugador ", cantaPrimero " responder canto jugador ", cantaSegundo;
+						
+						accionMenu <- traducirAComandoMenu(accionj2);
+						
+						// si me cantaron envido - envido ambos jugadores tienene la accion 1 que es envido, en este casi 
+						si accionj1 = accionj2 y accionj1 = 1 Entonces						
+							accionMenu <- 2;
+						FinSi
+						accionj1 <- menuOpciones(accionMenu);
+						
+						si accionj1 = 8 o accionj1 = 9 Entonces
+							si accionj1 = 8 Entonces
+								CantarJugada(-8,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+							SiNo
+								CantarJugada(-9,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+							FinSi
+							sigoIterando <- Falso;
+						SiNo
+							nivelEnvidoj1 <- NivelEnvidoSegunAccion(accionj1);
+							CantarJugada(nivelEnvidoj1,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+						FinSi
+						
+						si accionj1 = 10 Entonces
+							// JUGADOR 1 SE FUE AL MAZO
+							sigoIterando <- Falso;
+							ptosJ2 <- ptosJ2 +1;
+							jugadorGanador <- 2;
+							nivelEnvido <- -1;
+							CantarJugada(33,cantaSegundo, nivelEnvidoj1,cantaPrimero);
+						FinSi
+						
+						// mientras no hay aceptado, rechazo o ido al mazo sigo preguntando si quiere cantar algo mas
+						//la palabra final siempre la tiene el jugador 2
+						si accionj1 <> 8 y accionj1 <> 9 y accionj1 <> 10 Entonces
+							accionMenu <- traducirAComandoMenu(accionj1);
+							Escribir  "Jugador " , cantaSegundo " responder nuevo canto jugador ", cantaPrimero;
+							accionj2 <- menuOpciones(accionMenu);
+							
+							si accionj2 = 8 o accionj2 = 9 Entonces
+								si accionj2 = 8 Entonces
+									CantarJugada(-8,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+								SiNo
+									CantarJugada(-9,cantaPrimero, nivelEnvidoj2,cantaSegundo);
+								FinSi
+								sigoIterando <- Falso;
+							SiNo
+								nivelEnvidoj2 <- NivelEnvidoSegunAccion(accionj2);
+								CantarJugada(nivelEnvidoj2,cantaSegundo, nivelEnvidoj1,cantaPrimero);
+								
+								si accionj2 = 10 Entonces
+									sigoIterando <- Falso;
+									nivelEnvido <- -1;
+									jugadorGanador <- 1;
+									ptosJ1 <- ptosJ1 +1;
+								FinSi
+							FinSi										
+						FinSi					
+					FinSi
+					
+				Hasta Que sigoIterando = Falso
+			FINSI
+		FINSI
+		
+		si nivelEnvidoj2 >= nivelEnvidoj1 Entonces
+			nivelEnvido <-nivelEnvidoj2;
+		SiNo
+			nivelEnvido <-nivelEnvidoj1;
+		FinSi
+		// se terminador los cantos , ahora veo el puntaje del envido y decido quien gana
+		// si ambos jugaron callados sobre la mesa hay dos cartas de esta ronda y no hubo envido.	
+		si (nivelEnvidoj2 <> 12 y nivelEnvidoj1 <> 12) y (accionj2 <> 9 Y accionj1 <>9)  y (accionj2 <> 10 Y accionj1 <>10)Entonces
+			ptosA <- PuntajeEnvido(cartasJugador1(1),cartasJugador1(2),cartasJugador1(3));
+			ptosB <- PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3));
+			
+			si ptosA = ptosB Entonces
+				si jugadorMano = 1 Entonces
+					ptosJ1 <- ptosJ1 +PuntosSegunJugada(1,nivelEnvido,0,aceptado);
+					jugadorGanador <- 1;
+					Limpiar Pantalla
+					Cantar(36,1);
+				SiNo
+					ptosJ2 <- ptosJ2 +PuntosSegunJugada(1,nivelEnvido,0,aceptado);
+					jugadorGanador <- 2;
+					Limpiar Pantalla
+					Cantar(36,2);	
+				FinSi
+			SiNo
+				
+				
+				si ptosA > ptosB Entonces
+					
+					ptosJ1 <- ptosJ1 +PuntosSegunJugada(1,nivelEnvido,0,aceptado);
+					jugadorGanador <- 1;
+					Limpiar Pantalla
+					Cantar(36,1);
+					
+				SiNo
+					ptosJ2 <- ptosJ2 +PuntosSegunJugada(1,nivelEnvido,0,aceptado);
+					jugadorGanador <- 2;
+					Limpiar Pantalla
+					Cantar(36,2);			
+				FinSi	
+			FinSi
+		FinSi
+		
+		Escribir  "Puntos envido jugador ", cantaPrimero , " son:" , ptosA;
+		Escribir "Cartas del envido jugador : ", cantaPrimero;
+		DibujarEnvido(cartasJugador1);		
+		Esperar  2 Segundos	
+		
+		Escribir  "Puntos envido jugador ", cantaSegundo , " son:" , ptosB;
+		Escribir "Cartas del envido jugador: ", cantaSegundo ;
+		DibujarEnvido(cartasJugador2);	
+		
+		Esperar 10  Segundos	
+		
+		Limpiar Pantalla 
+	FinSi
+FinsubProceso
+
+
+SubProceso  ptos <- PuntosSegunJugada(Accion, nivelTruco, NivelEnvido, accionAceptada)
+	// Acciones : 1:Envido 2:truco 3 jugarCallado 4 : flor 5: irse al mazo
+	//subACCIONES 
+	//   NivelEnvido  : envido , envido - envido , real envido , falta envido
+	//    NivelTruco : truco, quiero retruco, quiero vale 4
+	//  accionAceptada : si / no
+	Definir ptos Como Entero;
+	Segun  Accion Hacer
+		1:  
+			Segun NivelEnvido Hacer
+					//envio
+				1: 
+					si accionAceptada Entonces
+						ptos <-2;
+					sino
+						ptos <-1;
+					FinSi
+					// real envido	
+				2:
+					si accionAceptada Entonces
+						ptos <-5;
+					sino
+						ptos <-2;
+					FinSi
+					// falta envido	
+				3:
+					si accionAceptada Entonces
+						ptos <-30;
+					sino
+						ptos <-2;
+					FinSi
+					
+				De Otro Modo:
+					// envido - envido
+					si accionAceptada Entonces
+						ptos <-4;
+					sino
+						ptos <-2;
+					FinSi
+			FinSegun
+		2:
+			Segun nivelTruco Hacer
+				1:// truco
+					si accionAceptada Entonces
+						ptos <-2;
+					sino
+						ptos <-1;
+					FinSi
+				2:// retruco
+					si accionAceptada Entonces
+						ptos <-3;
+					sino
+						ptos <-2;
+					FinSi
+				3: // quiero vale 4
+					si accionAceptada Entonces
+						ptos <-4;
+					sino
+						ptos <-2;
+					FinSi
+			FinSegun			
+		3: // callado 
+			ptos <-1;
+		4:  ptos <-3;
+		5: ptos <-1;
+	FinSegun	
+FinSubProceso
+
+SubProceso   reglas(a)
+	
+	Escribir "";
+	escribir "     ______ __________               _______ _      _______________  _______    _______ _        ";                    
+	escribir "    (  ___ \\__   __( (    /|\     /(  ____ ( (    /\__   __(  __  \(  ___  )  (  ___  | \       ";                    
+	escribir "    | (   ) )  ) (  |  \  ( | )   ( | (    \/  \  ( |  ) (  | (  \  ) (   ) |  | (   ) | (         ";                  
+	escribir "    | (__/ /   | |  |   \ | | |   | | (__   |   \ | |  | |  | |   ) | |   | |  | (___) | |           ";                
+	escribir "    |  __ (    | |  | (\ \) ( (   ) )  __)  | (\ \) |  | |  | |   | | |   | |  |  ___  | |             ";              
+	escribir "    | (  \ \   | |  | | \   |\ \_/ /| (     | | \   |  | |  | |   ) | |   | |  | (   ) | |               ";            
+	escribir "    | )___) )__) (__| )  \  | \   / | (____/\ )  \  |__) (__| (__/  ) (___) |  | )   ( | (____/\           ";          
+	escribir "    |/ \___/\_______//    )_)  \_/  (_______//    )_)_______(______/(_______)  |/     \(_______/             ";        
+	escribir "                                                                                                               ";      
+	escribir "    _________        _______ _______ _______    ______  _______ _         ________________         _______ ______";
+	escribir "    \__    _/\     /(  ____ (  ____ (  ___  )  (  __  \(  ____ ( \        \__   __(  ____ )\     /(  ____ (  ___  )";  
+	escribir "       )  ( | )   ( | (    \/ (    \/ (   ) |  | (  \  ) (    \/ (           ) (  | (    )| )   ( | (    \/ (   ) |_ ";
+	escribir "       |  | | |   | | (__   | |     | |   | |  | |   ) | (__   | |           | |  | (____)| |   | | |     | |   | (_)";
+	escribir "       |  | | |   | |  __)  | | ____| |   | |  | |   | |  __)  | |           | |  |     __) |   | | |     | |   | |  ";
+	escribir "       |  | | |   | | (     | | \_  ) |   | |  | |   ) | (     | |           | |  | (\ (  | |   | | |     | |   | |_ ";
+	escribir "    |\_)  ) | (___) | (____/\ (___) | (___) |  | (__/  ) (____/\ (____/\     | |  | ) \ \_| (___) | (____/\ (___) (_)";
+	escribir "    (____/  (_______|_______(_______|_______)  (______/(_______(_______/     )_(  |/   \__(_______|_______(_______)  ";
+	escribir "                                                                                                                       "; 
+	Escribir "    REGLAS BASICAS:";
+	Escribir "";
+	Escribir "    *) No se juega con flor (3 cartas iguales)";
+	Escribir "    *) El envido sale de la suma de las cartas del mismo palo";
+	escribir "    *) Solo se puede jugar en la primera ronda el envido";
+	Escribir "    *) Solo se puede jugar una vez el truco";
+	Escribir "    *) El truco lo ganara la carta de mayor valor";
+	Escribir "    *) A fines de emular el juego , el jugador 1 empezara siendo mano";
+	Escribir "    *) El partido lo ganara el primer jugador en llegar a 30 puntos";
+	
+FinSubProceso
+
+
+
+SubProceso  testTruco(a)
+	// este metodo emula que se juega el truco
+	Definir  accionJugador como entero;
+	Definir  vCartasJugador1,vCartasJugador2, nroRonda ,vMesa,vMasoReferencia como  entero;
+	Definir  nivelDeTruco Como Entero;
+	Definir  vganadoresxRonda Como Entero;	
+	// harcodeo segunda ronda para test
+	nroRonda <- 2;
+	Dimension   vMasoReferencia[40];
+	Dimension  vganadoresxRonda[3];
+	Dimension  vCartasJugador1[3];
+	Dimension  vCartasJugador2[3];
+	Dimension  vMesa[2,3];
+	ValorarCartas(vMasoReferencia);
+	puntajeJ1 <-0; 
+	puntajeJ2 <-0;
+	nivelDeEnvido <-0;
+	vCartasJugador1(1) <- 17;	
+	vCartasJugador1(2) <- 27;
+	vCartasJugador1(3) <- 16;
+	
+	vCartasJugador2(1) <- 37;	
+	vCartasJugador2(2) <- 32;
+	vCartasJugador2(3) <- 15;
+	
+	Escribir  "Puntos j1:", puntajeJ1 , " puntos j2:", puntajeJ2;
+	// si nivelEnvid -1 se fue al mazo
+	vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador1, vCartasJugador2 ,vMasoReferencia  , puntajeJ1, puntajeJ2 ,vMesa, nroRonda,1,nivelDeTruco)
+	Escribir  "After Puntos j1:", puntajeJ1 , " puntos j2:", puntajeJ2;
+	
+	Escribir  "NIVEL TRUCO GRAL :", nivelTruco;	
+	
+FinSubProceso
+
+// ASIGNAS LAS CARTAS DEL MASO A CADA JUGADOR
+SubProceso  SeleccionarCartasJugadores(mazoMezclado Por Referencia, mazoJugador1 Por Referencia, mazoJugador2 Por Referencia)
+	mazoJugador1[1] <- mazoMezclado[1];
+	mazoJugador1[2] <- mazoMezclado[2];
+	mazoJugador1[3] <- mazoMezclado[3];
+	mazoJugador2[1] <- mazoMezclado[4];
+	mazoJugador2[2] <- mazoMezclado[5];
+	mazoJugador2[3] <- mazoMezclado[6];
+FinSubProceso
+
 
 //MEZCLAR MASO DE MANERA RANDOM
 SubProceso mezclarMaso( maso Por Referencia , tamaño Por Valor)
@@ -498,837 +3700,221 @@ SubProceso mezclarMaso( maso Por Referencia , tamaño Por Valor)
 	FinPara
 Fin SubProceso
 
-// INDICA SI HAY O NO FLOR
-SubProceso bool <- HayFlor ( carta1, carta2, carta3 )
-	Definir bool Como Logico;
-	si (PaloCarta(carta1) = PaloCarta(carta2)) Y (PaloCarta(carta1) = PaloCarta(carta3)) Y (PaloCarta(carta2) = PaloCarta(carta3)) Entonces
-		Escribir  "es flor";
-		bool <- Verdadero;
-	SiNo
-		bool <- Falso;
-	FinSi
-Fin SubProceso
-
-//ORDENA LAS CARTAS POR PALO
-SubProceso  OrdenarPorPalo(cartas Por Referencia)
-	Definir  carta1, carta2, carta3,tmp, x,z Como Entero;
-	Dimension  cartasOrdenadas[3];
-	cartasOrdenadas[1] <- cartas[1];
-	cartasOrdenadas[2]<- cartas[2];
-	cartasOrdenadas[3] <- cartas[3];	
-	para x <-1 hasta 2 Con Paso 1 Hacer
-		para z <- 1 hasta 2 Con Paso  1 Hacer
-			si PaloCarta(cartasOrdenadas[z]) > PaloCarta(cartasOrdenadas[z+1]) Entonces				
-				tmp <- cartasOrdenadas[z];
-				cartasOrdenadas[z] <- cartasOrdenadas[z+1];
-				cartasOrdenadas[z+1] <- tmp;
-			FinSi
-		FinPara
-	FinPara
-	cartas[1] <- cartasOrdenadas[1];
-	cartas[2]<- cartasOrdenadas[2];
-	cartas[3] <- cartasOrdenadas[3];	
-Fin SubProceso
-
-// ASIGNAS LAS CARTAS DEL MASO A CADA JUGADOR
-SubProceso  SeleccionarCartasJugadores(mazoMezclado Por Referencia, mazoJugador1 Por Referencia, mazoJugador2 Por Referencia)
-	mazoJugador1[1] <- mazoMezclado[1];
-	mazoJugador1[2] <- mazoMezclado[2];
-	mazoJugador1[3] <- mazoMezclado[3];
-	mazoJugador2[1] <- mazoMezclado[4];
-	mazoJugador2[2] <- mazoMezclado[5];
-	mazoJugador2[3] <- mazoMezclado[6];
-FinSubProceso
-
-//ORDENA LAS CARTAS
-SubProceso OrdenarCartas ( cartas Por Referencia , masoOrdenado Por Referencia) 
-	Definir  carta1, carta2, carta3,tmp, x,z Como Entero;
-	Dimension  cartasOrdenadas[3];
-	carta1 <- cartas[1];
-	carta2<- cartas[2]; 
-	carta3 <- cartas[3];	
-	cartasOrdenadas[1] <- BuscarPosicionCarta(masoOrdenado,carta1);
-	cartasOrdenadas[2] <- BuscarPosicionCarta(masoOrdenado,carta2);
-	cartasOrdenadas[3] <- BuscarPosicionCarta(masoOrdenado,carta3);
+Funcion  JugarTruco(a)
+	Definir  accionJugador como entero;
+	Definir  nvCartasJugador1,vCartasJugador2,  opcionMenu, op,nroRonda , puntajeJ1, puntajeJ2 , puntajeJ1Gral , puntajeJ2Gral como  entero;
+	Definir  nivelDeEnvido, nivelDeTruco, jugadorMano Como Entero;
+	Definir ganadoresxRonda,vMesa,vMaso, vMasoReferencia Como Entero;
+	Definir  seEjecutoEnvido, seEjecutoTruco Como Logico;
 	
-	para x <-1 hasta 2 Con Paso 1 Hacer
-		para z <- 1 hasta 2 Con Paso  1 Hacer
-			si cartasOrdenadas[z] > cartasOrdenadas[z+1] Entonces				
-				tmp <- cartasOrdenadas[z];
-				cartasOrdenadas[z] <- cartasOrdenadas[z+1];
-				cartasOrdenadas[z+1] <- tmp;
-			FinSi
-		FinPara
-	FinPara
-	
-	cartas[1] <- masoOrdenado(cartasOrdenadas[1]);	
-	cartas[2] <- masoOrdenado(cartasOrdenadas[2]);
-	cartas[3] <- masoOrdenado(cartasOrdenadas[3]);
-Fin SubProceso
-
-
-//ENVIDO
-SubProceso val <- PuntajeEnvido ( carta1, carta2, carta3 )
-	Definir val,v, mayorPalo, cantP1, cantP2, cantP3, cantP4 Como entero;
-	mayorPalo <-1;
-	si  falso Entonces		
-		Escribir  "No hay envido porque hay flor";
-		v <- 0;
-	SiNo
-		v <- 20;
-		cantP1 <- 0;
-		cantP2 <-0;
-		cantP3 <-0;
-		cantP4 <-0;
+	seEjecutoEnvido <- Falso;
+	seEjecutoTruco <- Falso;
+	Dimension   vMasoReferencia[40];
+	Dimension   vMaso[40];
+	Dimension  vganadoresxRonda[3];
+	Dimension  vCartasJugador1[3];
+	Dimension  vCartasJugador2[3];
+	Dimension  vMesa[2,3];
+	puntajeJ1 <-0; 
+	puntajeJ2 <-0;
+	puntajeJ1Gral <- 0;
+	puntajeJ2Gral <- 0;
+	nivelDeEnvido <-0;
+	nivelDeTruco <-0;
+	ValorarCartas(vMasoReferencia);
+	ValorarCartas(vMaso);
+	mezclarMaso(vMaso,40);
+	SeleccionarCartasJugadores(vMaso,vCartasJugador1,vCartasJugador2);
+	jugadorMano <- 1;
+	DibujarCartas(vCartasJugador1);
+	Esperar  10 Segundos
+	//	Escribir  "1: Cantar Envido";
+	//	Escribir  "4: Cantar Truco";	
+	//	Escribir  "10: Irse al mazo";
+	//	Escribir  "11: No cantar:", "jugar callado";
+	para nroRonda <- 1 Con Paso  1 Hasta  3	
+		si nroRonda > 1 Entonces
+			cantar(33,vganadoresxRonda(nroRonda));
+			DibujarMesa(vmesa, nroRonda);
+		FinSi
+		Limpiar Pantalla;
+		opcionMenu <- menuOpciones(0);
+		Segun  opcionMenu Hacer
+			1: 
+				si seEjecutoEnvido = Falso Entonces	
+					Escribir "Numero de ronda envido : ", nroRonda; 
+					esperar 3 Segundos
+					si jugadorMano = 1 Entonces
+						vganadoresxRonda(nroRonda) <- EJECUTAR_ENVIDO(vCartasJugador1, vCartasJugador2 , puntajeJ1, puntajeJ2, vMesa,nroRonda,jugadorMano, nivelEnvido);
+					SiNo
+						vganadoresxRonda(nroRonda) <- EJECUTAR_ENVIDO(vCartasJugador2, vCartasJugador1 , puntajeJ2, puntajeJ1, vMesa,nroRonda,jugadorMano, nivelEnvido);				
+					FinSi
+					seEjecutoEnvido <- Verdadero;
+				SiNo
+					Escribir  " YA SE JUGO EL ENVIDO";
+				FinSi
+				
+			4:
+				
+				si seEjecutoEnvido= Falso  Y nroRonda = 1 Entonces	
+					si seEjecutoEnvido Entonces
+						Escribir  " YA SE JUGO EL ENVIDO";
+					FinSi
+					si jugadorMano = 1 Entonces
+						Escribir "Jugador 2 : ¿Desea cantar envido?";				
+					SiNo
+						Escribir "Jugador 1 : ¿Desea cantar envido?";
+					FinSi
+					Escribir " 1 : si , 2: No ";
+					leer op;
+					Mientras (op <> 1 y op <>2)
+						Escribir  "Opcion incorrecta";
+						Escribir "Jugador 2 : ¿Desea cantar envido?";
+						Escribir " 1 : si , 2: No ";
+					FinMientras
+					si op = 1 Entonces
+						erroresVarios("envidoPrimero");
+						Esperar 1 Segundos;
+						Limpiar Pantalla;
+						si jugadorMano = 1 Entonces
+							vganadoresxRonda(nroRonda) <- EJECUTAR_ENVIDO(vCartasJugador2, vCartasJugador1 , puntajeJ2, puntajeJ1, vMesa,nroRonda,2,nivelEnvido);
+						SiNo
+							vganadoresxRonda(nroRonda) <- EJECUTAR_ENVIDO(vCartasJugador1, vCartasJugador2 , puntajeJ1, puntajeJ2, vMesa,nroRonda,1, nivelEnvido);
+						FinSi
+						seEjecutoEnvido <- Verdadero;
+						
+					SiNo
+						si seEjecutoTruco = Falso Entonces
+							si jugadorMano = 1 Entonces
+								vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador1, vCartasJugador2 ,vMasoReferencia  , puntajeJ1, puntajeJ2 ,vMesa, nroRonda,nroRonda, nivelTruco)
+							SiNo
+								vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador2, vCartasJugador1 ,vMasoReferencia  , puntajeJ2, puntajeJ1 ,vMesa, nroRonda,nroRonda, nivelTruco)
+							FinSi					
+							seEjecutoTruco <- Verdadero;
+						SiNo
+							Escribir  " YA SE JUGO EL TRUCO";						
+						FinSi
+						
+					FinSi
+					si seEjecutoTruco = Falso Entonces
+						si jugadorMano = 1 Entonces
+							vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador1, vCartasJugador2 ,vMasoReferencia  , puntajeJ1, puntajeJ2 ,vMesa, nroRonda,nroRonda, nivelTruco)
+						SiNo
+							vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador2, vCartasJugador1 ,vMasoReferencia  , puntajeJ2, puntajeJ1 ,vMesa, nroRonda,nroRonda, nivelTruco)
+						FinSi	
+						seEjecutoTruco <- Verdadero;
+					SiNo
+						Escribir  " YA SE JUGO EL TRUCO";						
+					FinSi
+				FinSi					
+			10:
+				// se fue al mazo de una
+				si jugadorMano = 1 Entonces
+					puntajeJ2 <-puntajeJ2+1;
+					Limpiar Pantalla
+					Cantar(-1,1);
+				SiNo
+					puntajeJ1 <-puntajeJ1 +1;
+					Limpiar Pantalla
+					Cantar(-1,2);
+				FinSi
+				cantar(36,vganadoresxRonda(nroRonda));
+			11:		
+				// ordeno las cartas por valor
+				OrdenarCartas(vCartasJugador1 ,vMasoReferencia);
+				OrdenarCartas(vCartasJugador2 ,vMasoReferencia);
+				// gana por puntaje de cartas
+				vganadoresxRonda(nroRonda) <- DarGanadorCartas(vMasoReferencia, vCartasJugador1(1), vCartasJugador2(1),jugadorMano);
+				si vganadoresxRonda(nroRonda) = 1 Entonces
+					puntajeJ1 <- puntajeJ1 +PuntosSegunJugada(3,nivelTruco,nivelDeEnvido,Verdadero);//		
+				SiNo
+					puntajeJ2 <- puntajeJ2 +PuntosSegunJugada(3,nivelTruco,nivelDeEnvido,Verdadero);//		
+				FinSi
+				cantar(36,vganadoresxRonda(nroRonda));
+		FinSegun
 		
-		para i <- 1 Hasta 4 Con Paso  1
-			Segun PaloCarta(carta1)
-				1: cantP1 <- cantP1 +1;
-				2: cantP2 <- cantP2 +1;
-				3: cantP3 <- cantP3 +1;
-				4: cantP4 <- cantP4 +1;
-			FinSegun
-			Segun PaloCarta(carta2)
-				1: cantP1 <- cantP1 +1;
-				2: cantP2 <- cantP2 +1;
-				3: cantP3 <- cantP3 +1;
-				4: cantP4 <- cantP4 +1;
-			FinSegun
-			Segun PaloCarta(carta3)
-				1: cantP1 <- cantP1 +1;
-				2: cantP2 <- cantP2 +1;
-				3: cantP3 <- cantP3 +1;
-				4: cantP4 <- cantP4 +1;
-			FinSegun
-		FinPara		
-	FinSi
-	
-	si cantP1 > cantP2 Y cantP1 > cantP3 Y cantP1 > cantP4 Entonces
-		mayorPalo <- cantP1;
-	sino 
-		si cantP2 > cantP1 Y cantP2 > cantP3 Y cantP2 > cantP4 Entonces
-			mayorPalo <- cantP2;
-		sino 
-			si cantP3 > cantP1 Y cantP3 > cantP4 Y cantP3 > cantP4 Entonces
-				mayorPalo <- cantP3;
-			sino
-				mayorPalo <- cantP4;
-			fin si
-		fin si
-	FinSi
-	//las figuras no se cuentan en el Envido
-	si NroCarta(carta1) < 10 Y PaloCarta(carta1) = mayorPalo Entonces
-		v <- v + NroCarta(carta1);
-	FinSi
-	si NroCarta(carta2) < 10 Y PaloCarta(carta2) = mayorPalo Entonces
-		v <- v + NroCarta(carta2);
-	FinSi
-	si NroCarta(carta3) < 10 Y PaloCarta(carta3) = mayorPalo Entonces
-		v <- v + NroCarta(carta3);
-	FinSi	
-	Escribir "Puntaje obtenido en el envido:", v;
-	val <- v;
-Fin SubProceso
-
-//PuntajeEnvido
-
-subProceso jugadorGanador <- EJECUTAR_ENVIDO(cartasMaquina Por Referencia, cartasJugador2 Por Referencia,vMasoReferencia Por Referencia, manoMaquina, nivelEnvido Por Referencia)
-	Definir  jugadorGanador, accion, accionMano ,posCarta, puntos Como Entero;
-	Definir  huboFlor Como Logico;
-	huboFlor <- Falso;
-	manoMaquina <- Verdadero;
-	
-	si hayFlor(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) o hayFlor(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-		huboFlor <- Verdadero;
-	FinSi
-	
-	//OrdenarCartas ( cartas Por Referencia , masoOrdenado Por Referencia) 
-	//ordeno cartas jugador 1
-	OrdenarPorPalo(cartasMaquina);
-	//ordeno cartas jugador 2
-	OrdenarPorPalo(cartasJugador2);
-	//	
-	si manoMaquina Entonces
-			accionMano <- 1;
-		
-		// canto falta envido de una
-		si (PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > 30) Entonces
-			accionMano <- 3;
-			Escribir "Se canta falta envido";
-			nivelEnvido<-3;
+		si jugadorMano = 1 Entonces
+			jugadorMano <-2;
 		SiNo
-			Escribir "Usuario canto envido";
+			jugadorMano <-1;
 		FinSi	
-	FinSi
+	FinPara
 	
-	//respuesta
-	accion <- AccionarJugador(accionMano, Falso, Falso);
+	Escribir  "Puntaje de la partida jugador 1: ", puntajeJ1 , " jugador 2:" , puntajeJ2;
+	puntajeJ1Gral <- puntajeJ1Gral + puntajeJ1;
+	puntajeJ2Gral <- puntajeJ1Gra2 + puntajeJ2;
 	
-	// envido - envido
-	segun accion hacer
-		1:
-			si (PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > 25) Entonces
-				accionMano <- 2;
-			SiNo
-				nivelEnvido <- 11;
-				Escribir  " se acepto el envido - envido";
-				si PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-					jugadorGanador <- 1;
-				SiNo
-					jugadorGanador <- 2;
-				FinSi
-			FinSi		
-		2:
-			//real envido
-			si (PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > 30) Entonces
-				accionMano <- 3;
-			SiNo
-				nivelEnvido <- 2;
-				Escribir  " se acepto el real envido";
-				si PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-					jugadorGanador <- 1;
-				SiNo
-					jugadorGanador <- 2;
-				FinSi
-			FinSi		
-		3:
-			//falta envido
-			Escribir  " se acepto el falta envido";
-			nivelEnvido <- 3;
-			si PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-				jugadorGanador <- 1;
-			SiNo
-				jugadorGanador <- 2;
-			FinSi		
-		8 :
-			Escribir "se acepto el envido";
-			si PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-				jugadorGanador <- 1;
-			SiNo
-				jugadorGanador <- 2;
-			FinSi	
-		9:
-			Escribir "no se acepto el envido";
-			jugadorGanador <- 2;
-	FinSegun
-	// respuesta real envido
-	accion <- AccionarJugador(accionMano, Falso, Verdadero);
-	nivelEnvido <- 2;
+	// ganador de la partida
+	cantar(34,darGanadorPartida(vganadoresxRonda));
+	Escribir  "Puntaje general jugador 1: ", puntajeJ1Gral , " jugador 2:" , puntajeJ2Gral;	
 	
-	// envido - real
-	segun accion hacer
-		2:
-			si (PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > 25) Entonces
-				accionMano <- 2;
-			SiNo
-				Escribir  " se acepto el envido - envido";
-				nivelEnvido <- 11;
-				si PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-					jugadorGanador <- 1;
-				SiNo
-					jugadorGanador <- 2;
-				FinSi
-			FinSi		
-		3:
-			//falta envido
-			nivelEnvido <- 4;
-			Escribir  " se acepto el falta envido";
-			si PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-				jugadorGanador <- 1;
-			SiNo
-				jugadorGanador <- 2;
-			FinSi	
-		8 :
-			Escribir "se acepto el envido";
-			si PuntajeEnvido(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) > PuntajeEnvido(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-				jugadorGanador <- 1;
-			SiNo
-				jugadorGanador <- 2;
-			FinSi	
-		9:
-			Escribir "no se acepto el envido";
-			jugadorGanador <- 2;
-	FinSegun
-	
-FinsubProceso
-
-
-SubProceso  jugadorGanador <- EJECUTAR_TRUCO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, seCantoEnvido, ultimaCartaUsada)
-	Definir  jugadorGanador, accion, accionMano ,posCarta, puntos Como Entero;
-	Definir  huboFlor Como Logico;
-	Escribir "jugador canto TRUCO:";
-	//OrdenarCartas ( cartas Por Referencia , masoOrdenado Por Referencia) 
-	//ordeno cartas jugador 1
-	OrdenarCartas(cartasMaquina ,vMasoReferencia);
-	//ordeno cartas jugador 2
-	OrdenarCartas(cartasJugador2 ,vMasoReferencia);
-	Escribir  ultimaCartaUsada;
-	si ultimaCartaUsada < 3 Entonces
-		posCarta <- BuscarPosicionCarta(vMasoReferencia,cartasMaquina(ultimaCartaUsada));
-	SiNo
-		posCarta <- BuscarPosicionCarta(vMasoReferencia,cartasMaquina(ultimaCartaUsada +1));		
-	FinSi
-	
-	// respuesta del oponente al truco
-	si manoMaquina Entonces		
-		// solo si tengo cartas de buen valor acepto o canto truco
-		
-		accionMano <- 4;
-		
-	FinSi
-	huboFlor <- Falso;
-	si hayFlor(cartasMaquina(1),cartasMaquina(2),cartasMaquina(3)) o hayFlor(cartasJugador2(1),cartasJugador2(2),cartasJugador2(3)) Entonces
-		huboFlor <- Verdadero;
-	FinSi
-	//respuesta del oponente
-	accion <- AccionarJugador(accionMano, huboFlor, seCantoEnvido);
-	
-	si accion  = 5 Entonces
-		//si tengo dentro de las 4 cartas mas valiosas retruco
-		si posCarta < 5 Entonces
-			accionMano <- 6;
-		sino 
-			si posCarta < 9 Entonces
-				// acepto
-				si ultimaCartaUsada < 3 Entonces
-					si NroCarta(cartasMaquina(ultimaCartaUsada +1)) > NroCarta(cartasJugador2(ultimaCartaUsada +1)) Entonces
-						jugadorGanador <- 1;
-					SiNo
-						jugadorGanador <- 2;
-					FinSi				
-				SiNo
-					si NroCarta(cartasMaquina(ultimaCartaUsada)) > NroCarta(cartasJugador2(ultimaCartaUsada)) Entonces
-						jugadorGanador <- 1;
-					SiNo
-						jugadorGanador <- 2;
-					FinSi
-				FinSi				
-				
-			SiNo
-				jugadorGanador <- 2;
-			FinSi
-			
-		FinSi
-		//Proceso jugadorGanador <- EJECUTAR_TRUCO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, seCantoEnvido)
-		//retruco
-		accion <- AccionarJugador(5, huboFlor, seCantoEnvido);
-		si accion = 6 Entonces
-			si posCarta < 5 Entonces
-				// acepto
-				si ultimaCartaUsada < 3 Entonces
-					si NroCarta(cartasMaquina(ultimaCartaUsada + 1)) > NroCarta(cartasJugador2( ultimaCartaUsada+1)) Entonces
-						jugadorGanador <- 1;
-					SiNo
-						jugadorGanador <- 2;
-					FinSi
-				SiNo
-					si NroCarta(cartasMaquina(ultimaCartaUsada)) > NroCarta(cartasJugador2(ultimaCartaUsada)) Entonces
-						jugadorGanador <- 1;
-					SiNo
-						jugadorGanador <- 2;
-					FinSi
-				FinSi
-				
-			SiNo
-				jugadorGanador <- 2;
-			FinSi
-		SiNo			
-			jugadorGanador <- 1;			
-		FinSi
-	FinSi
-	si accion  = 6 Entonces
-		// quiero vale 4
-		si ultimaCartaUsada < 3 Entonces
-			si NroCarta(cartasMaquina(ultimaCartaUsada + 1)) > NroCarta(cartasJugador2( ultimaCartaUsada+1)) Entonces
-				jugadorGanador <- 1;
-			SiNo
-				jugadorGanador <- 2;
-			FinSi
+	si puntajeJ1Gral > 30 o puntajeJ1Gral >30 Entonces
+		Escribir  "FIN DEL JUEGO";
+		SI puntajeJ1Gral > puntajeJ2Gral Entonces
+			cantar(35,1);
 		SiNo
-			si NroCarta(cartasMaquina(ultimaCartaUsada)) > NroCarta(cartasJugador2(ultimaCartaUsada)) Entonces
-				jugadorGanador <- 1;
-			SiNo
-				jugadorGanador <- 2;
-			FinSi
-		FinSi				
+			cantar(35,2);
+		FinSi
 	FinSi
-FinsubProceso
-
-// INDICA QUE CARTA DE LA RONDA GANA.
-SubProceso  ganador<-DarGanadorCartas(mazoOrdenado,cartaJugador1, miCarta)
-	definir ganador Como Entero;
-	si BuscarPosicionCarta(mazoOrdenado,cartaJugador1) > BuscarPosicionCarta(mazoOrdenado,miCarta) Entonces
-		ganador <- 1;
+	
+	
+FinFuncion
+SubProceso ganador <- darGanadorPartida(vecGanadores)
+	Definir  cant1, cant2, nro,ganador Como Entero;
+	cant1 <-0;
+	cant2 <-0;
+	para nro <- 1 Hasta  3 Hacer
+		si vecGanadores(nro) = 1 Entonces		
+			cant1 <- cant1+1;
+		SiNo
+			cant2 <- cant2 +1;
+		FinSi
+	FinPara
+	
+	si cant1 > cant2 Entonces
+		ganador <- 1
 	SiNo
 		ganador <-2;
 	FinSi
-FinSubProceso
-
-
-
-SubProceso accion <- AccionarJugador(accionJugador Por Valor, seCantoFlor, seCantoEnvido)
-	// Acciones : 1:Envido  2: realEnvido: 3:FaltaEnvico  , 
-	//4: Truco, 5: QuieroRetruco , 6: QuieroVale4, 7: flor , 8: aceptar, 9: no Aceptar	
-	Definir  accion, opc Como Entero;
-	opc <- 0;
-	segun accionJugador Hacer
-		1:
-			Escribir  "El jugador canto Envido que desea hacer :?";		
-			Escribir  " 8 aceptar , 9 no aceptar, 1 Cantar otro Envido , 2 cantar Real Envido , 3 cantar Falta Envido";
-			Leer  opc
-			Escribir "opcion 1 :", opc;
-			
-			Mientras  (opc <> 1 Y opc<>  2 Y opc <> 3 Y opc <> 8 Y opc <> 9 )					
-				Escribir  "opcion incorrecta. Reingreso";	
-				Escribir  " bis: 8 aceptar , 9 no aceptar, 1 Cantar otro Envido , 2 cantar Real Envido , 3 cantar Falta Envido";
-				Leer  opc;
-				Escribir "opcion 1 :", opc;
-			FinMientras
-			
-		2: 
-			Escribir  "El jugador canto Real Envido que desea hacer :?";		
-			Escribir  " 8 aceptar , 9 no aceptar, 3 cantar Falta Envido";
-			Leer  opc;
-			Mientras  (opc <> 3 Y opc <> 8 Y opc <> 9 )						
-				Escribir  "opcion incorrecta. Reingreso";	
-				Escribir  " 8 aceptar , 9 no aceptar, 3 cantar Falta Envido";
-				Leer  opc;
-			FinMientras
-			
-		3: 
-			Escribir  "El jugador canto Falta Envido que desea hacer :?";		
-			Escribir  " 8 aceptar , 9 no aceptar";
-			Leer  opc;
-			Mientras  ( opc <> 8 Y opc <> 9 )					
-				Escribir  "opcion incorrecta. Reingreso";	
-				Escribir  " 8 aceptar , 9 no aceptar";
-				Leer  opc;
-			FinMientras
-			
-		4: 
-			Escribir  "El jugador canto Truco que desea hacer :?";		
-			Escribir  " 8 aceptar , 9 no aceptar, 5: retruco";
-			Leer  opc;
-			Escribir  "opcion re :", opc;
-			Mientras  ( opc <> 8 Y opc <> 9 y Opc <> 5 )						
-				Escribir  "opcion incorrecta. Reingreso";	
-				Escribir  " 8 aceptar , 9 no aceptar";
-				Leer  opc;
-			FinMientras;			
-		5: 
-			Escribir  "El jugador canto reTruco que desea hacer :?";		
-			Escribir  " 8 aceptar , 9 no aceptar, 6: vale 4";
-			Leer  opc;
-			Mientras  ( opc <> 8 Y opc <> 9 )				
-				Escribir  "opcion incorrecta. Reingreso";	
-				Escribir  " 8 aceptar , 9 no aceptar";
-				Leer  opc;
-			FinMientras;			
-		7: 
-			Escribir  "El jugador canto quiero vale 4 que desea hacer :?";		
-			Escribir  " 8 aceptar , 9 no aceptar";
-			Leer  opc;
-			Mientras  ( opc <> 8 Y opc <> 9 )							
-				Escribir  "opcion incorrecta. Reingreso";	
-				Escribir  " 8 aceptar , 9 no aceptar";
-				Leer  opc;
-			FinMientras
-		8: 
-			Escribir  "El jugador canto flor , que desea hacer?";
-			Escribir  " 8 aceptar , 9 no aceptar";
-			Leer  opc;
-			Mientras  ( opc <> 8 Y opc <> 9 )							
-				Escribir  "opcion incorrecta. Reingreso";	
-				Escribir  " 8 aceptar , 9 no aceptar";
-				Leer  opc;
-			FinMientras
-		10: 
-			Escribir  "Jugar callado";
-			opc <- 9;
-		11:
-			Escribir "La mano no canto nada , que desea hacer?";
-			si seCantoFlor o seCantoEnvido Entonces
-				Escribir "Desea cantar truco ? si: 10 , no 9";
-				Leer  opc;
-				Escribir  opc;
-				Mientras  ( opc <> 10 Y opc <> 9 )							
-					Escribir  "opcion incorrecta. Reingres";		
-					Escribir "Desea cantar truco ? si: 10 , no 9";
-					Leer  opc;
-				FinMientras				
-				// no se puede cantar envido
-			SiNo
-				Escribir  "1 Cantar Envido , 2 cantar Real Envido , 3 cantar Falta Envido, 10 truco";
-				Leer  opc;
-			FinSi
-	FinSegun	
-	accion <- opc;
-FinSubProceso
-
-SubProceso  ptos <- PuntosSegunJugada(accionJugador1,accionJugador2, oponenteAcepto, seCantoEnvidoEnvido,  seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido)
-	// Acciones : 1:Envido  2: realEnvido: 3:FaltaEnvico  , 4: Truco, 5: QuieroRetruco , 6: QuieroVale4, 7: flor , 8: aceptar, 9: no Aceptar	
-	Definir  ptos Como Entero;
-	// desde jugador 1
-	Segun  accionJugador1 Hacer
-		1:  
-			// MANO CANTO ENVIDO Y OPONENTE ME PUDO CANTAR: 
-			Segun  accionJugador2 Hacer
-				1: 
-					// acepte o rechace el envido - envido
-					si oponenteAcepto Entonces
-						Escribir  "Envido - envido aceptado 4 puntos ";
-						ptos <-4;
-					SiNo
-						Escribir  "Envido - envido no aceptado 2 puntos ";
-						ptos <- 2;
-					FinSi
-				2:
-					// acepte o rechace el envido - real envido
-					si oponenteAcepto Entonces
-						Escribir  "Envido - ral envido aceptado 5 puntos ";
-						ptos <-5;
-					SiNo
-						Escribir  "Envido - real envido no aceptado 2 puntos ";
-						ptos <- 2;
-					FinSi
-				3:
-					// acepte o rechace el envido - falta envido
-					si oponenteAcepto Entonces
-						Escribir  "Envido - falta envido aceptado 15 puntos. Gana partido ";
-						ptos <-15;
-					SiNo
-						Escribir  "Envido - falta envido no aceptado 2 puntos ";
-						ptos <- 2;
-					FinSi
-				De Otro Modo:
-					// acepte o rechace el envido
-					si oponenteAcepto Entonces
-						Escribir  "Envido  aceptado 2 puntos ";
-						ptos <-2;
-					SiNo
-						Escribir  "Envido no aceptado 4 puntos ";
-						ptos <- 1;
-					FinSi
-			FinSegun
-		2:
-			// cante real envido 
-			si seCantoEnvidoEnvido Entonces
-				// se canto envido - envido - realenvido
-				si oponenteAcepto Entonces
-					Escribir  "Envido - envido - real envido aceptado 7 puntos ";
-					ptos <-7;
-				SiNo
-					Escribir  "Envido - envido - real envido no aceptado 4 puntos ";
-					ptos <- 4;
-				FinSi
-			FinSi
-			si  accionJugador2 =3 Entonces
-				// ME CANTARON FALTA ENVIDO
-				si oponenteAcepto Entonces
-					Escribir  "Real envido - falta envido aceptado 15 puntos. Gana el partid ";
-					ptos <-15;
-				SiNo
-					Escribir  "Real envido - falta envido no aceptado 5 puntos ";
-					ptos <- 5;
-				FinSi	
-			sino
-				si oponenteAcepto Entonces
-					Escribir  "Real envido aceptado 3 puntos";
-					ptos <-3;
-				SiNo
-					Escribir  "Real envido no aceptado 1 puntos";
-					ptos <- 1;
-				FinSi				
-			finsi
-		3:
-			si  seCantoEnvidoEnvidoRelEnvido   Entonces
-				si oponenteAcepto Entonces
-					Escribir  "Envido - envido - real envido - falta envido , 15 puntos gana el partido:";
-					ptos <- 15;
-				SiNo
-					Escribir  "Envido - envido - real envido - falta envido , no aceptado 2 puntos gana el partido:";
-					ptos <- 4;
-				FinSi		
-			sino 
-				si  seCantoEnvidoRelEnvido   Entonces
-					si oponenteAcepto Entonces
-						Escribir  "Envido - ral envido - falta envido , 15 puntos gana el partido:";
-						ptos <- 15;
-					SiNo
-						Escribir  "Envido - real envido - falta envido , no aceptado 2 puntos gana el partido:";
-						ptos <- 5;
-					FinSi		
-				sino 
-					si  seCantoEnvidoEnvido   Entonces
-						si oponenteAcepto Entonces
-							Escribir  "Envido - envido - falta envido , 15 puntos gana el partido:";
-							ptos <- 15;
-						SiNo
-							Escribir  "Envido - envido - falta envido , no aceptado 2 puntos gana el partido:";
-							ptos <- 2;
-						FinSi			
-					FinSi
-				FinSi	
-			finsi
-			
-			// envido aceptado
-			si oponenteAcepto Entonces
-				Escribir  "Falta envido aceptado 15 ptos Gana el partido";
-				ptos <- 15;
-			SiNo
-				Escribir  "Falta envido no aceptado 15 ptos Gana el partido";
-				ptos <- 1;
-			FinSi
-		4:
-			si oponenteAcepto Entonces				
-				Escribir  "Truco aceptado 2 puntos";
-				ptos <- 2;
-			SiNo
-				Escribir  "Truco no aceptado 2 puntos";
-				ptos <- 1;
-			FinSi			
-		5:
-			si oponenteAcepto Entonces
-				Escribir  "Truco - quiero retruco aceptado 2 puntos";
-				ptos <- 2;
-			SiNo
-				Escribir  "Truco - quiero retruco  no aceptado 1 puntos";
-				ptos <- 2 ;
-			FinSi	
-		6:
-			si oponenteAcepto Entonces
-				Escribir  "Truco - quiero vale 4 aceptado 4 puntos";
-				ptos <- 4;
-			SiNo
-				Escribir  "Truco - quiero vale 4 no aceptado 4 puntos";
-				ptos <- 2;
-			FinSi	
-		7:
-			ptos <- 3;
-			
-			
-	FinSegun
-FinSubProceso
-
-SubProceso  reglas()
-	escribir "************************************************************ ";
-	escribir "************************************************************ ";
-	Escribir "                         BIENVENIDO                          ";
-	escribir "************************************************************ ";
-	escribir "************************************************************ ";
-
-    Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "Binvenido al juego del truco. A fines de la muestra este juego se realizara a 15 puntos";
-	Escribir "";
-	Escribir "REGLAS BASICAS:";
-	Escribir "No se juega con flor. 3 cartas iguales";
-	Escribir "El envido sale de la suma de las cartas del mismo palo";
-	escribir "Solo se puede jugar en la primera ronda el envido";
-	Escribir "Solo se puede jugar una vez el truco";
-	Escribir "El truco lo ganara la carta de mayor valor";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
-	Escribir "";
 	
-	escribir "************************************************************ ";
-	escribir "************************************************************ ";
-	escribir "************************************************************ ";
-	escribir "************************************************************ ";
-
 FinSubProceso
-
-Funcion JugarTruco()
-	reglas();
-	Definir  vCartasConValor, vMaso Como entero;
-	Definir  puntajeJ1, puntajeJ2, accionJugadorAnt ,accionJugador como entero;
-	Definir  nroRonda , accion, ultimaCarta, ultimaCartaJ1,ultimaCartJ2,vCartasJugador1,vCartasJugador2,vMesa como  entero;
-	Definir  ManoMaquina, huboFlor, acepto , sejugaFlor Como Logico;
-	Definir seCantoEnvido,seCantoEnvidoTruco , seCantoEnvidoEnvido,  seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido Como logico;
+SubProceso  testEnvido(a)
+	//JUGADOR 1 SIEMPRE MANO
+	Definir  accionJugador como entero;
+	Definir  nvCartasJugador1,vCartasJugador2 como  entero;
+	Definir  nivelDeEnvido Como Entero;
+	Definir  i, ganadorRonda, vganadoresxRonda,vMesa,vMasoReferencia Como Entero;
+	
 	Dimension   vMasoReferencia[40];
+	Dimension  vganadoresxRonda[3];
 	Dimension  vCartasJugador1[3];
 	Dimension  vCartasJugador2[3];
-	Dimension  vMesa[6];
-	Dimension   vMaso[40]; 	
+	Dimension  vMesa[2,3];
 	puntajeJ1 <-0; 
 	puntajeJ2 <-0;
-	huboFlor <- FALSO;
-	nivelEnvido <- 0;
-	sejugaFlor <- falso;
-	seCantoEnvidoTruco <- Verdadero;
-	//SubProceso  jugadorGanador <- EJECUTAR_TRUCO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, seCantoEnvido, ultimaCartaUsada)
-	//subProceso jugadorGanador <- EJECUTAR_ENVIDO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, referencia nivelEnvido)
-	ultimaCarta <- 0;
-	ManoMaquina <- Verdadero;
-	seCantoEnvido <- Falso;
-	// Acciones : 1:Envido  2: realEnvido: 3:FaltaEnvico  , 4: Truco, 5: QuieroRetruco , 6: QuieroVale4, 7: flor, 9: jugar callado	
+	nivelDeEnvido <-0;
+	vCartasJugador1(1) <- 17;	
+	vCartasJugador1(2) <- 27;
+	vCartasJugador1(3) <- 16;
+	vCartasJugador2(1) <- 37;	
+	vCartasJugador2(2) <- 32;
+	vCartasJugador2(3) <- 15;
+	
 	ValorarCartas(vMasoReferencia);
-	ValorarCartas(vMaso);
-	//Mientras  puntajeJ1 < 15 o puntajeJ2 < 15 Hacer
-	mezclarMaso(vMaso,40);
-	SeleccionarCartasJugadores(vMaso,vCartasJugador1,vCartasJugador2);
-	Escribir "CARTAS JUGADOR 1";
-	DibujarCarta(5,"copa");
-	DibujarCarta(1,"espada");
-	DibujarCarta(2,"basto");
 	
-	Escribir "CARTAS JUGADOR 2";
-	DibujarCarta(7,"oro");
-	DibujarCarta(6,"espada");
-	DibujarCarta(5,"oro");
+	DibujarEnvido(vCartasJugador2);
 	
-	si ManoMaquina Entonces
-		Escribir  "La maquina es mano";			
-	FinSi
-	//SubProceso  ptos <- PuntosSegunJugada(accionJugador1,accionJugador2, oponenteAcepto, seCantoEnvidoEnvido,  seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido)
-	huboFlor <- Falso;
-	Para nroRonda <- 1 Hasta 3 Hacer	
-		
-		SI sejugaFlor Entonces
-			
-			si HAYFLOR(vCartasJugador1(1),vCartasJugador1(2),vCartasJugador1(3))  entonces
-				si HAYFLOR(vCartasJugador2(1),vCartasJugador2(2),vCartasJugador2(3)) Entonces
-					
-					si PuntajeEnvido(vCartasJugador1(1),vCartasJugador1(2),vCartasJugador1(3)) > PuntajeEnvido(vCartasJugador2(1),vCartasJugador2(2),vCartasJugador2(3)) entonces
-						puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(7,1,falso,falso, falso, Falso);
-						Escribir   "SE CANTO FLOR Y USUARIO 1 LA GANO. DADO QUE AMBOS TUVIERON FLOR";
-					FinSi
-					huboFlor <- Verdadero;
-				FinSi				
-			SiNo
-				si HAYFLOR(vCartasJugador1(1),vCartasJugador1(2),vCartasJugador1(3)) Entonces
-					puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(7,1,falso,falso, falso, Falso);
-					Escribir   "USUARIO 1 CANTO FLOR";
-				SiNo
-					puntajeJ2 <- puntajeJ2 + PuntosSegunJugada(7,1,falso,falso, falso, Falso);
-					Escribir   "USUARIO 2 CANTO FLOR";
-				FinSi
-				huboFlor <- Verdadero;
-			FinSi				
-		FinSi
-		//				//envido
-		huboFlor <- Falso;
-		//			seCantoEnvido <- Verdadero;
-		si huboFlor = Falso  Y secantoenvido = Falso Entonces
-			SI PuntajeEnvido(vCartasJugador1(1),vCartasJugador1(2),vCartasJugador1(3)) > 22 Entonces
-				accionMano <- 1;
-			SINO 
-				accionMano<- 11;
-				ultimaCartaJ1 <-nroRonda;
-				vMesa(nroRonda) <- vCartasJugador1(ultimaCartaJ1);		
-				Escribir  "Mano juega callada";
-			FinSi
-			accionJugador <- AccionarJugador(accionMano, Falso, Falso);
-			si accionJugador = 11 Entonces
-				ultimaCartaJ2 <-nroRonda;
-				vMesa(nroRonda+1) <- vCartasJugador2(ultimaCartaJ2);
-			FinSi
-			
-			//SubProceso  ptos <- PuntosSegunJugada(accionJugador1,accionJugador2, oponenteAcepto, seCantoEnvidoEnvido,  seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido)
-			si accionJugador >= 1 y accionJugador < 4 Entonces
-				seCantoEnvido <- Verdadero;
-				acepto <- Falso;
-				si accionJugador = 9 Entonces
-					acepto <- Verdadero;
-				FinSi
-				
-				si accionJugador = 1 o accionJugador = 2 o accionJugador = 3 o accionJugador = 8 o accionJugador = 9 Entonces
-					si EJECUTAR_ENVIDO(vCartasJugador1, vCartasJugador2,vMasoReferencia, Verdadero,nivelEnvido) = 1 Entonces
-						seCantoEnvidoEnvido <- Falso;
-						seCantoEnvido <- Verdadero;
-						si nivelEnvido = 11 Entonces								
-							seCantoEnvidoEnvido <- Verdadero;
-						FinSi
-						seCantoEnvidoRelEnvido <- Falso;
-						si nivelEnvido = 2 Entonces
-							seCantoEnvidoRelEnvido <-Verdadero;
-						FinSi							
-						seCantoEnvidoEnvidoRelEnvido <- falso;
-						Escribir "jugador 1 gano mano";
-						puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(accionMano,accionJugador,acepto,seCantoEnvidoEnvido,seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido);
-					SiNo
-						Escribir "jugador 2 gano mano";
-						puntajeJ2 <- puntajeJ2 + PuntosSegunJugada(accionMano,accionJugador,acepto,seCantoEnvidoEnvido,seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido);
-					FinSi
-				FinSi
-			FinSi
-		FinSi
-		
-		si seCantoEnvido Entonces
-			si 	BuscarPosicionCarta(vMasoReferencia,vCartasJugador1(1)) < 10 Entonces
-				accionMano <- 4;
-			sino 
-				accionMano <- 4;
-				accionMano <- 11;
-				ultimaCarta <- 1;
-				ultimaCartaJ1 <-nroRonda;
-				vMesa(nroRonda) <- vCartasJugador1(ultimaCartaJ1);
-			FinSi
-			
-			Mientras (accionJugador <>8 y accionJugador <> 9 y accionJugador<> 5 y accionJugador<> 4 y accionJugador <> 10)
-				accionJugador <- AccionarJugador(accionMano, huboFlor, seCantoEnvido);			
-			FinMientras
-			//					
-			
-			si accionJugador = 11 Entonces
-				ultimaCartaJ2 <-nroRonda;
-				vMesa(nroRonda+1) <- vCartasJugador2(ultimaCartaJ2);
-			FinSi
-			si (accionMano = 4 y accionJugador = 9) o accionJugador = 4 o accionJugador = 5 Entonces
-				seCantoEnvidoTruco <- Verdadero;
-				ultimaCarta <- nroronda;
-				si EJECUTAR_TRUCO(vCartasJugador1,vCartasJugador2,vMasoReferencia,Verdadero,seCantoEnvido,ultimaCarta) = 1 Entonces
-					Escribir "jugador 1 gano mano";
-
-					puntajeJ1 <- puntajeJ1 + PuntosSegunJugada(accionMano,accionJugador,acepto,seCantoEnvidoEnvido,seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido);
-				SiNo
-					Escribir "jugador 2 gano mano";
-
-					puntajeJ2 <- puntajeJ2 + PuntosSegunJugada(accionMano,accionJugador,acepto,seCantoEnvidoEnvido,seCantoEnvidoRelEnvido, seCantoEnvidoEnvidoRelEnvido);
-				FinSi
-			FinSi
-		FinSi
-		//SubProceso  jugadorGanador <- EJECUTAR_TRUCO(cartasMaquina, cartasJugador2,vMasoReferencia, manoMaquina, seCantoEnvido, ultimaCartaUsada)
-		
-        Escribir  "Fin ronda ";
-	FinPara
-	
-	//FinMientras
-	
-	
-	//MostrarMaso(vMaso,40);	
-Fin Funcion
+FinSubProceso
 
 
-
-
-Funcion juego <- ElegirJuego ()
-	Definir juego Como Entero
-	
-	
-	Repetir
-		Escribir 'A que desea jugar? (1: Truco, 2: Batalla Naval)' Sin Saltar
-		Leer juego
-		
-		Si juego < 1 O juego > 2 Entonces
-			Limpiar Pantalla
-			DatoInvalido()
-		FinSi
-		
-	Hasta Que juego >= 1 Y juego <= 2
-	
-	
-Fin Funcion
+//Proceso Pruebas
+//	reglas(1);
+//	Esperar 1 Segundos
+//	Limpiar Pantalla;
+//	//TestEnvido(1);
+//	JugarTruco(1);
+//	
+//FinProceso
 
 
 // BATALLA NAVAL ---------------------------------------------------
@@ -1914,6 +4500,26 @@ Fin Funcion
 
 
 
+
+Funcion juego <- ElegirJuego ()
+	Definir juego Como Entero
+	
+	
+	Repetir
+		Escribir 'A que desea jugar? (1: Truco, 2: Batalla Naval)' Sin Saltar
+		Leer juego
+		
+		Si juego < 1 O juego > 2 Entonces
+			Limpiar Pantalla
+			DatoInvalido()
+		FinSi
+		
+	Hasta Que juego >= 1 Y juego <= 2
+	
+	
+Fin Funcion
+
+
 // ALGORITMO
 Algoritmo batalla_naval
 	
@@ -1922,7 +4528,7 @@ Algoritmo batalla_naval
 	jugar = ElegirJuego()
 	
 	SI jugar = 1 Entonces
-		JugarTruco()
+		JugarTruco(1)
 	FIN SI	
 	
 	Mientras jugar = 2 Hacer
