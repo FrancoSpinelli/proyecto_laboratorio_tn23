@@ -1330,12 +1330,17 @@ Funcion juego <- ElegirJuego ()
 	
 Fin Funcion
 
+
+// BATALLA NAVAL ---------------------------------------------------
+
+
+
 Funcion SaltoDeLinea ()
 	Escribir ' '
 Fin Funcion 
 
 Funcion Separador ()
-	Escribir  '--------------------------------------------------------------'
+	Escribir  '------------------------------------------------------------------------'
 FinFuncion
 
 Funcion DatoInvalido ()
@@ -1382,9 +1387,14 @@ Funcion nombre <- IngrearNombre ()
 Fin Funcion
 
 
-Funcion IngresarFilasYColumnas (CANT_FILAS Por Referencia, CANT_COLUMNAS Por Referencia)
+Funcion IngresarFilasYColumnas (CANT_FILAS Por Referencia, CANT_COLUMNAS Por Referencia, nombreDeUsuario)
 	
 	Definir fila, columna Como Entero
+	
+	Separador()
+	Escribir 'Bienvenido a la Batalla Naval ', nombreDeUsuario
+	Separador()
+	SaltoDeLinea()
 	
 	Repetir
 		Escribir 'Con cuántas FILAS deseas jugar? (Min. 3 - Max. 9)' Sin Saltar
@@ -1441,15 +1451,22 @@ Funcion  CANT_TURNOS_MULTIPLICADOR <- SeleccionarDificultad (CANT_TURNOS_MULTIPL
 		
 	Hasta Que dificultad >= 1 Y dificultad <= 4
 	
+	Limpiar Pantalla
+	Separador()
+	
 	Segun dificultad Hacer
 		1:
 			CANT_TURNOS_MULTIPLICADOR = 4
+			Escribir 'Dificultad: Facil'
 		2:
 			CANT_TURNOS_MULTIPLICADOR = 3
+			Escribir 'Dificultad: Medio'
 		3:
 			CANT_TURNOS_MULTIPLICADOR = 2
+			Escribir 'Dificultad: Dificil'
 		4: 
 			CANT_TURNOS_MULTIPLICADOR = 1
+			Escribir 'Dificultad: Experto'
 	Fin Segun
 	
 	
@@ -1465,12 +1482,130 @@ Funcion ArmarTableroVacio (Tablero por referencia, CANT_FILAS, CANT_COLUMNAS, CA
 		Fin Para
 	Fin Para
 	
-	SaltoDeLinea()
-	
 Fin Funcion
 
 
-Funcion LlenarTableroRival (TableroRival por referencia, CANT_FILAS, CANT_COLUMNAS, CANT_A_RELLERNAR, CASILLERO_VACIO, CASILLERO_CON_BARCO, CANT_TURNOS)
+
+
+Funcion ArmarBarcos ( TableroRival Por Referencia, CANT_A_RELLERNAR Por Referencia, CONTADOR_FLOTAS Por Referencia, CANT_FILAS, CANT_COLUMNAS, CASILLERO_VACIO )
+	Dimension Barcos[CANT_A_RELLERNAR]
+	
+	Definir MIN_BARCOS, MAX_BARCOS Como Entero
+	Definir contador, contadorFlotas, flag, filaOColumna, nroFilaOColumna, desd, hast, codigo, valido Como Entero
+	
+	MIN_BARCOS = 2
+	MAX_BARCOS = 4
+	
+	contador = CANT_A_RELLERNAR
+	contadorFlotas = 0
+	
+	Mientras contador > 1 Hacer
+		
+		Si contador = MAX_BARCOS Entonces
+			flag = MAX_BARCOS
+		SiNo
+			flag = Aleatorio(MIN_BARCOS, MAX_BARCOS)
+		FinSi
+		
+		
+		SI contador - flag >= 0 Entonces
+			SI flag <= contador Entonces
+				
+				filaOColumna = Aleatorio(1,2)
+				hast = 0
+				
+				Segun filaOColumna Hacer
+					1:
+						nroFilaOColumna = Aleatorio(1, CANT_FILAS)
+						
+						desd = Aleatorio(1, CANT_COLUMNAS)
+						
+						Si desd + flag <=  CANT_COLUMNAS Entonces
+							hast = desd + flag - 1
+						FinSi
+					2:
+						nroFilaOColumna = Aleatorio(1, CANT_COLUMNAS)
+						
+						desd = Aleatorio(1, CANT_FILAS)
+						
+						Si desd + flag <=  CANT_FILAS Entonces
+							hast = desd + flag - 1
+						FinSi
+						
+				Fin Segun
+				
+				Si hast > 0  Entonces
+					valido = ValidarPosicionesDisponibles(TableroRival, filaOColumna, nroFilaOColumna, desd, hast, CASILLERO_VACIO)
+					
+					Si valido = 1 Entonces
+						contador = contador - flag
+						contadorFlotas = contadorFlotas + 1
+					FinSi
+					
+				FinSi
+				
+				
+			FinSi
+			
+		FinSi
+		
+	Fin Mientras
+	
+	CANT_A_RELLERNAR =  CANT_A_RELLERNAR - contador
+	CONTADOR_FLOTAS = contadorFlotas
+Fin Funcion
+
+
+Funcion valido <- ValidarPosicionesDisponibles (TableroRival Por Referencia, filaOColumna, nroFilaOColumna, desd, hast, CASILLERO_VACIO)
+	
+	Definir i, valido, fila, columna Como Entero
+	Definir simbolo Como caracter
+	
+	valido = 1	
+	Segun filaOColumna
+		1:
+			// FILA
+			simbolo = '='
+			fila = nroFilaOColumna
+			columna = desd
+			
+		2:
+			// COLUMNA
+			columna = nroFilaOColumna
+			fila = desd
+			simbolo = '||'
+			
+	FinSegun
+	
+	
+	Para i <- desd Hasta hast  Con Paso 1 Hacer
+		
+		Segun  filaOColumna
+			1:
+				Si TableroRival[fila, i] = CASILLERO_VACIO Entonces
+					TableroRival[fila, i]  = '[' + Espacios(2) + simbolo + Espacios(2) + ']'
+				SiNo
+					valido = 0
+					i = hast + 1
+				FinSi
+				
+				
+			2: 
+				Si TableroRival[i, columna]  = CASILLERO_VACIO Entonces
+					TableroRival[i, columna]  = '[' + Espacios(2) + simbolo + Espacios(2) + ']'
+				SiNo
+					valido = 0
+					i = hast + 1
+				FinSi
+				
+		FinSegun
+		
+		
+	Fin Para
+	
+FinFuncion
+
+Funcion LlenarTableroRival (TableroRival por referencia, CANT_FILAS, CANT_COLUMNAS, CANT_A_RELLERNAR, CONTADOR_FLOTAS Por Referencia, CASILLERO_VACIO, CASILLERO_CON_BARCO, CANT_TURNOS)
 	
 	Definir totalALlenar, llenar Como Entero
 	
@@ -1478,30 +1613,20 @@ Funcion LlenarTableroRival (TableroRival por referencia, CANT_FILAS, CANT_COLUMN
 	
 	ArmarTableroVacio(TableroRival, CANT_FILAS, CANT_COLUMNAS, CASILLERO_VACIO)
 	
-	Mientras totalALlenar > 0 Hacer
-		Para i<-1 Hasta CANT_FILAS Con Paso 1 Hacer
-			Para j<-1 Hasta CANT_COLUMNAS Con Paso 1 Hacer
-				llenar = Aleatorio(0, 3)
-				Si (llenar = 1 Y totalALlenar >= 1 Y TableroRival[i, j] = CASILLERO_VACIO) Entonces
-					TableroRival[i, j] = CASILLERO_CON_BARCO
-					totalALlenar = totalALlenar - 1
-				FinSi
-			Fin Para
-		Fin Para
-	Fin Mientras
+	ArmarBarcos(TableroRival, CANT_A_RELLERNAR, CONTADOR_FLOTAS, CANT_FILAS, CANT_COLUMNAS, CASILLERO_VACIO)
 	
 	Escribir 'Cantidad de filas: ', CANT_FILAS
 	Escribir 'Cantidad de columnas: ', CANT_COLUMNAS
-	Escribir 'Tenes ', CANT_TURNOS, ' disparos para destruir ', CANT_A_RELLERNAR, ' barcos'
+	Escribir 'Tenes ', CANT_TURNOS, ' disparos para destruir ', CONTADOR_FLOTAS, ' barcos'
+	Separador()
 	SaltoDeLinea()
 	
 Fin Funcion
 
 
 Funcion MostrarInformacion (aciertos, CANT_TURNOS, CANT_A_RELLERNAR)
-	
-	Escribir 'Barcos destruidos: ' , aciertos, ' / ', CANT_A_RELLERNAR
 	Escribir 'Disparos disponibles: ' , CANT_TURNOS
+	SaltoDeLinea()
 	SaltoDeLinea()
 	
 FinFuncion
@@ -1610,21 +1735,32 @@ Funcion NuevoDisparo ( Tablero, TableroRival, nombre, turnosUsados Por Referenci
 Fin Funcion
 
 
-Funcion MensajeFinal ( Tablero, aciertos, nombre, CANT_A_RELLERNAR, CANT_FILAS, CANT_COLUMNAS, CANT_TURNOS )
+Funcion MensajeFinal ( Tablero, TableroRival, aciertos, nombre, CANT_A_RELLERNAR, CANT_FILAS, CANT_COLUMNAS, CANT_TURNOS )
 	
 	Limpiar Pantalla
 	
-	MostrarTablero(Tablero, CANT_FILAS, CANT_COLUMNAS )
 	
 	SI CANT_TURNOS < CANT_A_RELLERNAR - aciertos Entonces
+		Separador()
 		Escribir 'Ya no te alcanzan los turnos para ganar esta partida'
-		SaltoDeLinea()
+		Separador()
+		SaltoDeLinea
 	FinSi
 	
-	Separador()
+	Escribir 'Mi Tablero:'
+	SaltoDeLinea()
+	MostrarTablero(Tablero, CANT_FILAS, CANT_COLUMNAS )
+	SaltoDeLinea()
+	
+	
 	Si aciertos = CANT_A_RELLERNAR Entonces
+		Escribir 'Tablero del rival:'
+		SaltoDeLinea
+		MostrarTablero(TableroRival, CANT_FILAS, CANT_COLUMNAS )
+		Separador()
 		Escribir '¡Felicidades ', nombre, ' has ganado :D!'
 	SiNo
+		Separador()
 		Escribir'Malas noticias ', nombre, ', has perdido :('
 	FinSi
 	Separador()
@@ -1633,11 +1769,11 @@ Funcion MensajeFinal ( Tablero, aciertos, nombre, CANT_A_RELLERNAR, CANT_FILAS, 
 Fin Funcion
 
 
-Funcion accion <- MostrarMenu (Tablero, primerAcierto, ultimoAcierto, porcentajeTablaroUsado, porcentajeEfectividad, turnosUsados, totalNoAcertados, TOTAL_TURNOS, CANT_FILAS, CANT_COLUMNAS)
+Funcion accion <- MostrarMenu (Tablero, TableroRival, primerAcierto, ultimoAcierto, porcentajeTablaroUsado, porcentajeEfectividad, turnosUsados, totalNoAcertados, TOTAL_TURNOS, CANT_FILAS, CANT_COLUMNAS)
 	
 	Definir accion Como Entero
 	accion = 9
-	//	Repetir
+
 	Mientras accion <> 0 y accion <> 1 Hacer
 		
 		
@@ -1647,13 +1783,14 @@ Funcion accion <- MostrarMenu (Tablero, primerAcierto, ultimoAcierto, porcentaje
 		
 		SaltoDeLinea()
 		
-		Escribir '1. Revancha'
+		Escribir '1. Jugar de nuevo'
 		Escribir '2. Primer acierto'
 		Escribir '3. Último acierto'
 		Escribir '4. Porcentaje del tablero lanzado'
 		Escribir '5. Porcentaje de efectividad'
 		Escribir '6. Cantidad de turnos usados'
 		Escribir '7. Cantidad de casilleros sin aciertos'
+		Escribir '8. Ver tablero del rival'
 		Escribir '0. Salir'
 		
 		SaltoDeLinea()
@@ -1664,12 +1801,16 @@ Funcion accion <- MostrarMenu (Tablero, primerAcierto, ultimoAcierto, porcentaje
 		
 		SaltoDeLinea()
 		
+		Escribir 'Mi tablero:'
+		
+		SaltoDeLinea()
+		
 		MostrarTablero( Tablero, CANT_FILAS, CANT_COLUMNAS )
 		
 		Separador()
 		Segun accion Hacer
 			1:
-				Escribir '1. Volver a jugar'
+				Escribir '1. Nuevo juego'
 			2:
 				Escribir '2. ', primerAcierto
 			3:
@@ -1682,25 +1823,30 @@ Funcion accion <- MostrarMenu (Tablero, primerAcierto, ultimoAcierto, porcentaje
 				Escribir '6. Usaste ', turnosUsados, ' de ', TOTAL_TURNOS, ' disparos disponibles'
 			7: 
 				Escribir '7. Disparos no acertados: ', totalNoAcertados
+			8: 	
+				SaltoDeLinea()
+				Escribir 'Tablero del rival:'
+				SaltoDeLinea()
+				MostrarTablero(TableroRival, CANT_FILAS, CANT_COLUMNAS )
 		Fin Segun
 		Separador()
 		
 		SaltoDeLinea()
 	Fin Mientras
 	
+	Si accion = 1 Entonces
+		accion = 2
+	FinSi
 	
 Fin Funcion
 
 
 
-
-
-
-Funcion accionFinal <- JugarBatallaNaval (nombre)
+Funcion accionFinal <- JugarBatallaNaval (nombreDeUsuario)
 	
 	Limpiar Pantalla
 	
-	Definir CANT_FILAS, CANT_COLUMNAS, PORCENTAJE_A_RELLERAR, CANT_A_RELLERNAR, CANT_TURNOS_MULTIPLICADOR, CANT_TURNOS, TOTAL_TURNOS Como Entero
+	Definir CANT_FILAS, CANT_COLUMNAS, PORCENTAJE_A_RELLERAR, CANT_A_RELLERNAR, CONTADOR_FLOTAS, CANT_TURNOS_MULTIPLICADOR, CANT_TURNOS, TOTAL_TURNOS Como Entero
 	Definir CASILLERO_VACIO, CASILLERO_ACERTADO, CASILLERO_ERRADO, CASILLERO_CON_BARCO Como caracter
 	
 	CASILLERO_VACIO = '[' + Espacios(2) + '  ' + Espacios(2) + ']'
@@ -1708,6 +1854,7 @@ Funcion accionFinal <- JugarBatallaNaval (nombre)
 	CASILLERO_ERRADO = '[' + Espacios(2) + '0' + Espacios(2) + ']' 
 	CASILLERO_CON_BARCO ='[' + Espacios(2) + 'x' + Espacios(2) + ']'
 	PORCENTAJE_A_RELLERAR = 30
+	CONTADOR_FLOTAS = 0
 	
 	Definir primerAcierto, ultimoAcierto Como Caracter
 	Definir aciertos, turnosUsados, totalNoAcertados, accionFinal, porcentajeTablaroUsado, porcentajeEfectividad Como Entero
@@ -1717,7 +1864,7 @@ Funcion accionFinal <- JugarBatallaNaval (nombre)
 	
 	
 	// El usuario elige la cantidad de Filas y Columnas del tablero y los definimos
-	IngresarFilasYColumnas(CANT_FILAS, CANT_COLUMNAS)
+	IngresarFilasYColumnas(CANT_FILAS, CANT_COLUMNAS, nombreDeUsuario)
 	Dimension Tablero[CANT_FILAS, CANT_COLUMNAS]
 	Dimension TableroRival[CANT_FILAS, CANT_COLUMNAS]
 	
@@ -1735,12 +1882,14 @@ Funcion accionFinal <- JugarBatallaNaval (nombre)
 	
 	
 	// Llenamos el tablero del rival
-	LlenarTableroRival(TableroRival, CANT_FILAS, CANT_COLUMNAS, CANT_A_RELLERNAR, CASILLERO_VACIO, CASILLERO_CON_BARCO, CANT_TURNOS)
+	LlenarTableroRival(TableroRival, CANT_FILAS, CANT_COLUMNAS, CANT_A_RELLERNAR, CONTADOR_FLOTAS, CASILLERO_VACIO, CASILLERO_CON_BARCO, CANT_TURNOS)
+	//	MostrarTablero(TableroRival, CANT_FILAS, CANT_COLUMNAS )
 	
 	
 	// Llenamos el tablero con casilleros vacíos y lo mostramos
 	ArmarTableroVacio(Tablero, CANT_FILAS, CANT_COLUMNAS, CASILLERO_VACIO)
 	MostrarTablero(Tablero, CANT_FILAS, CANT_COLUMNAS )
+	
 	
 	
 	// Turnos para disparar
@@ -1751,7 +1900,7 @@ Funcion accionFinal <- JugarBatallaNaval (nombre)
 	
 	
 	// Mensaje para el final del juego
-	MensajeFinal( Tablero, aciertos, nombre, CANT_A_RELLERNAR, CANT_FILAS, CANT_COLUMNAS, CANT_TURNOS  )
+	MensajeFinal( Tablero, TableroRival, aciertos, nombre, CANT_A_RELLERNAR, CANT_FILAS, CANT_COLUMNAS, CANT_TURNOS  )
 	
 	// Calculos finales
 	porcentajeTablaroUsado = TRUNC(turnosUsados / (CANT_FILAS * CANT_COLUMNAS) *  100)
@@ -1759,12 +1908,9 @@ Funcion accionFinal <- JugarBatallaNaval (nombre)
 	
 	
 	// Mostrar menú con opciones disponibles
-	accionFinal = MostrarMenu(Tablero, primerAcierto, ultimoAcierto, porcentajeTablaroUsado, porcentajeEfectividad, turnosUsados, totalNoAcertados, TOTAL_TURNOS, CANT_FILAS, CANT_COLUMNAS)
+	accionFinal = MostrarMenu(Tablero, TableroRival, primerAcierto, ultimoAcierto, porcentajeTablaroUsado, porcentajeEfectividad, turnosUsados, totalNoAcertados, TOTAL_TURNOS, CANT_FILAS, CANT_COLUMNAS)
 	
 Fin Funcion
-
-
-
 
 
 
@@ -1780,7 +1926,10 @@ Algoritmo batalla_naval
 	FIN SI	
 	
 	Mientras jugar = 2 Hacer
+		Escribir 'Ingrese su nombre' Sin Saltar
+		Leer nombreDeUsuario 
 		jugar = JugarBatallaNaval(nombreDeUsuario)
+		Limpiar Pantalla
 	Fin Mientras
 	
 	Limpiar Pantalla
