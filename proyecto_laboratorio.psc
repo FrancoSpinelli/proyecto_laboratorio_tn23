@@ -8,23 +8,6 @@ SubProceso DibujarCartas(cartas)
 		Escribir Sin Saltar "";
 	FinPara
 FinSubProceso
-SubProceso DibujarMesa(mesa, nroRonda)
-	Definir  q,w Como Entero;
-	para w <-1 Hasta nroRonda
-		Escribir "Cartas jugador 1: ";
-		Escribir "";
-		Escribir  TraducirCarta(mesa(1,w));
-		Escribir "";
-		DibujarCarta(mesa(1,w));
-	FinPara
-	para w <-1 Hasta nroRonda
-		Escribir "Cartas jugador 2: ";
-		Escribir "";
-		Escribir  TraducirCarta(mesa(2,w));
-		Escribir "";
-		DibujarCarta(mesa(2,w));
-	FinPara
-FinSubProceso
 SubProceso DibujarEnvido(cartas)
 	Definir  e Como Entero;
 	Dimension cartasvarias(3);
@@ -2475,7 +2458,7 @@ SubProceso OrdenarCartas ( cartas Por Referencia , masoOrdenado Por Referencia)
 	cartasOrdenadas[2] <- BuscarPosicionCarta(masoOrdenado,carta2);
 	cartasOrdenadas[3] <- BuscarPosicionCarta(masoOrdenado,carta3);
 	
-	
+	Escribir "a:", cartasOrdenadas[1];
 	para x <-1 hasta 2 Con Paso 1 Hacer
 		para z <- 1 hasta 2 Con Paso  1 Hacer
 			si cartasOrdenadas[z] > cartasOrdenadas[z+1] Entonces				
@@ -3268,11 +3251,11 @@ subProceso jugadorGanador <-EJECUTAR_TRUCO(cartasJugador1 Por Referencia, cartas
 	
 	Escribir  " Carta jugada en truco Jugador: ", cantaPrimero;
 	DibujarTruco(cartasJugador1(1));
-	Esperar  2 Segundos;
+	Esperar  1 Segundos;
 	Escribir  " Carta jugada en truco Jugador: ", cantaSegundo;
-	DibujarTruco(cartasJugador2(1));
+	//DibujarTruco(cartasJugador2(1));
 	
-	Esperar 5 Segundos
+	Esperar 2 Segundos
 	Limpiar Pantalla 
 FinSubProceso
 
@@ -3533,7 +3516,7 @@ subProceso jugadorGanador <- EJECUTAR_ENVIDO(cartasJugador1 Por Referencia, cart
 		Escribir "Cartas del envido jugador: ", cantaSegundo ;
 		DibujarEnvido(cartasJugador2);	
 		
-		Esperar 10  Segundos	
+		esperar 2  Segundos	
 		
 		Limpiar Pantalla 
 	FinSi
@@ -3671,9 +3654,7 @@ SubProceso  testTruco(a)
 	Escribir  "Puntos j1:", puntajeJ1 , " puntos j2:", puntajeJ2;
 	// si nivelEnvid -1 se fue al mazo
 	vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador1, vCartasJugador2 ,vMasoReferencia  , puntajeJ1, puntajeJ2 ,vMesa, nroRonda,1,nivelDeTruco)
-	Escribir  "After Puntos j1:", puntajeJ1 , " puntos j2:", puntajeJ2;
 	
-	Escribir  "NIVEL TRUCO GRAL :", nivelTruco;	
 	
 FinSubProceso
 
@@ -3726,23 +3707,23 @@ Funcion  JugarTruco(a)
 	mezclarMaso(vMaso,40);
 	SeleccionarCartasJugadores(vMaso,vCartasJugador1,vCartasJugador2);
 	jugadorMano <- 1;
+	Escribir "Cartas jugado 1";
+	Escribir "";
 	DibujarCartas(vCartasJugador1);
-	Esperar  10 Segundos
+	Escribir "Cartas jugado 2";
+	Escribir "";
+	DibujarCartas(vCartasJugador1);
+	//Esperar  10 Segundos
 	//	Escribir  "1: Cantar Envido";
 	//	Escribir  "4: Cantar Truco";	
 	//	Escribir  "10: Irse al mazo";
 	//	Escribir  "11: No cantar:", "jugar callado";
-	para nroRonda <- 1 Con Paso  1 Hasta  3	
-		si nroRonda > 1 Entonces
-			cantar(33,vganadoresxRonda(nroRonda));
-			DibujarMesa(vmesa, nroRonda);
-		FinSi
-		Limpiar Pantalla;
+	nroRonda <- 1;
+	Mientras  nroRonda <= 3 Hacer
 		opcionMenu <- menuOpciones(0);
 		Segun  opcionMenu Hacer
 			1: 
 				si seEjecutoEnvido = Falso Entonces	
-					Escribir "Numero de ronda envido : ", nroRonda; 
 					esperar 3 Segundos
 					si jugadorMano = 1 Entonces
 						vganadoresxRonda(nroRonda) <- EJECUTAR_ENVIDO(vCartasJugador1, vCartasJugador2 , puntajeJ1, puntajeJ2, vMesa,nroRonda,jugadorMano, nivelEnvido);
@@ -3750,10 +3731,10 @@ Funcion  JugarTruco(a)
 						vganadoresxRonda(nroRonda) <- EJECUTAR_ENVIDO(vCartasJugador2, vCartasJugador1 , puntajeJ2, puntajeJ1, vMesa,nroRonda,jugadorMano, nivelEnvido);				
 					FinSi
 					seEjecutoEnvido <- Verdadero;
+					nroRonda <- nroRonda +1 ;
 				SiNo
 					Escribir  " YA SE JUGO EL ENVIDO";
-				FinSi
-				
+				FinSi				
 			4:
 				
 				si seEjecutoEnvido= Falso  Y nroRonda = 1 Entonces	
@@ -3782,8 +3763,10 @@ Funcion  JugarTruco(a)
 							vganadoresxRonda(nroRonda) <- EJECUTAR_ENVIDO(vCartasJugador1, vCartasJugador2 , puntajeJ1, puntajeJ2, vMesa,nroRonda,1, nivelEnvido);
 						FinSi
 						seEjecutoEnvido <- Verdadero;
-						
+						nroRonda <- nroRonda +1 ;
 					SiNo
+						
+						Escribir  "ENTROO A JUGAR EL TRUCO";
 						si seEjecutoTruco = Falso Entonces
 							si jugadorMano = 1 Entonces
 								vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador1, vCartasJugador2 ,vMasoReferencia  , puntajeJ1, puntajeJ2 ,vMesa, nroRonda,nroRonda, nivelTruco)
@@ -3791,65 +3774,82 @@ Funcion  JugarTruco(a)
 								vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador2, vCartasJugador1 ,vMasoReferencia  , puntajeJ2, puntajeJ1 ,vMesa, nroRonda,nroRonda, nivelTruco)
 							FinSi					
 							seEjecutoTruco <- Verdadero;
+							nroRonda <- nroRonda +1 ;
 						SiNo
 							Escribir  " YA SE JUGO EL TRUCO";						
 						FinSi
 						
 					FinSi
-					si seEjecutoTruco = Falso Entonces
+				FinSi
+				si seEjecutoTruco = Falso Entonces
+					jugadorMano<-1 ;
 						si jugadorMano = 1 Entonces
 							vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador1, vCartasJugador2 ,vMasoReferencia  , puntajeJ1, puntajeJ2 ,vMesa, nroRonda,nroRonda, nivelTruco)
 						SiNo
 							vganadoresxRonda(nroRonda) <- EJECUTAR_TRUCO(vCartasJugador2, vCartasJugador1 ,vMasoReferencia  , puntajeJ2, puntajeJ1 ,vMesa, nroRonda,nroRonda, nivelTruco)
 						FinSi	
 						seEjecutoTruco <- Verdadero;
+						nroRonda <- nroRonda +1 ;
 					SiNo
 						Escribir  " YA SE JUGO EL TRUCO";						
 					FinSi
-				FinSi					
+									
 			10:
 				// se fue al mazo de una
 				si jugadorMano = 1 Entonces
 					puntajeJ2 <-puntajeJ2+1;
-					Limpiar Pantalla
+				//	Limpiar Pantalla
 					Cantar(-1,1);
+					cantar(36,2);
 				SiNo
 					puntajeJ1 <-puntajeJ1 +1;
-					Limpiar Pantalla
+				//	Limpiar Pantalla
 					Cantar(-1,2);
+					cantar(36,1);
 				FinSi
-				cantar(36,vganadoresxRonda(nroRonda));
+				nroRonda <- nroRonda +1 ;
+			
 			11:		
+
 				// ordeno las cartas por valor
 				OrdenarCartas(vCartasJugador1 ,vMasoReferencia);
 				OrdenarCartas(vCartasJugador2 ,vMasoReferencia);
 				// gana por puntaje de cartas
 				vganadoresxRonda(nroRonda) <- DarGanadorCartas(vMasoReferencia, vCartasJugador1(1), vCartasJugador2(1),jugadorMano);
 				si vganadoresxRonda(nroRonda) = 1 Entonces
-					puntajeJ1 <- puntajeJ1 +PuntosSegunJugada(3,nivelTruco,nivelDeEnvido,Verdadero);//		
+					puntajeJ1 <- puntajeJ1 +PuntosSegunJugada(3,nivelTruco,nivelDeEnvido,Verdadero);
+					cantar(36,1);
 				SiNo
-					puntajeJ2 <- puntajeJ2 +PuntosSegunJugada(3,nivelTruco,nivelDeEnvido,Verdadero);//		
+					puntajeJ2 <- puntajeJ2 +PuntosSegunJugada(3,nivelTruco,nivelDeEnvido,Verdadero);
+					cantar(36,2);
 				FinSi
-				cantar(36,vganadoresxRonda(nroRonda));
+				nroRonda <- nroRonda +1 ;
+				Limpiar Pantalla;
+			De Otro Modo:
+				Escribir  "ERROR INTERNO";
 		FinSegun
 		
-		si jugadorMano = 1 Entonces
-			jugadorMano <-2;
-		SiNo
-			jugadorMano <-1;
-		FinSi	
-	FinPara
+//		si jugadorMano = 1 Entonces
+//			jugadorMano <-2;
+//		SiNo
+//			jugadorMano <-1;
+//		FinSi	
+	FinMientras
 	
 	Escribir  "Puntaje de la partida jugador 1: ", puntajeJ1 , " jugador 2:" , puntajeJ2;
 	puntajeJ1Gral <- puntajeJ1Gral + puntajeJ1;
 	puntajeJ2Gral <- puntajeJ1Gra2 + puntajeJ2;
 	
+	Esperar  2 Segundos;
 	// ganador de la partida
 	cantar(34,darGanadorPartida(vganadoresxRonda));
-	Escribir  "Puntaje general jugador 1: ", puntajeJ1Gral , " jugador 2:" , puntajeJ2Gral;	
+	Escribir  "Puntaje general : jugador 1: ", puntajeJ1Gral , " jugador 2:" , puntajeJ2Gral;	
 	
+	
+	Esperar  2 Segundos;
+	// DUMMY PARA MOSTRAR FIN DEL JUEGO 
+	puntajeJ1Gral <- 35;
 	si puntajeJ1Gral > 30 o puntajeJ1Gral >30 Entonces
-		Escribir  "FIN DEL JUEGO";
 		SI puntajeJ1Gral > puntajeJ2Gral Entonces
 			cantar(35,1);
 		SiNo
@@ -3857,6 +3857,7 @@ Funcion  JugarTruco(a)
 		FinSi
 	FinSi
 	
+	esperar 10 Segundos
 	
 FinFuncion
 SubProceso ganador <- darGanadorPartida(vecGanadores)
@@ -4528,6 +4529,8 @@ Algoritmo batalla_naval
 	jugar = ElegirJuego()
 	
 	SI jugar = 1 Entonces
+//		reglas(1);
+//		Esperar  1 Segundos
 		JugarTruco(1)
 	FIN SI	
 	
