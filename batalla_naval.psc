@@ -6,9 +6,13 @@ Funcion Separador ()
 	Escribir  '------------------------------------------------------------------------'
 FinFuncion
 
-Funcion DatoInvalido ()
+Funcion DatoInvalido (Tablero, CANT_FILAS, CANT_COLUMNAS )
+	Limpiar Pantalla
+	MostrarTablero(Tablero, CANT_FILAS, CANT_COLUMNAS )
 	SaltoDeLinea()
+	Separador()
 	Escribir  'XXXXX Dato inválido XXXXX'
+	Separador()
 	SaltoDeLinea()
 	SaltoDeLinea()
 FinFuncion
@@ -21,6 +25,56 @@ Funcion text <- Espacios (cant_espacios)
 	Fin Para
 Fin Funcion 
 
+Funcion Pausa(Tablero, CANT_FILAS, CANT_COLUMNAS )
+	Limpiar Pantalla
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	Escribir '######    ####    ##  ##    #####    ####'
+	Escribir '##   ##         ##   ##  ##   ##                 ##'
+	Escribir '##   ##   #####   ##  ##    #####    #####'
+	Escribir '#####   ##   ##   ##  ##          ##   ##    ##'
+	Escribir	 '##        #####     ######  ######    #####'
+	Escribir '##'
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	SaltoDeLinea()
+	
+	Separador()
+	Escribir 'PULSA CUALQUIER TECLA PARA CONTINUAR'
+	Separador()
+
+	Esperar Tecla 
+	Limpiar Pantalla
+	
+	MostrarTablero(Tablero, CANT_FILAS, CANT_COLUMNAS )
+Fin Funcion 
+
+Funcion PausaTexto ()
+	SaltoDeLinea()
+	Separador()
+	Escribir "PULSA LA TECLA 0 PARA PAUSAR EL JUEGO"
+	Separador()
+	SaltoDeLinea()
+Fin Funcion 
 
 Funcion DatosIniciales (aciertos Por Referencia, primerAcierto Por Referencia, ultimoAcierto Por Referencia, turnosUsados Por Referencia, totalNoAcertados Por Referencia)
 	aciertos = 0
@@ -38,9 +92,7 @@ Funcion nombre <- IngrearNombre ()
 	
 	SaltoDeLinea()
 	Escribir 'Comenzando BATALLA NAVAL'
-	SaltoDeLinea()
-	
-	
+	SaltoDeLinea()	
 	Escribir 'Ingresá tu nombre' Sin Saltar
 	
 	Leer nombre
@@ -65,7 +117,7 @@ Funcion IngresarFilasYColumnas (CANT_FILAS Por Referencia, CANT_COLUMNAS Por Ref
 		
 		Si fila < 3 O fila > 9 Entonces
 			Limpiar Pantalla
-			DatoInvalido()
+			DatoInvalido(0, 0, 0)
 		FinSi
 		
 	Hasta Que fila >= 3 Y fila <= 9
@@ -79,7 +131,7 @@ Funcion IngresarFilasYColumnas (CANT_FILAS Por Referencia, CANT_COLUMNAS Por Ref
 		Si columna < 3 O columna > 9 Entonces
 			Limpiar Pantalla
 			
-			DatoInvalido()
+			DatoInvalido(0, 0, 0)
 		FinSi
 		
 	Hasta Que columna >= 3 Y columna <= 9
@@ -109,7 +161,7 @@ Funcion  CANT_TURNOS_MULTIPLICADOR <- SeleccionarDificultad (CANT_TURNOS_MULTIPL
 		Leer dificultad
 		
 		Si dificultad < 1 O dificultad > 4 Entonces
-			DatoInvalido()
+			DatoInvalido(0, 0, 0 )
 		FinSi
 		
 	Hasta Que dificultad >= 1 Y dificultad <= 4
@@ -280,7 +332,7 @@ Funcion LlenarTableroRival (TableroRival por referencia, CANT_FILAS, CANT_COLUMN
 	
 	Escribir 'Cantidad de filas: ', CANT_FILAS
 	Escribir 'Cantidad de columnas: ', CANT_COLUMNAS
-	Escribir 'Tenes ', CANT_TURNOS, ' disparos para destruir ', CONTADOR_FLOTAS, ' barcos'
+	Escribir 'Tenes que destruir ', CONTADOR_FLOTAS, ' barcos para ganar'
 	Separador()
 	SaltoDeLinea()
 	
@@ -291,6 +343,7 @@ Funcion MostrarInformacion (aciertos, CANT_TURNOS, CANT_A_RELLERNAR)
 	Escribir 'Disparos disponibles: ' , CANT_TURNOS
 	SaltoDeLinea()
 	SaltoDeLinea()
+
 	
 FinFuncion
 
@@ -372,21 +425,33 @@ Funcion NuevoDisparo ( Tablero, TableroRival, nombre, turnosUsados Por Referenci
 	Definir fila, columna Como Entero
 	
 	Repetir
+		PausaTexto()
 		Escribir 'Disparar a la FILA: ( 1 - ', CANT_FILAS,' )' Sin Saltar
 		Leer fila
 		
-		Si fila < 1 O fila > CANT_FILAS Entonces
-			DatoInvalido()
+		Si fila = 0 Entonces 
+			Pausa(Tablero, CANT_FILAS, CANT_COLUMNAS )
+		FinSi
+		
+		Si fila < 0 O fila > CANT_FILAS Entonces
+			DatoInvalido(Tablero, CANT_FILAS, CANT_COLUMNAS )
 		FinSi
 		
 	Hasta Que fila >= 1 Y fila <= CANT_FILAS
 	
 	Repetir
+		Limpiar Pantalla
+		MostrarTablero(Tablero, CANT_FILAS, CANT_COLUMNAS )
+		PausaTexto()
 		Escribir 'Disparar a la COLUMNA: ( 1 - ', CANT_COLUMNAS,' )' Sin Saltar
 		Leer columna
 		
-		Si columna < 1 O columna > CANT_COLUMNAS Entonces
-			DatoInvalido()
+		Si columna = 0 Entonces 
+			Pausa(Tablero, CANT_FILAS, CANT_COLUMNAS )
+		FinSi
+		
+		Si columna < 0 O columna > CANT_COLUMNAS Entonces
+			DatoInvalido(Tablero, CANT_FILAS, CANT_COLUMNAS )
 		FinSi
 		
 	Hasta Que columna >= 1 Y columna <= CANT_COLUMNAS
